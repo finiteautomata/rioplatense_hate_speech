@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rioplatense_hs"
+version = "0.1.0"
+authors = [
+    {name = "Juan Manuel Pérez", email = "jmperez@dc.uba.ar"},
+]
+description = "My package description"
+readme = "README.md"
+requires-python = ">=3.9"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["rioplatense_hs"]

@@ -20,4 +20,13 @@ source .venv/bin/activate
 
 ```bash
 pip install -r requirements.txt
+pip install -e .
 ```
+
+3. Agregar API key de OpenAI
+
+```bash
+cp config/config.ini.template config/config.ini
+```
+
+y cambiar en `config/config.ini` el valor de `OPENAI.API_KEY` por la API key de OpenAI
