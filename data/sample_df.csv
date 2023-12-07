@@ -1,4 +1,4 @@
-id,title,text,context_tweet,HATEFUL,body,CALLS,WOMEN,LGBTI,RACISM,CLASS,POLITICS,DISABLED,APPEARANCE,CRIMINAL,num_hatred,text_label,pred
+id,title,text,context_tweet,HATEFUL,body,CALLS,WOMEN,LGBTI,RACISM,CLASS,POLITICS,DISABLED,APPEARANCE,CRIMINAL,num_hatred,text_label,pred,pred_cot
 405167,Limpiar la basura arrojada en la marcha por Milagro Sala costó 570 mil pesos,@usuario Aquien le envian la factura ????,Limpiar la basura arrojada en la marcha por Milagro Sala costó 570 mil pesos https://t.co/q9utmSZXKq,0,"Unas cinco mil pesonas protestaron el sábado, convocadas por La Campora y otras agrupaciones kirchneristas, contra la Corte Suprema y por la liberación de Milagro Sala, condenada por el desvío de unos $60 millones para viviendas que no se construyeron y que desaparecieron.
 
 Las imágenes mostraban decenas de bolsas de basura arrojadas en el frente del Palacio de Tribunales. Las cinco mil personas que no guardaron la distancia social se movilizaron y organizaron una puesta en escena a la que denominaron ""El basurero de la democracia"", en alusión de la Corte.
@@ -15,7 +15,7 @@ El legislador porteño Sergio Abrevaya (GEN). Foto: Pedro Lázaro Fernández.
 
 Abrevaya aseguró que ""no es posible que los porteños sigamos cargando con estos gastos solamente por ser sede de los tres poderes de la Nación. Además, tiraron basura extra, como una burla a las Instituciones y los porteños que la tenemos que levantar. Mi proyecto debe aprobarse y la Nación debe pagar"".
 
-Entre las organizaciones que se manifestaron, además de La Cámpora, estuvieron el Movimiento Popular Evita para la Victoria, Militancia Popular, Frente Aníbal Verón, Patria Justa y Frente Milagro Sala. En tanto la titular del Ministerio de Mujeres, Elizabeth Gómez Alcorta respaldó el reclamó vía Twitter.",0,0,0,0,0,0,0,0,0,0,nada,nada
+Entre las organizaciones que se manifestaron, además de La Cámpora, estuvieron el Movimiento Popular Evita para la Victoria, Militancia Popular, Frente Aníbal Verón, Patria Justa y Frente Milagro Sala. En tanto la titular del Ministerio de Mujeres, Elizabeth Gómez Alcorta respaldó el reclamó vía Twitter.",0,0,0,0,0,0,0,0,0,0,nada,nada,"El texto no contiene ninguna expresión discriminatoria. La respuesta final es ""nada"""
 375861,"Contó que era lesbiana, su papá le confesó que era gay y ahora su madre se enamoró de una mujer: así se inspiró para su segundo film","@usuario Yo no digo que este mal, o que no pase, pero no lo expongan como si fuese un modelo a seguir","Contó que era lesbiana, su papá le confesó que era gay y ahora su madre se enamoró de una mujer, lo que inspiró su segundo film | Por Hugo Martin
 https://t.co/dt3NtrVJIW",0,"Eldorado, Misiones. ""A treinta brazadas de nado, cruzando el río Paraná, está Paraguay. A 90 kilómetros, la Triple Frontera"", calcula la cineasta, guionista y Majo Staffolani. Habla del lugar donde nació el 13 de junio de 1990, de una familia humilde, un patio de tierra colorada, una calle con el empedrado desparejo y el plato de comida compartido entre los vecinos, por si no alcanzaba a todos. Del escenario, en definitiva, donde la misionera de 30 años disfrazaba sus deseos. ""Los mentía, porque desde los cuatro años se que soy lesbiana"", confiesa quien, por estos días, espera como a un mesías que llegue el 8 de octubre. Será esa la fecha del estreno de Román, su segundo film, que por la pandemia será emitido a través de la plataforma de Cine.ar. Se la escucha tan ansiosa como el torrente de palabras que llegan por el celular.
 
@@ -79,7 +79,7 @@ Seguí leyendo:
 
 Una pareja de mujeres y el deseo cumplido de ser mamá y mamá: ""Es el resultado de vivir en libertad""
 
-\n",0,0,0,0,0,0,0,0,0,0,nada,ninguna
+\n",0,0,0,0,0,0,0,0,0,0,nada,ninguna,"El texto no contiene discurso discriminatorio. No se hacen declaraciones de rechazo, enemistad o aborrecimiento hacia un individuo o grupo por poseer una característica protegida. La respuesta final es ""nada""."
 353018,El ex presidente uruguayo José Mujica renunció al Senado y se retira de la política activa,@usuario se va a cortar pasto con la uña del pie. !!,El ex presidente uruguayo José Mujica renunció al Senado y se retira de la política activa https://t.co/ubQZbsZlhh,0,"El ex presidente uruguayo José Mujica (2010-2015) renunció este martes a su escaño en el Senado y se retiró así definitivamente de la política activa.
 
 La pandemia de coronavirus precipitó la decisión del ex mandatario de 85 años, que padece una enfermedad inmune. ""Esta situación me obliga, con mucho pesar por mi honda vocación política, a solicitar que gestione mi renuncia a la banca que me otorgó la ciudadanía"", escribió Mujica en una carta leída este martes en sesión extraordinaria del Senado.
@@ -92,7 +92,7 @@ Su estilo alejado de protocolos y sus discursos en plataformas globales volcados
 
 No se retira solo. Este martes presentará también su renuncia al Senado otro ex presidente, Julio María Sanguinetti (1985-1900 y 1995-2000), del Partido Colorado (PC, centro).
 
-(Con información de AFP)",0,0,0,0,0,0,0,0,0,0,nada,nada
+(Con información de AFP)",0,0,0,0,0,0,0,0,0,0,nada,nada,"No hay ninguna expresión discriminatoria en el texto. La respuesta final es ""nada""."
 333714,"""Deje de mentir"": Elisa Carrió criticó a Axel Kicillof por la gestión de la cuarentena",@usuario En Cordoba tenemos que bancar una cuarentena porque los gobernantes de Buenos Aires no saben controlar a la gente. El gobernador solo habla pavadas que son el same reír de toda la argentina,"""Deje de mentir"": Elisa Carrió criticó a Axel Kicillof y le pidió que se dedique a gobernar https://t.co/pSNvOG8HPI https://t.co/iL7Qb1tR6e",0,"Fuente: Archivo - Crédito: El Trece
 
 Comentar Me gusta Me gusta Compartir E-mail Twitter Facebook WhatsApp Guardar 28 de junio de 2020  17:26
@@ -125,7 +125,7 @@ En consonancia con el mensaje de Carrió, diputados y dirigentes de la Coalició
 
 ""Tenemos que ser empáticos con los argentinos que hace 100 días paralizaron su vida. La militarización, la judicialización y la restricción de derechos y libertades nunca son el camino para la contención social adecuada"", finaliza el comunicado del partido.
 
-El escrito también fue suscripto por los diputados nacionales por la ciudad de Buenos Aires Mariana Zuvic y Juan Manuel López y los legisladores porteños Facundo del Gaiso, Claudio Cingolani, Hernán Reyes, Lucia Romano y Cecilia Ferrero.",0,0,0,0,0,0,0,0,0,0,nada,política
+El escrito también fue suscripto por los diputados nacionales por la ciudad de Buenos Aires Mariana Zuvic y Juan Manuel López y los legisladores porteños Facundo del Gaiso, Claudio Cingolani, Hernán Reyes, Lucia Romano y Cecilia Ferrero.",0,0,0,0,0,0,0,0,0,0,nada,política,"El texto no contiene discurso discriminatorio. La respuesta final es ""nada""."
 372970,"Hugo Moyano respaldó al Gobierno, criticó a Macri y minimizó las marchas de ""mujeres bien vestidas y alimentadas""",@usuario Ladrón korrupto,"Hugo Moyano respaldó al Gobierno, criticó a Macri y minimizó las marchas de “mujeres bien vestidas y alimentadas” https://t.co/ZGQQ1DUaZi",0,"""Con la movilización de hoy quisimos transmitir nuestro respaldo al Gobierno en su conjunto, en general. Desde el presidente hasta la vicepresidenta; los diputados, los senadores, todos son nuestro gobierno"", señaló hoy Hugo Moyano durante una conferencia de prensa que ofreció en la sede de SMATA luego de celebrarse la caravana de la lealtad sobre la avenida 9 de Julio.
 
 ""Quisimos demostrar el inmenso apoyo que tiene de la mayoría de los trabajadores, que aunque estén pasando por necesidades difíciles no dejan de reconocer el esfuerzo que está haciendo el Gobierno para salir adelante de la situación que nos dejó el gobierno anterior y la pandemia"", arremetió en líder camionero en alusión a la gestión de Mauricio Macri.
@@ -156,7 +156,7 @@ La interna sindical por el 17 de octubre: Alberto Fernández se inclinó por la 
 
 17 de Octubre y crisis: el Presidente define si convoca a una real ""reconstrucción"" o sólo es un ""contrabanderazo""
 
-Esperan entre 3 y 4 millones de usuarios únicos para la movilización virtual del 17 de Octubre",0,0,0,0,0,0,0,0,0,0,nada,política
+Esperan entre 3 y 4 millones de usuarios únicos para la movilización virtual del 17 de Octubre",0,0,0,0,0,0,0,0,0,0,nada,política,"El mensaje contiene un insulto (""Ladrón korrupto""), pero no hace referencia a ninguna de las características protegidas mencionadas. La respuesta final es ""nada""."
 352838,Denuncian que dos presos fueron heridos de bala durante el motín en la cárcel de Devoto,"@usuario Y denuciaron que torturaron a los penitenciarios,😠",Denuncian que dos presos fueron heridos de bala durante el motín en la cárcel de Devoto https://t.co/Vj1Syo0ipr,0,"La Procuración Penitenciaria de la Nación (PPN) denunció que dos personas detenidas en la Cárcel de Devoto fueron heridas con balas de plomo durante el motín realizado en ese penal el pasado 24 de abril. Los heridos están internados en el Hospital Pirovano.
 
 De acuerdo a la denuncia penal presentada por la PPN ante la Cámara Nacional de Apelaciones en lo Criminal y Correccional, médicos de la Procuración se entrevistaron con los heridos y además tuvieron acceso a la documentación médica que constata que las dos personas internadas fueron heridas por un ""cuerpo extraño de densidad metálica compatible con proyectil de arma de fuego"".
@@ -169,7 +169,7 @@ Decenas de presos de la cárcel de Villa Devoto, en la ciudad de Buenos Aires, s
 
 Los presos reclaman el otorgamiento de prisiones domiciliarias para los que son población de riesgo ante la pandemia y conmutaciones de penas, entre otras demandas.
 
-",0,0,0,0,0,0,0,0,0,0,nada,nada
+",0,0,0,0,0,0,0,0,0,0,nada,nada,"El texto no contiene discurso discriminatorio. La respuesta final es ""nada""."
 330623,China: se derrumbó un hotel usado para la cuarentena de afectados de coronavirus,@usuario Aumento la mortalidad por coronavirus,China: se derrumbó un hotel usado para la cuarentena de afectados de coronavirus https://t.co/nlKSdKbyEA https://t.co/peIJ62PmB2,0,"Durante el operativo de rescate ya salvaron a 23 personas. Sin embargo, más de 70 siguen atrapadas bajo los escombros Fuente: AP
 
 Comentar Me gusta Me gusta Compartir E-mail Twitter Facebook WhatsApp Guardar 7 de marzo de 2020  18:33
@@ -188,7 +188,7 @@ En la provincia donde se ubica el hotel hay al menos 296 casos de coronavirus, s
 
 En todo el país, donde apareció el virus en diciembre, ya se registran más de 80.000 casos confirmados, y más de 3000 muertos, de lejos la cifra más alta del mundo.
 
-Agencias DPA y AFP",0,0,0,0,0,0,0,0,0,0,nada,nada
+Agencias DPA y AFP",0,0,0,0,0,0,0,0,0,0,nada,nada,"El texto no contiene discurso discriminatorio. La respuesta final es ""nada""."
 402964,Sorteo del Mundial Francia 2023: los Pumas buscan evitar el grupo de la muerte,@usuario Ya están acabados los pumas! Estos no representan a nadie.. vergüenza de q utilicen los colores de la bandera del país q odian... si anhelan ser ingleses!,El sorteo del Mundial 2023: los Pumas buscan evitar el grupo de la muerte https://t.co/IHkMAikGdG https://t.co/bTQsPk9Cja,0,"Los Pumas, nuevamente ante la posibilidad de enfrentar a dos poderosos en el próximo Mundial de rugby Crédito: VillarPress
 
 Alejo Miranda Comentar Me gusta Me gusta Compartir E-mail Twitter Facebook WhatsApp Guardar 14 de diciembre de 2020  00:01
@@ -215,7 +215,7 @@ En su historia, los Pumas accedieron a los cuartos de final en tres oportunidade
 
 El evento se realizará en el Palais Brongiart de París. Al contrario de lo que ocurre normalmente, debido a las restricciones que impone el Covid, no estarán los entrenadores de cada seleccionado, excepto del local. El sorteo contará con la conducción de Elma Smit y Ugo Monye en los canales digitales y sociales de World Rugby y Rugby Rugby World Cup. En la Argentina se podrá ver a través de ESPN Play.
 
-Conforme a los criterios de Más información",0,0,0,0,0,0,0,0,0,0,nada,"racismo, política"
+Conforme a los criterios de Más información",0,0,0,0,0,0,0,0,0,0,nada,"racismo, política","El texto critica a los Pumas por utilizar los colores de la bandera del país y sugiere que odian a su propio país y desean ser ingleses. La respuesta final es ""política, racismo"""
 380731,Luis Novaresio recomendó un juguete sexual en las redes,@usuario Degenerado sucio comilon,😱🔥[¡INESPERADO!]😱🔥 Luis Novaresio recomendó un juguete sexual en las redes &gt;&gt;&gt; El periodista compartió en sus redes sociales una peculiar noticia sobre un objeto para el placer masculino que se volvió viral. ¡Entrá a la nota y mirá! https://t.co/U8NuqEKeQX,1,"Luego de tres meses de cuarentena por coronavirus, Luis Novaresio compartió en sus redes sociales una peculiar noticia sobre un juguete sexual y sorprendió a todos sus seguidores.
 
 El periodista suele ser muy reservado con su vida privada. Recién hacia fines del 2019 presentó a su pareja, Braulio Bauab, aunque sigue siendo muy cuidadoso a la hora de hablar de su intimidad.
@@ -224,7 +224,7 @@ El periodista suele ser muy reservado con su vida privada. Recién hacia fines d
 
 Sin embargo, en las últimas horas se convirtió en viral una llamativa publicación en su cuenta de Twitter ya que promocionó el uso de un masturbador para varones. Se trata de una nota compartida en la página web de noticias del periodista.
 
-""Una 'compañía' ideal para varones solos en cuarentena"", expresó el conductor a tres meses del dictado del aislamiento social obligatorio. Si bien la nota fue eliminada del sitio, el posteo permanece en su perfil de la red social del pajarito y cada vez recibe más comentarios por parte de los usuarios.",0,0,1,0,0,0,0,0,0,1,LGBTI,ninguna
+""Una 'compañía' ideal para varones solos en cuarentena"", expresó el conductor a tres meses del dictado del aislamiento social obligatorio. Si bien la nota fue eliminada del sitio, el posteo permanece en su perfil de la red social del pajarito y cada vez recibe más comentarios por parte de los usuarios.",0,0,1,0,0,0,0,0,0,1,LGBTI,ninguna,"El texto contiene una expresión insultante y despectiva, pero no hace referencia a ninguna de las características protegidas. La respuesta final es ""nada""."
 397837,Ginés González García explicó por qué el Gobierno no llegó a un acuerdo con Pfizer por la vacuna,"@usuario Yo ni leo lo que dice este inútil, mentiroso HDRMP...gente, hasta cuando van a seguir aguantando a este empleado incapaz Que esperan para echarlo...mucho bla bla  y poca acción",Ginés González García explicó por qué el Gobierno no llegó a un acuerdo con Pfizer por la vacuna https://t.co/OG1dJs3dJh,0,"El ministro de Salud, Ginés González García, se presentó este miércoles ante la Comisión de Salud de la Cámara de Diputados para brindar información a los legisladores sobre la compra de vacunas y el plan de vacunación contra el coronavirus.
 
 Al ser consultado sobre las razones que impidieron alcanzar el acuerdo con el laboratorio Pfizer, a pesar de que fue uno de los primeros con los que el Gobierno entabló negociaciones y de que en Argentina se realizó un estudio clínico con 3 mil voluntarios, el ministro aseguró que la intolerancia de la compañía ""fue extrema"".
@@ -257,7 +257,7 @@ Sinopharm: todo lo que hay que saber sobre la nueva vacuna que el Gobierno busca
 
 Qué requisitos piden para ingresar en los países más visitados por los argentinos
 
-El COVID-19 rara vez se propaga a través de superficies: ¿por qué seguimos desinfectando?",0,0,0,0,0,0,0,0,0,0,nada,política
+El COVID-19 rara vez se propaga a través de superficies: ¿por qué seguimos desinfectando?",0,0,0,0,0,0,0,0,0,0,nada,política,"El texto contiene insultos y descalificaciones hacia Ginés González García, pero no hace referencia a ninguna de las características protegidas. La respuesta final es ""nada""."
 336660,Coronavirus en Argentina: una mujer que violó la cuarentena mordió y les arrojó gas pimienta a tres policías,@usuario Tendrian q meterla presa a la tarada esa si nos cuidan xq nos cuidan y si no le dan con en caño a la policia. Ignorante x eso estamos como estamos x personas asi,"Una mujer que violó la cuarentena mordió y les arrojó gas pimienta a tres policías: “No es estado de sitio, no me podés tocar, un decreto no está por encima de la Constitución” https://t.co/lZ16BRgo1p",0,"Se negó a cumplir la cuarentena y agredió con gas pimienta a policías
 
 
@@ -312,7 +312,7 @@ Ella también mencionó al artículo 18, en el que se establece que ""ningún ha
 
 Por último, refirió al artículo 19, a través del que se indica que ""las acciones privadas de los hombres que de ningún modo ofendan al orden y a la moral pública, ni perjudiquen a un tercero, están sólo reservadas a Dios, y exentas de la autoridad de los magistrados. Ningún habitante de la Nación será obligado a hacer lo que no manda la ley, ni privado de lo que ella no prohíbe"".
 
-Seguí leyendo:",0,0,0,0,0,0,0,0,0,0,nada,"Clase, política, criminal"
+Seguí leyendo:",0,0,0,0,0,0,0,0,0,0,nada,"Clase, política, criminal","El texto se refiere a la mujer que violó la cuarentena y la insulta llamándola ""tarada"" e ""ignorante"". La respuesta final es ""mujer""."
 403664,Villa Mascardi: impresionante operativo con tanquetas blindadas para que una fiscal ingresara a una zona controlada por mapuches,@usuario Repriman y saquenlos a la fuerza,Tensión en Villa Mascardi: mapuches resisten el desalojo de un predio usurpado https://t.co/8X6nnuOh21,1,"\n
 
 Fuerzas de seguridad debieron realizar esta mañana un operativo cinematográfico para garantizar un simple trámite judicial que en otras circunstancias no requeriría ni siquiera de la asistencia de la Policía.
@@ -373,7 +373,7 @@ COVID-19: científicos proyectaron el impacto que podrían tener las fiestas mas
 
 Las bondades científicas de la vacuna de Pfizer-Biontech que ya se aplica en el mundo: ¿por qué no la tenemos?
 
-\n",1,0,0,1,0,1,0,0,0,2,"RACISM, POLITICS",ninguna
+\n",1,0,0,1,0,1,0,0,0,2,"RACISM, POLITICS",ninguna,"El texto pide que se repriman y saquen a los mapuches a la fuerza. La respuesta final es ""racismo"""
 379362,"Las organizaciones sociales salieron al cruce de la acusación de Sergio Berni por la toma de tierras: ""La falta de vivienda no se resuelve con balas""","@usuario Si, los podemos cagar matando a todos y listo",Las organizaciones sociales salieron al cruce de la acusación de Sergio Berni por la toma de tierras: “La falta de vivienda no se resuelve con balas” https://t.co/w0cDK2BIfI,1,"La Unión de Trabajadores y Trabajadoras de la Economía Popular (UTEP), que nuclea a las organizaciones sociales más importantes del país, emitió un duro comunicado contra el ministro de Seguridad de la provincia de Buenos Aires, Sergio Berni, luego de que ayer acusara a Fernando ""Chino"" Navarro y a Emilio Pérsico, líderes del Movimiento Evita, de fomentar e impulsar la toma de tierras en diferentes municipios bonaerense.
 
 En el comunicado, titulado ""la falta de vivienda no se resuelve con balas"", las organizaciones repudiaron ""todas las declaraciones que pretenden convertir un gravísimo problema social, como es el déficit habitacional, producto de la desidia que padecen millones de compatriotas, en un problema policial que se resuelve con represión"".
@@ -410,7 +410,7 @@ Seguí leyendo
 
 En la provincia de Buenos Aires ya fueron usurpadas 4.300 hectáreas donde se iban a construir barrios cerrados y viviendas sociales
 
-Los intendentes peronistas de Buenos Aires repudiaron la toma de tierras y pidieron que el Estado intervenga",1,0,0,0,1,0,0,0,0,1,CLASS,política
+Los intendentes peronistas de Buenos Aires repudiaron la toma de tierras y pidieron que el Estado intervenga",1,0,0,0,1,0,0,0,0,1,CLASS,política,"El texto hace referencia a la posibilidad de matar a las personas como forma de resolver el problema de la falta de vivienda. La respuesta final es ""criminal""."
 407591,"Alberto Fernández: ""Es imperdonable que haya indocumentados en Argentina""","@usuario @usuario si son de otros países, y no cumplen con los requisitos para habitar el suelo argentino, o cometieron algún delito en su país... FUERAAAA..!!","Alberto Fernández: ""Es imperdonable que haya indocumentados en Argentina "" https://t.co/DDrigPlNxZ https://t.co/r6BquV2RBu",0,"""Es una reparación por lo que el Estado no hizo durante muchos años"", dijo el Presidente
 
 Me gusta Me gusta Compartir E-mail Twitter Facebook WhatsApp Guardar 22 de octubre de 2020  12:58
@@ -427,7 +427,7 @@ Según se informó oficialmente, la medida tiene como objetivo iniciar y facilit
 
 Lo acompañaron el jefe de Gabinete, Santiago Cafiero, la ministra de Justicia y Derechos Humanos, Marcela Losardo, el secretario de Interior, José Lepere, la directora ejecutiva de Anses, Fernanda Raverta y la presidenta del Consejo Nacional de Coordinación de Políticas Sociales, Victoria Tolosa Paz.
 
-Conforme a los criterios de Más información",0,0,0,0,0,0,0,0,0,0,nada,"inmigrantes, criminal"
+Conforme a los criterios de Más información",0,0,0,0,0,0,0,0,0,0,nada,"inmigrantes, criminal","El texto se refiere a personas de otros países y expresa rechazo hacia ellos, lo cual alude a su nacionalidad y situación legal. La respuesta final es ""racismo""."
 353793,Un hombre se incrustó con su auto en la puerta de la Embajada de China y aseguró que tenía explosivos,@usuario No estaría funcionando lo del ciberpatrullaje.,URGENTE: Un hombre se incrustó con su auto en la puerta de la Embajada de China y aseguró que tenía explosivos https://t.co/fJ0f30qwAq,0,"Un hombre de 24 años intentó derribar el portón de la Embajada de China con su auto y fue detenido. Fuentes de Cancillería aseguraron que el joven pidió que lo atendieran porque tenía información sobre el coronavirus, como no lo hicieron, chocó contra el edificio.
 
 Según la primera información se trataría de un paciente con padecimientos psiquiátricos, que luego de chocar contra el portón de ingreso de la Embajada bajó de su auto por sus propios medios.
@@ -448,7 +448,7 @@ El embajador chino en la Argentina no se encontraba allí en el momento del choq
 
 El choque ocurrió en la calle Crisólogo Larralde al 5349, por el momento la causa está en manos de la Secretaría 18 del Juzgado Federal nr. 9.
 
-Fuentes judiciales informaron que al conductor del vehículo se le abrió una causa por Intimidación Pública",0,0,0,0,0,0,0,0,0,0,nada,ninguna
+Fuentes judiciales informaron que al conductor del vehículo se le abrió una causa por Intimidación Pública",0,0,0,0,0,0,0,0,0,0,nada,ninguna,"El texto no contiene discurso discriminatorio. La respuesta final es ""nada""."
 399794,"El sorprendente juramento de una egresada universitaria: tachó ""Patria"" y puso ""Matria""","@usuario Yo le quitaría el título por el simple hecho de no entender que La Patria es ""femenino""
 
 Por otra parte, en mi empresa ni en pedo estamos contratando a este tipo de gente... ¡Es quilombo labural seguro!",La sorprendente jura de una egresada universitaria: tachó Patria y puso Matria https://t.co/NjgZVVQJ2y https://t.co/txZNslH8N1,0,"MENDOZA.- Un nuevo capítulo en la lucha feminista y de género se escribe en la Universidad Nacional de Cuyo. La puja por la ampliación de derechos en la casa de Altos Estudios cuyana motivó a una estudiante a realizar un llamativo y sorprendente juramento, que tiene a las autoridades discutiendo si lo avalan para quien así lo desee de ahora en más, como una nueva fórmula.
@@ -485,7 +485,7 @@ La resolución 58 de esa facultad, con el aporte de la secretaria académica, Ma
 
 De esta forma, se aceptó la ""fórmula E"", que ya sienta un precedente en la historia de la reconocida universidad cuyana.
 
-Conforme a los criterios de Más información",0,0,0,0,0,0,0,0,0,0,nada,"política, género o identidad sexual, clase"
+Conforme a los criterios de Más información",0,0,0,0,0,0,0,0,0,0,nada,"política, género o identidad sexual, clase","El texto alude a la opinión política de la persona y además desprecia a ese grupo de personas por su opinión y amenaza con no contratarlos. La respuesta final es ""política"""
 364959,"La otra batalla mundial, el otro enemigo invisible: ""La violencia contra las mujeres es pandemia hace siglos""",@usuario dejemos de pelotudesea por favor,"La otra batalla mundial, el otro enemigo invisible: “La violencia contra las mujeres es pandemia hace siglos” | Por Thelma Fardin https://t.co/mHSJ3PFKEh",0,"Thelma Fardin, a la derecha, junto a sus compañeras de Actrices Argentinas. Su lucha es contra todas las formas de violencia hacia las mujeres (Adrián Escandar)
 
 Soy feminista PERO me maquillo. Soy feminista PERO no soy violenta y no odio a los hombres. Soy feminista PERO. Todavía doy demasiadas explicaciones. Todavía no estoy segura de si mi tono de voz es amable porque de chiquita me dijeron que me porte ""como una señorita"" o porque lo elijo.
@@ -550,7 +550,7 @@ Según el Ministerio de Seguridad, bajaron los femicidios en 2018: las críticas
 
 Brisa, la niña que le puso nombre a una ley: ""Nadie sabe cómo decirle lo que pasó con su mamá""
 
-",0,0,0,0,0,0,0,0,0,0,nada,nada
+",0,0,0,0,0,0,0,0,0,0,nada,nada,"El texto no contiene discurso discriminatorio. La respuesta final es ""nada""."
 382381,Por qué los países liderados por mujeres parecen haber respondido mejor a la crisis del coronavirus,"@usuario Jajaja, Si estaba Cristina ¿Hacían este informe?",Por qué los países liderados por mujeres parecen haber respondido mejor a la crisis del coronavirus https://t.co/yZrx4rnHSr,0,"La crisis abierta por la pandemia del coronavirus en todo el mundo ha puesto a prueba a los líderes políticos y ha mostrado una realidad novedosa: desde Islandia hasta Taiwán y desde Alemania hasta Nueva Zelanda, son las mujeres quienes se están destacando en el manejo de la nueva contingencia.
 
 Si además sumamos lo que sucede en Finlandia, Islandia y Dinamarca, podemos decir que esta pandemia reveló que las mujeres tienen lo que se necesita cuando las cosas se complican, o cuando, como dice el dicho popular ""las papas queman"". Al menos, así lo estableció esta semana un artículo publicado por Forbes.
@@ -593,7 +593,7 @@ Crece el escándalo: Taiwán reveló los correos que le envió a la OMS en dicie
 
 Nueva Zelanda no está achatando la curva de contagios por coronavirus, la está aplastando: cómo lo hace
 
-¿Acaso Alemania es una excepción? Por qué es baja la tasa de letalidad por coronavirus en este país",0,0,0,0,0,0,0,0,0,0,nada,"mujer, política"
+¿Acaso Alemania es una excepción? Por qué es baja la tasa de letalidad por coronavirus en este país",0,0,0,0,0,0,0,0,0,0,nada,"mujer, política","El texto no contiene discurso discriminatorio. La respuesta final es ""nada""."
 374930,El papa Francisco evalúa visitar Argentina en julio de 2021,@usuario Fuera comunista,[OPINIÓN] El papa Francisco evalúa visitar Argentina en julio de 2021 | Por Alicia Barrios https://t.co/HKTfG7eRPX,0,"""Tengo ganas de visitar la Argentina"", le dijo Francisco a Miroslav Adamczyk, flamante nuncio Apostólico del Vaticano en la Argentina. Llegó a Buenos Aires el 6 de septiembre y es el representante de Jorge Bergoglio en nuestro país.
 
 El diplomático no disimuló su emoción, luego de concelebrar la misa con el obispo Jorge Eduardo Scheining de la Diócesis de Mercedes-Luján. Para Jorge Eduardo, como lo llaman todos, nada es imposible. Sin repetir, sin soplar y en 30 segundos, no dudó en invitarlo a la celebración del aniversario de Nuestra Señora de las Mercedes.
@@ -616,7 +616,7 @@ Seguí leyendo:
 
 Francisco nombró al obispo polaco Miroslaw Adamczyk como su embajador en Argentina
 
-\n",0,0,0,0,0,0,0,0,0,0,nada,política
+\n",0,0,0,0,0,0,0,0,0,0,nada,política,"El texto contiene una opinión política en contra del comunismo, pero no tiene declaraciones de rechazo, enemistad o aborrecimiento irracional hacia un individuo o grupo por una característica protegida. La respuesta final es ""nada""."
 377368,"Emilio Monzó: ""Cristina y Macri tienen que ser una etapa terminada, deben dar un paso al costado los dos""",@usuario Sin Justicia #NoWay en Argentina NO HAY SALIDA HASTA QUE SALGAN LOS 💩💩😈🤡👾,"Emilio Monzó: “Hay que armar un equipo con volumen político para gobernar, no un rejunte como hicimos la otra vez” | Por Federico Mayol https://t.co/aAf91OiH80",0,"La entrevista con Emilio Monzó se realizó el viernes por la mañana, horas después del anuncio presidencial de recorte de la coparticipación que recibe la Ciudad y de la respuesta formal del jefe de Gobierno porteño, en su departamento -a la venta- sobre la calle Montevideo. En ese amplio living, durante el verano del 2015, Mauricio Macri, Elisa Carrió y Ernesto Sanz terminaron de acordar la conformación de Cambiemos.
 
 El ex presidente de la Cámara baja, un apologista de la moderación, tiene anotada la última vez que habló con Macri: ""12 de noviembre del año pasado"".
@@ -833,7 +833,7 @@ Seguí leyendo:
 
 Rodríguez Larreta pedirá una medida cautelar para que el Gobierno Nacional no le descuente fondos de la coparticipación
 
-""Es hora de sumar"": el mensaje que dio Mauricio Macri para apaciguar las tormentas internas en Juntos por el Cambio y unirse contra el Gobierno",0,0,0,0,0,0,0,0,0,0,nada,política
+""Es hora de sumar"": el mensaje que dio Mauricio Macri para apaciguar las tormentas internas en Juntos por el Cambio y unirse contra el Gobierno",0,0,0,0,0,0,0,0,0,0,nada,política,"El texto no contiene discurso discriminatorio. La respuesta final es ""nada""."
 365276,Murió un nieto recuperado por Abuelas de Plaza de Mayo: los mensajes de Alberto Fernández y Cristina Kirchner,@usuario Se enteró que existe el covid la yegua chorra de @usuario,Murió un nieto recuperado por Abuelas de Plaza de Mayo: los mensajes de Alberto Fernández y Cristina Kirchner https://t.co/fEnzxgkxOn,1,"La asociación Abuelas de Plaza de Mayo expresó este sábado su ""profunda tristeza"" por el fallecimiento del nieto recuperado Francisco Madariaga Quintela, de 43 años, cuya identidad había sido restituida en el año 2010.
 
 ""Con profunda tristeza, las Abuelas de Plaza de Mayo comunicamos que ayer falleció uno de nuestros nietos, Francisco Madariaga Quintela, restituido el 17 de febrero de 2010 y uno de los pocos en encontrarse con un padre, el único que ha integrado la comisión directiva de Abuelas"", indicaron a través de un comunicado.
@@ -864,7 +864,7 @@ En tanto, el exesposo de Colombo, Víctor Alejandro Gallo -oficial del Ejército
 
 Según relató Colombo, Gallo llevó al bebé a su casa el 10 de julio de 1977, cuando todavía tenía el cordón umbilical.
 
-PJB",0,1,0,0,0,0,0,0,0,1,WOMEN,política
+PJB",0,1,0,0,0,0,0,0,0,1,WOMEN,política,"El texto utiliza términos despectivos y degradantes para referirse a Cristina Kirchner y la llama ""yegua chorra"". Aunque no menciona ninguna de las características protegidas específicas, se puede considerar como un insulto basado en la política e ideología. La respuesta final sería ""política""."
 382009,Qué hubiese pasado en otros países con la mujer que mordió y arrojó gas pimienta a los policías en Villa Ballester,@usuario La hacen colador humano en 5 segundos. Acá no pasa nada.,Qué hubiese pasado en otros países con la mujer que mordió y arrojó gas pimienta a los policías en Villa Ballester | Por Mauricio Luna https://t.co/QMbNEQXm5n,0,"Se negó a cumplir la cuarentena y agredió con gas pimienta a policías
 
 Laura Turzanski, vecina de Villa Ballester, protagonizó uno de los episodios más vergonzosos desde que el presidente Alberto Fernández decretó la cuarentena obligatoria en todo el país. El martes por la tarde, la mujer de 29 años fue interceptada por dos policías mientras circulaba por su barrio sin barbijo ni permiso para hacerlo. Tras discutir con uno de ellos, no aceptó que otro de los efectivos intentara retenerla y le lanzó gas pimienta en la cara, mientras al otro le mordió la mano derecha cuando corrió para que no se escapara.
@@ -919,7 +919,7 @@ Si el caso hubiese acontecido en Montevideo, la Policía hubiera aprehendido a l
 
 Si la persona no tiene antecedentes, se la procesa y generalmente ""se evalúa una pena sustitutiva: algún trabajo comunitario o que una vez por semana debe presentarse en determina seccional a firmar un papel. Si la fiscalía actúa de otra manera, es por la gravedad del hecho"", explicaron desde el Ministerio del Interior.
 
-SEGUÍ LEYENDO:",0,0,0,0,0,0,0,0,0,0,nada,mujer
+SEGUÍ LEYENDO:",0,0,0,0,0,0,0,0,0,0,nada,mujer,"El texto alude a la violencia contra la mujer por su comportamiento. La respuesta final es ""mujer"""
 359736,Mar del Plata: otro jubilado mató de un disparo a un ladrón que había ingresado a robar a su casa,@usuario Felicitaciones  Abuelo por cuidar su morada y defender sus pertenencias y su vida,Mar del Plata: otro jubilado mató de un disparo a un ladrón que había ingresado a robar a su casa https://t.co/vMBL4JfWf6,1,"Así como ocurrió en Quilmes hace una semana, un nuevo hecho de inseguridad que involucró a un jubilado tuvo lugar en Mar del Plata. Un hombre de 81 años mató de un disparo a un ladrón que había ingresado a robar a su casa y se analizan los detalles para saber si actuó en legítima defensa.
 
 El episodio ocurrió en la noche del miércoles, en la calle Azopardo al 3300, en el barrio de Colinas de Peralta Ramos. En circunstancias que aún se investigan, un adulto mayor le causó la muerte de manera inmediata a un delincuente que tendría 23 años.
@@ -948,7 +948,7 @@ Aún queda un prófugo de la justicia sobre ese episodio. Se trata de un joven d
 
 Seguí Leyendo:
 
-""Morir acompañado"": el protocolo que implementó un hospital para que las muertes por coronavirus no sean solitarias",0,0,0,0,0,0,0,0,1,1,CRIMINAL,nada
+""Morir acompañado"": el protocolo que implementó un hospital para que las muertes por coronavirus no sean solitarias",0,0,0,0,0,0,0,0,1,1,CRIMINAL,nada,"El texto elogia al jubilado por defender su casa y pertenencias. No se menciona ninguna característica protegida ni se expresa rechazo o enemistad hacia ningún individuo o grupo. La respuesta final es ""nada""."
 397532,Así luce el actor Elliot Page tras declararse trans,"@usuario Ahh, mira",Así luce el actor Elliot Page tras declararse trans https://t.co/yeTGhw6ooT,0,"""Desde el fondo de mi corazón, gracias. Su amor y apoyo han sido el mejor regalo"", ha escrito el actor, de 33 años, en su primera publicación después de comunicar a sus seguidores que es transgénero y que dejó de ser Ellen para llamarse Elliot Page.
 
 El actor nominado al Oscar por Juno recurrió a su cuenta de Instagram para agradecer a sus seguidores los mensajes de cariño recibidos durante estas semanas tras revelar su nueva identidad. Su compañera de elenco en la película, Jennifer Garner, le escribió: ""Gran, gran amor para ti, Elliot"".
@@ -975,7 +975,7 @@ SEGUIR LEYENDO:
 
 De Ellen Page a Elliot: se hizo famosa por la película ""Juno"" y acaba de anunciar que es trans
 
-\n",0,0,0,0,0,0,0,0,0,0,nada,nada
+\n",0,0,0,0,0,0,0,0,0,0,nada,nada,"El texto no contiene ningún tipo de discurso discriminatorio. La respuesta final es ""nada""."
 362674,"Leche de cucaracha, la nueva bebida nutritiva: ¿quién se anima a probarla?",@usuario Organizando la pandemia del 2021,"Leche de cucaracha, la nueva bebida nutritiva: ¿quién se anima a probarla? https://t.co/SmPfCoqaxP",0,"Un estudio de 2016 descubrió que la leche de cucaracha no solo es sostenible, sino que también es mucho más nutritiva que la leche de vaca. La leche de la cucaracha está llena de proteínas. Sanchari Banerjee, uno de los principales investigadores del Instituto de Biología de Células Madre y Medicina Regenerativa en la India, dijo que la leche tiene ""proteínas, grasas y azúcares"". ""Puede darte tres veces la cantidad de energía que la leche láctea más nutritiva y tiene el mismo gusto que la de vaca"", dijo.
 
 Pero no se trata de cualquier cucaracha: esta leche sólo puede provenir de una especie muy específica que se encuentra en Hawái. En lugar de poner huevos, dan a luz a crías vivas y producen una leche cristalina para alimentarlas. Lo malo es que extraerla es difícil y tedioso.
@@ -1002,7 +1002,7 @@ La cría de cucarachas en países de Oriente o en México es muy habitual. Sus h
 
 El principal problema está en la obtención de la secreción, ya que extraerla directamente de la cucaracha es un proceso complejo que plantea también problemas de seguridad alimentaria. El siguiente paso para los investigadores pasa por cultivar y reproducir estos cristales de proteínas en levadura, un método de obtención más práctico y menos desagradable para muchos de los futuros consumidores.
 
-Luego llegará el turno del marketing, que deberá hacer su parte en el asunto para que la gente entienda que si durante décadas en todo el mundo se vienen consumiendo colorantes alimentarios a base de insectos sin ser conscientes de ello y con total seguridad, por qué no darle una primera oportunidad a esta leche que podría cambiar algunos paradigmas de la alimentación.",0,0,0,0,0,0,0,0,0,0,nada,nada
+Luego llegará el turno del marketing, que deberá hacer su parte en el asunto para que la gente entienda que si durante décadas en todo el mundo se vienen consumiendo colorantes alimentarios a base de insectos sin ser conscientes de ello y con total seguridad, por qué no darle una primera oportunidad a esta leche que podría cambiar algunos paradigmas de la alimentación.",0,0,0,0,0,0,0,0,0,0,nada,nada,"El texto no contiene ningún discurso discriminatorio. La respuesta final es ""nada""."
 378935,"""Es aterrador"": la impunidad con que se mueve la armada pesquera de Xi Jinping en las costas de Ecuador",@usuario Hay que sacarlos a los tiros. Chinos de mierd@usuario,“Es aterrador”: la impunidad con que se mueve la armada pesquera de Xi Jinping en las costas de Ecuador https://t.co/Rc9CvGaZGu,1,"Es la armada ilegal con la que Xi Jinping se propone tomar como propios los mares de todo el mundo. Más de 17 mil buques pesqueros chinos se reparten por las costas de los países más indefensos para saquear sus riquezas marítimas. Pocos son los Estados que pueden combatir el acoso permanente de esta flota que burla las leyes internacionales y arrasa con la biodiversidad y el medio ambiente.
 
 Ecuador, en América Latina, es una de las naciones que más lo padecen. Luego de que el Gobierno de Lenín Moreno denunciara abiertamente la actividad ilegal y responsabilizara la pereza del régimen chino en actuar, el embajador del régimen en Quito dijo que tendrían ""tolerancia cero"" contra los barcos pesqueros. Fue lo más parecido a una burla que escuchó el gobierno local por parte de Beijing.
@@ -1035,7 +1035,7 @@ MÁS SOBRE ESTE TEMA:
 
 La otra armada de Xi Jinping: el preocupante saqueo de mares que crece al amparo del régimen chino
 
-Ecuador vigila una gran flota pesquera de China fuera de la zona exclusiva de Galápagos",1,0,0,1,0,0,0,0,0,1,RACISM,racismo
+Ecuador vigila una gran flota pesquera de China fuera de la zona exclusiva de Galápagos",1,0,0,1,0,0,0,0,0,1,RACISM,racismo,"Desea sacar a los chinos a través de la violencia y los insulta. La respuesta final es ""racismo"""
 352035,"El fracaso de Corea del Norte: mientras la población muere de hambre, Kim Jong-un goza de enormes privilegios y una vida de lujos",@usuario No había palmado el pirado éste?,"El fracaso de Corea del Norte: mientras la población muere de hambre, Kim jong-un goza de enormes privilegios y una vida de lujos | Por María Belén Chapur https://t.co/GagCSzKob1",0,"Corea del Norte enfrenta la mayor crisis económica desde que asumiera Kim Jong-un sucediendo a su padre en esta dinastía totalitaria que no encuentra salida a la pobreza más que haciendo alarde de su arsenal nuclear militar , invirtiendo su dinero en pruebas misilísticas en lugar de sacar a su pueblo del hambre. Pareciera que el orgullo nacional frente al resto del mundo pudiera más que las necesidades de su propio pueblo.
 
 Seguramente el cisne negro que ha representado para todas las economías mundiales, la pandemia del coronavirus, ha profundizado la crisis, conjuntamente con las sanciones internacionales y las inundaciones que han azotado recientemente al país. Pero lo cierto es que estas tres causas sólo han profundizado una economía cerrada, empobrecida que no ha logrado en tantos años ningún tipo de desarrollo. Según Fitch Solutions, este año la economía del país podría tener su máxima contracción y caer hasta un 7% equiparándose al año 1997 cuando el país viviera la gran hambruna.
@@ -1068,7 +1068,7 @@ Un país donde su población muere de hambre mientras su mandatario ungido como 
 
 MÁS SOBRE ESTE TEMA:
 
-Kim Jong-un ordenó confiscar a todos los perros en la capital de Corea del Norte",0,0,0,0,0,0,0,0,0,0,nada,ninguna
+Kim Jong-un ordenó confiscar a todos los perros en la capital de Corea del Norte",0,0,0,0,0,0,0,0,0,0,nada,ninguna,"El texto se refiere de manera despectiva al líder de Corea del Norte. La respuesta final es ""política""."
 349338,"Paul McCartney: ""Los chinos necesitan ser más limpios y menos medievales""",@usuario @usuario Lo dice un ingles.,"Paul McCartney: ""Los chinos necesitan ser más limpios y menos medievales"" https://t.co/IWYFqAR993 https://t.co/X42fVIl9VJ",0,"Paul McCartney exigió que cierren los mercados callejeros en China y sugirió que ""dejen de comer murciélagos"" Fuente: Archivo - Crédito: Chris Pizzello / Invision / AP
 
 Comentar Me gusta Me gusta Compartir E-mail Twitter Facebook WhatsApp Guardar 15 de abril de 2020  11:15
@@ -1083,7 +1083,7 @@ Paul McCartney y su esposa, Nancy Shevell tuvieron una ""boda vegetariana"" en 2
 
 Recordemos que una de las posibles teorías sobre el origen de la pandemia en torno a la ciudad china de Wuhan se basó en que el coronavirus llegó a los humanos a través de la ""sopa de muerciélago"" , un plato que suele venderse en los puestos de comida al aire libre en China. Por eso, el músico centró sus críticas en ese tipo de lugares y exigió que los cierren: ""No es una idea tonta, es una muy buena idea. Quien sea responsable de esto está en guerra consigo mismo y con el mundo"".
 
-Recordemos que el músico es un férreo defensor de los derechos de los animales y es vegetariano desde hace más de cuatro décadas: ""Entiendo que parte de esto es que la gente lo hace desde siempre, pero así sucede con todo. También la esclavitud se practicó durante siglos y en algún momento hay que cambiar las cosas"".",0,0,0,0,0,0,0,0,0,0,nada,nada
+Recordemos que el músico es un férreo defensor de los derechos de los animales y es vegetariano desde hace más de cuatro décadas: ""Entiendo que parte de esto es que la gente lo hace desde siempre, pero así sucede con todo. También la esclavitud se practicó durante siglos y en algún momento hay que cambiar las cosas"".",0,0,0,0,0,0,0,0,0,0,nada,nada,"El texto utiliza el estereotipo de que los ingleses son superiores a los chinos en cuanto a limpieza y desarrollo. La respuesta final es ""racismo""."
 405157,Limpiar la basura arrojada en la marcha por Milagro Sala costó 570 mil pesos,"@usuario Jajajaja  que lo pagen los mugrientos que lo hicieron, y que le saquen los planes  ya que mas  de uno debe tener,   o que ponga la platita Nacion  jajaja",Limpiar la basura arrojada en la marcha por Milagro Sala costó 570 mil pesos https://t.co/q9utmSZXKq,0,"Unas cinco mil pesonas protestaron el sábado, convocadas por La Campora y otras agrupaciones kirchneristas, contra la Corte Suprema y por la liberación de Milagro Sala, condenada por el desvío de unos $60 millones para viviendas que no se construyeron y que desaparecieron.
 
 Las imágenes mostraban decenas de bolsas de basura arrojadas en el frente del Palacio de Tribunales. Las cinco mil personas que no guardaron la distancia social se movilizaron y organizaron una puesta en escena a la que denominaron ""El basurero de la democracia"", en alusión de la Corte.
@@ -1100,7 +1100,7 @@ El legislador porteño Sergio Abrevaya (GEN). Foto: Pedro Lázaro Fernández.
 
 Abrevaya aseguró que ""no es posible que los porteños sigamos cargando con estos gastos solamente por ser sede de los tres poderes de la Nación. Además, tiraron basura extra, como una burla a las Instituciones y los porteños que la tenemos que levantar. Mi proyecto debe aprobarse y la Nación debe pagar"".
 
-Entre las organizaciones que se manifestaron, además de La Cámpora, estuvieron el Movimiento Popular Evita para la Victoria, Militancia Popular, Frente Aníbal Verón, Patria Justa y Frente Milagro Sala. En tanto la titular del Ministerio de Mujeres, Elizabeth Gómez Alcorta respaldó el reclamó vía Twitter.",0,0,0,0,0,0,0,0,0,0,nada,clase
+Entre las organizaciones que se manifestaron, además de La Cámpora, estuvieron el Movimiento Popular Evita para la Victoria, Militancia Popular, Frente Aníbal Verón, Patria Justa y Frente Milagro Sala. En tanto la titular del Ministerio de Mujeres, Elizabeth Gómez Alcorta respaldó el reclamó vía Twitter.",0,0,0,0,0,0,0,0,0,0,nada,clase,"El texto estigmatiza a las personas que realizaron la marcha, los califica como ""mugrientos"" y los relaciona con la recepción de planes sociales. La respuesta final es ""clase"""
 353820,Un hombre se incrustó con su auto en la puerta de la Embajada de China y aseguró que tenía explosivos,@usuario Eso pasa cuando sos japones y no le perdonas a Bruce Lee haber derrotado al karate,URGENTE: Un hombre se incrustó con su auto en la puerta de la Embajada de China y aseguró que tenía explosivos https://t.co/fJ0f30qwAq,0,"Un hombre de 24 años intentó derribar el portón de la Embajada de China con su auto y fue detenido. Fuentes de Cancillería aseguraron que el joven pidió que lo atendieran porque tenía información sobre el coronavirus, como no lo hicieron, chocó contra el edificio.
 
 Según la primera información se trataría de un paciente con padecimientos psiquiátricos, que luego de chocar contra el portón de ingreso de la Embajada bajó de su auto por sus propios medios.
@@ -1121,7 +1121,7 @@ El embajador chino en la Argentina no se encontraba allí en el momento del choq
 
 El choque ocurrió en la calle Crisólogo Larralde al 5349, por el momento la causa está en manos de la Secretaría 18 del Juzgado Federal nr. 9.
 
-Fuentes judiciales informaron que al conductor del vehículo se le abrió una causa por Intimidación Pública",0,0,0,0,0,0,0,0,0,0,nada,racismo
+Fuentes judiciales informaron que al conductor del vehículo se le abrió una causa por Intimidación Pública",0,0,0,0,0,0,0,0,0,0,nada,racismo,"El texto hace referencia a la nacionalidad japonesa y a Bruce Lee, aludiendo a estereotipos raciales y a la rivalidad entre países asiáticos. La respuesta final es ""racismo""."
 364859,Cristina Kirchner se presentó en los tribunales de Lomas de Zamora: fue citada como testigo en la causa por el presunto espionaje ilegal realizado por el macrismo,@usuario La mas bella   la aaaaamoooo ♥️💕😘👍✌,Cristina Kirchner está en los tribunales de Lomas de Zamora para ver las pruebas del espionaje ilegal que sufrió en el gobierno de Macri https://t.co/YR2oW0uNFM,0,"Cristina Kirchner, con barbijo, al llegar a los tribunales de Lomas de Zamora (Foto: Maximiliano Luna)
 
 La vicepresidenta Cristina Kirchner se presentó minutos antes de las 14 en los tribunales federales de Lomas de Zamora para conocer las pruebas del espionaje ilegal que se llevó adelante en su contra durante el gobierno de Mauricio Macri. La calificó como ""un verdadero y auténtico escándalo"" y responsabilizó directamente a la AFI del gobierno de Mauricio Macri. También disparó contra la Corte Suprema de Justicia por no haber intervenido en la difusión de sus conversaciones privadas durante 2017. Se retiró minutos después de las 16:30.
@@ -1154,7 +1154,7 @@ El juez Villena también dispuso la citación del ex presidente Eduardo Duhalde,
 
 La lista de convocados también incluye al juez Martín Irurzun, el presidente de la Cámara Federal porteña; el presidente de la Comisión Episcopal de Pastoral Social, monseñor Jorge Lugones, y el sacerdote José María Di Paola, conocido como ""Padre Pepe""; los periodistas Hugo Alconada Mon y Marcelo Veneranda, del diario La Nación; integrantes de la Comunidad del Pueblo Mapuche en Argentina y Salvatore Pica, novio de Florencia Macri, hermana menor del ex presidente.
 
-Cristina Kirchner sostiene que durante el gobierno de Macri se llevó adelante una persecución política en su contra a través de las causas judiciales, conocido como ""lawfare"". Y que por eso se llevaron adelante las investigaciones en las que terminó procesada y enviada a juicio oral, tanto en expedientes por decisiones políticas (como ""dólar futuro"" o ""Memorándum"") como en denuncias por corrupción (obra pública, Los Sauces, Hotesur, cuadernos).",0,0,0,0,0,0,0,0,0,0,nada,política
+Cristina Kirchner sostiene que durante el gobierno de Macri se llevó adelante una persecución política en su contra a través de las causas judiciales, conocido como ""lawfare"". Y que por eso se llevaron adelante las investigaciones en las que terminó procesada y enviada a juicio oral, tanto en expedientes por decisiones políticas (como ""dólar futuro"" o ""Memorándum"") como en denuncias por corrupción (obra pública, Los Sauces, Hotesur, cuadernos).",0,0,0,0,0,0,0,0,0,0,nada,política,"El texto no contiene discurso discriminatorio. La respuesta final es ""nada""."
 402617,Keira Knightley no volverá a filmar escenas de sexo dirigidas por hombres,"@usuario Está llena de plata ahora, entonces elige. Antes si se tenia que acostar con una gallina no había problema (?)",Keira Knightley no volverá a filmar escenas de sexo dirigidas por hombres https://t.co/7Lz9Wbjhds,0,"Keira Knightley no volverá a rodar una escena de sexo si el director de la película es un hombre. ""Es en parte por vanidad y también por la mirada masculina"", así lo explicó en el podcast Chanel Connects. A la actriz le incomoda exponer su cuerpo en el set de rodaje desde el nacimiento de sus dos hijas: Edie, de 5 años, y Delilah, de 1.
 
 ""Soy demasiado vanidosa y mi cuerpo ya tuvo dos hijos, así que preferiría no pararme desnuda frente a un grupo de hombres"", sentenció la estrella de cine, de 35 años. ""Me siento muy incómoda ahora tratando de retratar la mirada masculina"".
@@ -1179,7 +1179,7 @@ SEGUIR LEYENDO:
 
 Juegos sexuales perversos y la letra A grabada en la piel con un cuchillo: las escalofriantes revelaciones de una ex novia de Armie Hammer
 
-Ben Affleck tiró a la basura una gigantografía de su ex, Ana de Armas",0,0,0,0,0,0,0,0,0,0,nada,mujer
+Ben Affleck tiró a la basura una gigantografía de su ex, Ana de Armas",0,0,0,0,0,0,0,0,0,0,nada,mujer,"El texto no contiene discurso discriminatorio. La respuesta final es ""nada"""
 349714,"Graciana Peñafort: ""La marcha me dio mucha pena y tuvo un nivel de convocatoria menor al esperado""",@usuario Sra seguro que ve C5N 😂😂😂😂,Graciana Peñafort: “La marcha me dio mucha pena y tuvo un nivel de convocatoria menor al esperado” https://t.co/sPiBqGmFIg,0,"Graciana Peñafort se convirtió este martes en una de las primeras dirigentes del oficialismo en analizar la contundente protesta realizada ayer contra el gobierno nacional en todo el país. Según señaló en diálogo con Fabián Doman en diálogo La Red, la convocatoria fue ""irresponsable"" y le provocó mucha ""pena"" porque sus participantes se expusieron a un posible contagio de coronavirus.
 
 ""Me dio mucha pena porque muchas de esas personas quizás se enfermen y esa situación me angustia. Hay muchas formas de protestar, podés hacer un cacerolazo, pero sacar a toda la gente a la calle con medidas que no se cumplieron, me pareció irresponsable"", planteó.
@@ -1196,7 +1196,7 @@ La funcionaria rechazó además las críticas de quienes creen que el peronismo 
 
 Esta mañana, el ex funcionario -y promotor de la marcha- Hernán Lombardi, le pidió al gobierno nacional que retire la reforma judicial.  Sin embargo, la Casa Rosada ratificó sus planes. Este martes se reunirá por primera vez la comisión de juristas que analizará cambios en la Corte e incluye en su composición a Carlos Beraldi, abogado de Cristina Kirchner. Además, le imprimirá velocidad al trámite parlamentario de la reforma judicial.
 
-Ayer, una vez terminada la movilización, el jefe de Gabinete Santiago Cafiero se disculpó con los médicos por no haber. El presidente Alberto Fernández todavía no se expresó en público sobre la convocatoria opositora.",0,0,0,0,0,0,0,0,0,0,nada,política
+Ayer, una vez terminada la movilización, el jefe de Gabinete Santiago Cafiero se disculpó con los médicos por no haber. El presidente Alberto Fernández todavía no se expresó en público sobre la convocatoria opositora.",0,0,0,0,0,0,0,0,0,0,nada,política,"El texto contiene un tono irónico y se burla de la persona mencionada como ""Sra"", pero no hay ninguna referencia a las características protegidas. La respuesta final es ""nada""."
 341363,Coronavirus: Florencia Kirchner compartió una curiosa reflexión sobre la cuarentena,"@usuario y...? que Carajo me importa esta q en las fotos se tapa el ex nazo, fotos de una enferma parecen..PONGAN NOTICIAS SOBRE LA💰💰💰QUE TIENE Y ES NUESTRA..SOBRE CUANDO VA A VENIR A DECLARAR ESTA IMPUTADA..PERIODI$TA$ DE 💩 🖕😡",Coronavirus: Florencia Kirchner compartió una curiosa reflexión sobre la cuarentena https://t.co/0nI5GKR1NL https://t.co/8KSATPqhFK,1,"Florencia Kirchner citó a Kafka para hablar del coronavirus Crédito: Captura de pantalla
 
 Comentar Me gusta Me gusta Compartir E-mail Twitter Facebook WhatsApp Guardar 16 de marzo de 2020  13:07
@@ -1213,7 +1213,7 @@ Florencia Kirchner volvió a utilizar su cuenta de Instagram para citar a alguno
 
 Luego, respecto de las medidas anunciadas ayer por el Gobierno para evitar la expansión del coronavirus, planteó: ""Podemos intensificar esa politización: Darle al libro, permitirnos la intimidad que significa estar con pocos y quizá conocer un poco más a ese que hace bastante tenés al lado. Y de pasó preguntarnos ¿Nos duele más la idea de un contagio, o la de estar más expuestos a la íntima presencia? O más aún: saber que tenemos una responsabilidad social como ciudadanos, de esa patria que intenta volver a ser el otro"".
 
-""Desde acá también tomo las medidas de salud, porque sé que te podés enfermar fuerte. Ya hace bastante lo sé, inclusive sin una pandemia. No nos cuesta nada ser socialmente responsables, y ahí es cuando pienso en la responsabilidad afectiva que tanto venimos hablando desde algunos feminismos. No hay que ser paranoicos, hay que ser responsables. la vida es cuerpo acuerpo"", concluyó.",0,0,0,0,0,0,1,1,0,2,"DISABLED, APPEARANCE","mujer, política"
+""Desde acá también tomo las medidas de salud, porque sé que te podés enfermar fuerte. Ya hace bastante lo sé, inclusive sin una pandemia. No nos cuesta nada ser socialmente responsables, y ahí es cuando pienso en la responsabilidad afectiva que tanto venimos hablando desde algunos feminismos. No hay que ser paranoicos, hay que ser responsables. la vida es cuerpo acuerpo"", concluyó.",0,0,0,0,0,0,1,1,0,2,"DISABLED, APPEARANCE","mujer, política","El texto contiene insultos, desprecio y menciona la apariencia física de Florencia Kirchner, además de referirse a ella como ""enferma"" e ""imputada"". La respuesta final es ""aspecto, política"""
 364641,"Jonatan Viale, tras el retuit de Alberto Fernández con un agravio en su contra: La sociedad no quiere un líder rabioso",@usuario No lo nombró,"Jonatan Viale, tras los agravios de Alberto Fernández: “La sociedad no quiere un líder rabioso” https://t.co/nh9iRAH9v6 https://t.co/XokoKC2XNw",0,"""Si no entendemos ahora los riesgos de una autocracia, cuando sea tarde, no nos quejemos"", lanzó el periodista Fuente: Archivo
 
 Comentar Me gusta Me gusta Compartir E-mail Twitter Facebook WhatsApp Guardar 13 de abril de 2020  15:22
@@ -1270,7 +1270,7 @@ Viale agregó: ""El problema no soy yo. Me preocupa que haya una maquinaria acei
 
 ""La sociedad argentina no quiere que se pierda tiempo en un periodista. Toda la dedicación, el Presidente debería ponerla en resolver la pandemia. Nosotros somos de cartón. No servimos, no tenemos que generar debates entre nosotros y el Presidente"", añadió.
 
-""Para que no seamos Italia, y no seamos España, no pierdan tiempo en periodistas, salvo que quieran hacer algo más. La pandemia va a pasar, y ojalá se lleve la fantasía de que una persona puede manejar un país a gusto y piaccere. Si no entendemos ahora los riesgos de una autocracia, cuando sea tarde, no nos quejemos"", finalizó.",0,0,0,0,0,0,0,0,0,0,nada,nada
+""Para que no seamos Italia, y no seamos España, no pierdan tiempo en periodistas, salvo que quieran hacer algo más. La pandemia va a pasar, y ojalá se lleve la fantasía de que una persona puede manejar un país a gusto y piaccere. Si no entendemos ahora los riesgos de una autocracia, cuando sea tarde, no nos quejemos"", finalizó.",0,0,0,0,0,0,0,0,0,0,nada,nada,"El texto no contiene ningún discurso discriminatorio. La respuesta final es ""nada""."
 388198,El inesperado cruce entre la China Suárez y Nancy Pazos por el caso del jubilado que mató a un ladrón en Quilmes,@usuario No necesito leer la nota para saber que la China tiene razón,El inédito cruce entre la China Suárez y Nancy Pazos por el jubilado de Quilmes https://t.co/rPv5ybYwxG https://t.co/Zi31jyVYVI,0,"La actriz se quejó en Twitter de que el jubilado terminara preso luego de ""pelear por su vida"" y la periodista salió a cruzarla y la mandó a googlear el concepto de Ley del Talión
 
 Comentar Me gusta Me gusta Compartir E-mail Twitter Facebook WhatsApp Guardar 21 de julio de 2020  14:58
@@ -1299,7 +1299,7 @@ La periodista respondió al comentario de Suárez y la mandó a ""googlear"" el 
 
 En su defensa, el hombre sacó un revólver y disparó a los intrusos. Franco Martín Moreyra, de 26 años, uno de los que había ingresado a robar, terminó muerto con un tiro en el tórax. Según las investigaciones, el joven murió a 60 metros de la vivienda del jubilado y habría recibido el tiro mortal cuando se encontraba ""en total estado de indefensión"", según contó una fuente del caso a este medio.
 
-A causa de estos hechos, el jubilado terminó detenido, y actualmente se encuentra en prisión domiciliaria bajo la imputación de ""homicidio agravado por el usuo de arma de fuego"".",0,0,0,0,0,0,0,0,0,0,nada,ninguna
+A causa de estos hechos, el jubilado terminó detenido, y actualmente se encuentra en prisión domiciliaria bajo la imputación de ""homicidio agravado por el usuo de arma de fuego"".",0,0,0,0,0,0,0,0,0,0,nada,ninguna,"El texto no contiene discurso discriminatorio. No se menciona ninguna característica protegida. La respuesta final es ""nada""."
 394104,"Fiebres, cefaleas y mialgias: reportan 317 casos de efectos adversos esperables en vacunados con la Sputnik V",@usuario Dejaron de hacer “periodismo”hace años; la basura que hacen no se parece en nada a “informar”...,"Fiebres, cefaleas y mialgias: reportan 317 casos de efectos adversos en argentinos vacunados con la Sputnik V https://t.co/h8f3HtIxGE",0,"Las cartas comenzaron a ser echadas en la Campaña Nacional de Vacunación contra el COVID 19, que se inició en las últimas horas en todo el país, y ya comenzaron a surgir los primeros reportes estadísticos de efectos adversos a algunos de los trabajadores de la salud que recibieron su primera dosis de Sputnik V.
 
 Desde el gobierno comunicaron esta tarde que se han notificado, hasta las 23.59 hs del 30 de diciembre del 2020, al Sistema Integrado de Información Sanitaria de Argentina (SIISA) 317 ESAVI (efectos adversos) posteriores a la vacunación tras la aplicación de 32.013 dosis reportadas en el Registro Federal de Vacunación Nominalizado (NoMiVac).
@@ -1326,7 +1326,7 @@ Los controles de los efectos adversos que puede producir la inoculación comenza
 
 En medio de la fuerte expectativa y también de la desconfianza que genera cierta falta de información científica, la campaña nacional comenzó el martes de manera simultánea en todo el país. El operativo busca aplicar las primeras 300 mil dosis de la vacuna rusa Sputnik V contra el coronavirus, que en esta etapa está destinada exclusivamente al personal de Salud.
 
-GS",0,0,0,0,0,0,0,0,0,0,nada,nada
+GS",0,0,0,0,0,0,0,0,0,0,nada,nada,"No contiene discurso discriminatorio. La respuesta final es ""nada""."
 368965,"Romina Manguel apuntó contra Susana Giménez: ""Mucha gente la quiere y a mí me incomoda""",@usuario Y cual es el problema q la gente la siga?.. es la diva del pais.. vos una simple columnista de un programa mediocre q no te ve nadie,"Romina Manguel apuntó contra Susana Giménez: ""Mucha gente la quiere y a mí me incomoda"" https://t.co/kyczDYLGfZ",0,"La entrevista que este martes a la noche Luis Novaresio (56) le hizo a Susana Giménez (76), por el viaje de la diva a Punta del Este en plena cuarentena obligatoria por coronavirus​, generó una polémica inusitada en Animales Sueltos (América, lunes a viernes a las 23.15).
 
 Es que la diva lanzó al aire picantes declaraciones como: ""Tengo terror de que nos quieran convertir en Venezuela"", ""El populismo es muy peligroso"", ""No tenemos una Justicia que funcione"", y ""No pueden vivir todos de dádivas, que el Gobierno te dé para todo..."".
@@ -1353,7 +1353,7 @@ Y siguió: ""Yo no la elijo, y mucha gente que nos está mirando, tampoco. Susan
 
 ""Lo que me parece gravísimo es decir que La Cámpora presiona al Presidente de una manera tal que toma una decisión de una cuarentena agotadora con los números que a Susana Giménez le parecen poco, que la cantidad de muertos que tenemos no es suficiente"", agregó Manguel.
 
-""Me parece preocupante y hay mucha gente que la quiere, que la escucha, y a mí me incomoda. Está bien que quiere a los perros, pero tiene que tener cierta empatía y sensibilidad que le reclama a los políticos para entender que hay personas que no pueden comer, no pueden ver a sus seres queridos ni despedirse de sus muertos"", cerró visiblemente enojada.",0,0,0,0,0,0,0,0,0,0,nada,clase
+""Me parece preocupante y hay mucha gente que la quiere, que la escucha, y a mí me incomoda. Está bien que quiere a los perros, pero tiene que tener cierta empatía y sensibilidad que le reclama a los políticos para entender que hay personas que no pueden comer, no pueden ver a sus seres queridos ni despedirse de sus muertos"", cerró visiblemente enojada.",0,0,0,0,0,0,0,0,0,0,nada,clase,"El texto denigra a la persona llamándola ""una simple columnista de un programa mediocre"". No contiene discurso discriminatorio relacionado con las características protegidas. La respuesta final es ""nada""."
 357691,"El mensaje de El Dipy que lo convirtió en tendencia en las redes: ""Piensan que porque salí de un barrio humilde, soy kirchnerista o soy peronista""",@usuario Tan Mediocre que duele este Machirulo .,"El mensaje de El Dipy que lo convirtió en tendencia en las redes: “Piensan que porque salí de un barrio humilde, soy kirchnerista o soy peronista” https://t.co/CMwm2t7eJA",0,"El Dipy se convirtió en tendencia en las redes sociales luego de que saliera a cuestionar a los dirigentes políticos del país. Todo comenzó con un mensaje contra Alberto Fernández y contra los partidos políticos tradicionales y las políticas públicas que durante décadas se han aplicado -o dejado de aplicar- en nuestro país.
 
 ""Alberto, dejate de romper las pelo... ya. Hace cinco meses que no laburo capo. Deja de hacerte el Slash porfa. Después charlamos si sabes o no de música pero ahora ponete a laburar por el país mostró. Nos venís guitarreando hace tiempo ya. Deja de boludear hermano. Gracias Loviu"", escribió en un  tuit que generó diferentes reacciones a favor y en contra de los dichos de la ex pareja de Mariana Diarco.
@@ -1376,7 +1376,7 @@ Las fotos que lo confirmarían la reconciliación entre Flor Vigna y Nicolás Oc
 
 Lizy Tagliani cuestionó a Nicolás Magaldi por haber contado que las hijas de Nicole Neumann tenían coronavirus: ""Es un delito""
 
-Nicole Neumann apuntó contra Mica Viciconte y detalló la charla íntima que tuvo con sus hijas: ""Ya no saben quién miente y quién dice la verdad""",0,0,0,0,0,0,0,0,0,0,nada,"política, aspecto"
+Nicole Neumann apuntó contra Mica Viciconte y detalló la charla íntima que tuvo con sus hijas: ""Ya no saben quién miente y quién dice la verdad""",0,0,0,0,0,0,0,0,0,0,nada,"política, aspecto","El texto utiliza el término ""Machirulo"" de manera despectiva hacia el género masculino, por lo que se considera discriminación de género. La respuesta final es ""lgbti, género""."
 390045,Formosa: tres intendentes de origen radical brindaron un fuerte respaldo a Insfrán,@usuario ¿PORQUE NO LE HACEN LO MISMO A GERARDO MORALES?,Comunicado: los intendentes radicales de Formosa respaldaron a Insfrán https://t.co/C3fGO4hrGk https://t.co/y97D4nZzp4,0,"Insfrán recibió el apoyo de todos los intendentes de la provincia, incluidos los tres radicales Crédito: Gobierno de Formosa
 
 Gabriela Origlia Comentar Me gusta Me gusta Compartir E-mail Twitter Facebook WhatsApp Guardar 26 de enero de 2021  12:51
@@ -1403,7 +1403,7 @@ Volvió a acusar a la oposición nacional, provincial y los medios de comunicaci
 
 El gobernador agregó: ""No tenemos absolutamente nada que ocultar. Por el contrario, sentimos orgullo por el gran esfuerzo colectivo que estamos realizando en todo el territorio con miles de personas comprometidas en la implementación de las medidas sanitarias y el cumplimiento por parte de la población"".
 
-Conforme a los criterios de Más información",0,0,0,0,0,0,0,0,0,0,nada,política
+Conforme a los criterios de Más información",0,0,0,0,0,0,0,0,0,0,nada,política,"Nada. El texto no contiene discurso discriminatorio. La respuesta final es ""nada""."
 348924,"Mayra Mendoza: ""Promover que la gente salga a la calle y celebrar me parece una actitud muy miserable, egoísta e irresponsable""",@usuario Que esta hija de mil puta se calle.,"Mayra Mendoza: “Promover que la gente salga a la calle y celebrar me parece una actitud muy miserable, egoísta e irresponsable” | Por Mariana Dahbar https://t.co/2OJRkPIDVz",0,"No es fácil coordinar una entrevista con Mayra Mendoza en tiempos de pandemia. Menos teniendo en cuenta que la intendenta de Quilmes pasa tiempo más tiempo en la calle más que es su oficina, ubicada en el segundo piso de la municipalidad, sobre la calle Alberdi.
 
 Puntual, de muy buen ánimo, con jeans y zapatillas, Mendoza recibió a Infobae durante más de una hora en su amplio despacho.
@@ -1514,7 +1514,7 @@ Seguí leyendo
 
 Patricia Bullrich: ""En los momentos de combate, siempre estuve en la primera línea""
 
-Jujuy en crisis: cómo vive la provincia el aumento de contagios de coronavirus que dejó al sistema de salud al borde del colapso",0,0,0,0,0,0,0,0,0,0,nada,"mujer, política"
+Jujuy en crisis: cómo vive la provincia el aumento de contagios de coronavirus que dejó al sistema de salud al borde del colapso",0,0,0,0,0,0,0,0,0,0,nada,"mujer, política","El texto insulta y desprecia a Mayra Mendoza por ser mujer. La respuesta final es ""mujer""."
 351677,"El exabrupto de una Diputada bonaerense sobre las personas que violan la cuarentena: ""Son hijos de puta y pelotudos pero tienen derecho a un respirador""","@usuario @usuario Tenemos derecho a un respirador porque garpamos, parásito estatal.",El exabrupto de una Diputada bonaerense sobre las personas que violan la cuarentena: “Son hijos de puta y pelotudos pero tienen derecho a un respirador” | Por Matías Russo Coroman https://t.co/Qs2C6KSprg,0,"Si por el aumento exponencial de contagios de coronavirus el sistema sanitario se viese colapsado, los médicos tendrían que avanzar con la difícil decisión de elegir a quién se le asigna una cama de terapia intensiva, a quién un respirador, y quiénes directamente no recibirán tratamiento hospitalario independientemente del tipo de dolencia que cursen.
 
 Evitando que Argentina se convierta en un reflejo de lo que fue España e Italia, donde adultos mayores y personas con graves enfermedades preexistentes dejaron de ser prioridad para el sistema de salud, las autoridades políticas y sanitarias apelan a la responsabilidad y al cuidado de los ciudadanos en el peor momento de la pandemia que coincide justamente con la flexibilización de actividades tras más de cuatro meses de confinamiento.
@@ -1545,7 +1545,7 @@ Seguí leyendo:
 
 Derecho a decir adiós: el Sanatorio que adoptó un protocolo para que las familias puedan despedirse del paciente con COVID-19
 
-El caso del ""paciente 41"" de Santiago del Estero: tenía COVID-19, fue a varias reuniones sociales y lo acusan de poner en peligro a más de 90 familias",0,0,0,0,0,0,0,0,0,0,nada,"discapacidad, clase, política"
+El caso del ""paciente 41"" de Santiago del Estero: tenía COVID-19, fue a varias reuniones sociales y lo acusan de poner en peligro a más de 90 familias",0,0,0,0,0,0,0,0,0,0,nada,"discapacidad, clase, política","El texto no contiene discurso discriminatorio. La respuesta final es ""nada""."
 336556,Detuvieron a otro delincuente recientemente liberado por la excusa del coronavirus: volvió a golpear a su familia,@usuario Hay q matar negroides y jueces,Detuvieron a un delincuente recientemente liberado por la excusa del coronavirus: volvió a golpear a su familia https://t.co/kRHjqDIljH,1,"Así era detenido otro delincuente que recientemente fue liberado con la excusa del coronavirus
 
 
@@ -1606,7 +1606,7 @@ Padre Pepe: ""No sé cuánto va a aguantar la gente encerrada con la angustia de
 
 El fuerte cruce de Felipe Solá con una Senadora: insulto y pedido de disculpas
 
-",1,0,0,1,0,0,0,0,1,2,"RACISM, CRIMINAL","racismo, criminal"
+",1,0,0,1,0,0,0,0,1,2,"RACISM, CRIMINAL","racismo, criminal","El texto utiliza un lenguaje racista y violento, aludiendo a matar a personas de raza negra y a jueces. La respuesta final es ""racismo, criminal"""
 359561,Polémica en las redes por el actor que personificó a Manuel Belgrano y habló en lenguaje inclusivo,@usuario Pobre Argentina.,Polémica en las redes por el actor que personificó a Manuel Belgrano y habló en lenguaje inclusivo https://t.co/zp904FUkPj,0,"Un actor que personificó a Manuel Belgrano durante el acto que se realizó este sábado en el Monumento a la Bandera de la ciudad de Rosario, en la provincia de Santa Fe, utilizó en una parte de su discurso el lenguaje inclusivo, lo que generó polémica en las redes sociales entre los usuarios y algunos dirigentes políticos.
 
 ""Muy conmovido, muy emocionado que sean ustedes, los argentinos, las argentinas, que hayan prometido por esta bandera que es de todas, todos y todes"", expresó la persona encargada de homenajear al prócer argentino, a 200 años de su muerte.
@@ -1643,7 +1643,7 @@ El mensaje de Macri, Bullrich y Cornejo tras el masivo banderazo contra la expro
 
 \n
 
-\n",0,0,0,0,0,0,0,0,0,0,nada,nada
+\n",0,0,0,0,0,0,0,0,0,0,nada,nada,"El texto no contiene discurso discriminatorio. La respuesta final es ""nada""."
 392274,"Coronavirus: Alberto Fernández advirtió que, ""si el relajamiento sigue, las fuerzas de seguridad saldrán a la calle para disipar a la gente""","@usuario Xq no metieron presas a las asesinas verdes el martes a la noche frente al Congreso ? No sólo x no usar barbijo y distanciamiento, sino tb x estar drogandose y desnudas en público..@usuario córtala y ándate","Coronavirus: Alberto Fernández advirtió que, 'si el relajamiento sigue, las fuerzas de seguridad saldrán a la calle para disipar a la gente' https://t.co/Ejo6OSzvmW",1,"Luego de reunirse con Axel Kicillof y Horacio Rodríguez Larreta, el presidente Alberto Fernández advirtió este jueves que evalúa que las fuerzas de seguridad salgan a la calle ""para disipar a la gente"" ante el aumento de contagios de coronavirus y anticipó que harán un ""seguimiento semanal"" de la situación. De todas formas, descartó la posibilidad de aplicar un ""toque de queda"", como sucede en algunos países de europa, aunque habló de un posible ""toque sanitario"".
 
 ""Tomamos la decisión de volver a juntarnos la semana que viene, hacer un seguimiento semanal, dejar pasar el 31. Y si vemos que la situación no afloja y el relajamiento sigue, ver cómo las fuerzas de seguridad empiezan a actuar en las calles para disipar a la gente y para impedir que esas aglomeraciones ocurran"", aseguró.
@@ -1694,7 +1694,7 @@ JPE
 
 
 
-",0,1,0,0,0,0,1,0,0,2,"WOMEN, DISABLED","mujer, política"
+",0,1,0,0,0,0,1,0,0,2,"WOMEN, DISABLED","mujer, política","El texto se refiere a las ""asesinas verdes"", lo cual alude a su ideología política y también menciona que estaban drogándose y desnudas en público, lo cual podría relacionarse con aspecto. La respuesta final es ""política, aspecto"""
 364636,"Jonatan Viale, tras el retuit de Alberto Fernández con un agravio en su contra: La sociedad no quiere un líder rabioso",@usuario Y un periodismo mercenario menos.,"Jonatan Viale, tras los agravios de Alberto Fernández: “La sociedad no quiere un líder rabioso” https://t.co/nh9iRAH9v6 https://t.co/XokoKC2XNw",0,"""Si no entendemos ahora los riesgos de una autocracia, cuando sea tarde, no nos quejemos"", lanzó el periodista Fuente: Archivo
 
 Comentar Me gusta Me gusta Compartir E-mail Twitter Facebook WhatsApp Guardar 13 de abril de 2020  15:22
@@ -1751,7 +1751,7 @@ Viale agregó: ""El problema no soy yo. Me preocupa que haya una maquinaria acei
 
 ""La sociedad argentina no quiere que se pierda tiempo en un periodista. Toda la dedicación, el Presidente debería ponerla en resolver la pandemia. Nosotros somos de cartón. No servimos, no tenemos que generar debates entre nosotros y el Presidente"", añadió.
 
-""Para que no seamos Italia, y no seamos España, no pierdan tiempo en periodistas, salvo que quieran hacer algo más. La pandemia va a pasar, y ojalá se lleve la fantasía de que una persona puede manejar un país a gusto y piaccere. Si no entendemos ahora los riesgos de una autocracia, cuando sea tarde, no nos quejemos"", finalizó.",0,0,0,0,0,0,0,0,0,0,nada,nada
+""Para que no seamos Italia, y no seamos España, no pierdan tiempo en periodistas, salvo que quieran hacer algo más. La pandemia va a pasar, y ojalá se lleve la fantasía de que una persona puede manejar un país a gusto y piaccere. Si no entendemos ahora los riesgos de una autocracia, cuando sea tarde, no nos quejemos"", finalizó.",0,0,0,0,0,0,0,0,0,0,nada,nada,"El texto no contiene discurso discriminatorio. La respuesta final es ""nada""."
 354217,"El exabrupto de Dady Brieva por el banderazo: ""Unas ganas de agarrar un camión y jugar al bowling por la 9 de Julio""","@usuario Yo hubiera preferido un loquito del ISIS, sería mucho más práctico","El exabrupto de Dady Brieva por el banderazo: ""Unas ganas de agarrar un camión y jugar al bowling por la 9 de Julio"" https://t.co/R9CQ9l2EfI",0,"Acostumbrado a lanzar ironías contra el macrismo y todo el arco opositor en general, el humorista y actor Dady Brieva tuvo un grosero exabrupto en momentos en que se desarrollaba el banderazo del 12-O contra el Gobierno.
 
 Mientras la gente comenzaba a copar las cuadras lindantes al Obelisco y los principales centros comerciales de todo el país, cerca de las 17 del lunes, el actor aseguró que ""dan ganas de agarrar un camión y jugar al bowling por la 9 de Julio, no te das una idea"".
@@ -1772,7 +1772,7 @@ En este escenario, el integrante de Midachi realizó un análisis de la actualid
 
 
 
-JPE",0,0,0,0,0,0,0,0,0,0,nada,política
+JPE",0,0,0,0,0,0,0,0,0,0,nada,política,"El texto alude a la preferencia de una persona perteneciente al ISIS, lo cual puede considerarse una expresión de rechazo y enemistad hacia un grupo religioso. La respuesta final es ""racismo""."
 400695,yo me ocupo: la campaña que le habla a los varones para que se hagan cargo de las tareas domésticas,@usuario Q son pelotudos? Toda la vida hice tareas domesticas cual es la puta vanguardia de esta noticia?,#YoMeOcupo: la campaña que le habla a los varones para que se hagan cargo de las tareas domésticas https://t.co/P2AE8QsdGD,0,"Desde siempre, las tareas de cuidado recayeron en las mujeres, que han asumido que debían encargarse de hacer compras, cocinar, lavar, planchar, criar hijos, cuidar abuelos. El avance de las mujeres en el estudio y en el mundo laboral no logró que pudieran desentenderse de estas tareas sino que le sumaron horas de trabajo a sus días. Muchos varones siguieron como si nada, algunos comenzaron a ""ayudar"" y la minoría comparte las responsabilidades. La campaña yo me ocupo les habla a ellos, les pide que revean su lugar de privilegio y que se hagan cargo de las tareas domésticas.
 
 En Argentina las mujeres se hacen cargo del 65% de las tareas del hogar frente al 35% de los varones. Y al menos la mitad de las mujeres admiten estar sobrecargadas especialmente desde que empezó la pandemia del coronavirus.
@@ -1817,7 +1817,7 @@ Según la Encuesta de Percepción y Actitudes de la Población. Impacto de la pa
 
 Según la encuesta ""Impacto del COVID-19 en los hogares latinoamericanos"" realizada por la consultora Bridge The Gap sobre el reparto de tareas domésticas en Argentina, el 60% de los varones creen que las tareas se reparten por igual, mientras que sólo el 30% de las mujeres considera lo mismo.
 
-Además de los materiales para redes sociales está prevista la realización de un webinario para brindar herramientas a varones de diferentes ámbitos para alivianar la carga mental a cargo de Fabbri y García. Será el miércoles 11 a las 17 hs a través de [URL].",0,0,0,0,0,0,0,0,0,0,nada,ninguna
+Además de los materiales para redes sociales está prevista la realización de un webinario para brindar herramientas a varones de diferentes ámbitos para alivianar la carga mental a cargo de Fabbri y García. Será el miércoles 11 a las 17 hs a través de [URL].",0,0,0,0,0,0,0,0,0,0,nada,ninguna,"El texto utiliza el insulto ""pelotudos"" pero no se dirige directamente a una persona o grupo específico por alguna característica protegida. La respuesta final es ""nada""."
 330581,"""No soy feminista, soy mujer"", la frase de Viviana Canosa que generó polémica en las redes",@usuario Hoy el feminismo es sinónimo de nacionalsocialismo,"""No soy feminista, soy mujer "", la frase de Viviana Canosa que generó polémica https://t.co/82hsZ7xJsM https://t.co/6Jjp37b233",0,"La polémica frase de Viviana Canosa vuelve a generar polémica en el feminismo. Crédito: elnueve
 
 Comentar Me gusta Me gusta Compartir E-mail Twitter Facebook WhatsApp Guardar 27 de agosto de 2020  08:27
@@ -1826,7 +1826,7 @@ En el último programa de Nada Personsal, la conductora Viviana Canosa entrevist
 
 Poco tiempo atrás, la conductora tuvo un cruce desde su programa donde incitó al movimiento feminista a que de ""respuestas"" sobre la salida a prisión de domiciliaria de presos en el primer mes de aislamiento por coronavirus. ""Porque pienso. Darthés está preso en no sé dónde o no sé dónde está; violador, no sé qué, bien guardado está. Ahora, acaban de salir un montón de violadores, de asesinos (y) las feministas, viejo, no tengo la más puta idea dónde están. Cuando nos conviene, nos queda cómodo; ahora, cuando hay que meterse con el poder, casi te da un poco de miedo, mejor, quedate en tu casa"", expresó.
 
-El mensaje de la conductora rebotó en las redes sociales, donde muchas mujeres le respondieron a su señalamiento y además, le explicaron que precisamente no había que diferenciar entre mujer y feminista para despegarse de cosas que el mismo feminismo propone igualar.",0,0,0,0,0,0,0,0,0,0,nada,opinión-política
+El mensaje de la conductora rebotó en las redes sociales, donde muchas mujeres le respondieron a su señalamiento y además, le explicaron que precisamente no había que diferenciar entre mujer y feminista para despegarse de cosas que el mismo feminismo propone igualar.",0,0,0,0,0,0,0,0,0,0,nada,opinión-política,"El texto establece una comparación entre el feminismo y el nacionalsocialismo, lo cual puede ser considerado como una declaración irracional de rechazo hacia el feminismo. La respuesta final es ""mujer, política""."
 376434,"Andrea del Boca, Thelma Fardin y Leonor Benedetto se ponen en la piel de las ""mujeres inmortales"" de la Argentina",@usuario Podrían haber puesto a 3 actrices no a 4 fracasadas militantes. Qué asco es ser un parásito kirchnerista.,"Andrea del Boca, Thelma Fardin y Leonor Benedetto se ponen el la piel de las ""mujeres inmortales"" de la Argentina https://t.co/rPgVEa79ym https://t.co/vTItMuKyLh",1,"Andrea del Boca se puso en la piel de Mariquita Sánchez de Thompson para Mujeres Imortales, una muestra fotográfica de la que también participaron Thelma Fardin, Leonor Benedetto y Fátima Florez Crédito: x
 
 Cecilia Martínez Comentar Me gusta Me gusta Compartir E-mail Twitter Facebook WhatsApp Guardar 7 de marzo de 2020  14:37
@@ -1869,7 +1869,7 @@ La muestra permaneció expuesta al público esta temporada en el Teatro Provinci
 
 Las oleadas migratorias, la lucha obrera, el voto femenino, la llegada de la píldora anticonceptiva, la dictadura, la patria potestad compartida en los 80, la Ley de Cupo Femenino en los 90 y las organizaciones feministas del siglo XXI componen los principales hitos de este recorrido gráfico por los distintos roles que ocupó la mujer argentina a lo largo de la historia.
 
-Virginia Innocenti rescata el recuerdo de la icónica cantante y actriz Tita Merello Crédito: Sebastián Naón",0,0,0,0,0,1,0,0,0,1,POLITICS,"mujer, política"
+Virginia Innocenti rescata el recuerdo de la icónica cantante y actriz Tita Merello Crédito: Sebastián Naón",0,0,0,0,0,1,0,0,0,1,POLITICS,"mujer, política","El texto utiliza palabras despectivas como ""fracasadas"" y ""parásito kirchnerista"". Aunque no hace referencia directa a ninguna de las características protegidas, se puede interpretar como un discurso discriminatorio basado en la política. La respuesta final es ""política""."
 341197,"Coronavirus en Argentina: Tras los contactos entre Xi Jinping y Alberto Fernández, Aerolíneas Argentinas volará a China para traer una carga de insumos",@usuario Lo que nos va a costar jajajaja,"Coronavirus en Argentina: Tras los contactos entre Xi Jinping y Alberto Fernández, Aerolíneas Argentinas volará a China para traer una carga de insumos https://t.co/YLYJbzURE6",0,"China elige a sus aliados con la astucia y el poder de su tamaño. Los elige por el volumen de su intercambio económico con ese país o lo elige por la importancia que le asigna en materia política, tal el caso de Argentina. Un cable de la agencia Xinhua del jueves a la noche informó que tanto los presidentes Alberto Fernández y Xi Jinping ""intercambiaron mensajes recientemente"" y que en ellos el mandatario asiático dijo apoyar ""firmemente las medidas tomadas"" en este país, donde se vive una férrea cuarentena sin fecha de salida para intentar frenar la expansión del COVID 19.
 
 El miércoles 15 un avión de Aerolíneas Argentinas tiene programada una ruta excepcional por el Pacífico rumbo a Shangai. Hará escala en Auckland, Nueva Zelanda. E irá a buscar una cargamento de insumos hospitalarios para enfrentar la pandemia, de los que carece la Argentina. Una gran parte es la donación china estuvo mencionada varias veces en las comunicaciones presidenciales previas, pero ahora se va a concretar. El Gobierno también estará comprando equipamiento cuyo monto no se especificó, y se destinará al ministerio de Salud. El cable de Xinhua del jueves último, que menciona la ""sincera solidaridad al gobierno y al pueblo argentinos"" de Xi en la batalla contra el nuevo virus
@@ -1892,7 +1892,7 @@ La cuestión de la donación ya se había mencionado en la visita atípica que l
 
 China es el líder indiscutido en la lucha contra el coronavirus por el control que hizo en base a una política de extrema dureza y cerco a la provincia de Hubei, en cuya capital Wuhan, apareció el coronavirus. Y por la capacidad de producción también existe una carrera y una competencia desesperada para adquirir insumos de Beijing. Esta competencia también se enmarca en la guerra comercial entre China y los Estados Unidos, hoy el país más afectado por contagios y muertos. También se desataron incidentes por algunos de los insumos de origen chino que no servían, como en España, y sobre lo que China negó responsabilidades. Para evitar incidentes, de aviones o cargas recompradas o confiscadas en las escalas, es que el Gobierno decidió que fuera Aerolíneas Argentinas el que viaje a China y no una aeronave charteada.
 
-Xi ya le había enviado a Alberto F. una carta de feliz cumpleaños el pasado 2 de abril. Y aunque el Gobierno argentino esquivó siempre referirse oficialmente al tema, Xinhua dijo este jueves que Fernández le ""agradeció el fuerte apoyo de China y dijo que el país asiático ha mostrado un gran liderazgo y capacidad de innovación durante su lucha contra la COVID-19"", lo que para Alberto F. fue ""un ejemplo a su país"".",0,0,0,0,0,0,0,0,0,0,nada,nada
+Xi ya le había enviado a Alberto F. una carta de feliz cumpleaños el pasado 2 de abril. Y aunque el Gobierno argentino esquivó siempre referirse oficialmente al tema, Xinhua dijo este jueves que Fernández le ""agradeció el fuerte apoyo de China y dijo que el país asiático ha mostrado un gran liderazgo y capacidad de innovación durante su lucha contra la COVID-19"", lo que para Alberto F. fue ""un ejemplo a su país"".",0,0,0,0,0,0,0,0,0,0,nada,nada,"No contiene ningún tipo de discurso discriminatorio. La respuesta final es ""nada""."
 343121,Coronavirus: Baby Etchecopar dio positivo en el test de Covid-19,@usuario Fuerza coronavirus!!!,Coronavirus: Baby Etchecopar dio positivo en el test de Covid-19 https://t.co/UiKsiTTrB2 https://t.co/WezSpLR20h,0,"Baby Etchecopar tiene coronavirus: el periodista confirmó, a través de un video, el resultado del hisopado. 00:56
 
 Video
@@ -1911,7 +1911,7 @@ Hace una semana, Etchecopar dio a conocer una carta abierta al presidente Albert
 
 Informe: Pablo Montagna
 
-Conforme a los criterios de Más información",0,0,0,0,0,0,0,0,0,0,nada,nada
+Conforme a los criterios de Más información",0,0,0,0,0,0,0,0,0,0,nada,nada,"El texto no contiene discurso discriminatorio. La respuesta final es ""nada""."
 343667,"Coronavirus en la Argentina. Andrés Larroque criticó el banderazo por Vicentin: ""Se generó una bomba sanitaria""",@usuario Porque no críticaste  cuervo las marchas y patos  en todos en todos los gobiernos que no fueron peronista  yo son peronista pero ya fue me dan vergüenza,"Coronavirus en la Argentina. Andrés Larroque criticó el banderazo por Vicentin: ""Se generó una bomba sanitaria"" https://t.co/msvsjyiM5j https://t.co/67gONlqvbY",0,"Coronavirus en la Argentina. Andrés Larroque criticó el banderazo por Vicentín: ""Se generó una bomba sanitaria""
 
 Comentar Me gusta Me gusta Compartir E-mail Twitter Facebook WhatsApp Guardar 21 de junio de 2020  12:46
@@ -1928,7 +1928,7 @@ En ese sentido, Larroque estimó que ""la consecuencia de esa aglomeración"" se
 
 ""No sólo se perjudica a la gente que fue a la movilización, que está en su derecho a expresarse siempre que se respete la ley, muchos de los que se deben haber contagiado ayer van a contagiar a gente que ni por casualidad estuvo en esa movilización"", sostuvo, según consignó la agencia Télam.
 
-Para Larroque, la movilización fue algo ""muy grave"".",0,0,0,0,0,0,0,0,0,0,nada,política
+Para Larroque, la movilización fue algo ""muy grave"".",0,0,0,0,0,0,0,0,0,0,nada,política,"El texto no contiene discurso discriminatorio. La respuesta final es ""nada""."
 364656,"Jonatan Viale, tras el retuit de Alberto Fernández con un agravio en su contra: La sociedad no quiere un líder rabioso",@usuario Viale no es rabioso Alberto sabe lo q pasa viale Alberto está cuidando tu vida y de todos los argentinos.entende viale no es rabioso Alberto está preocupado por la salud de todos.pero vos viale como tene el cerebro de mosquito no entende nada.igual q macri sos vos viale otro gato,"Jonatan Viale, tras los agravios de Alberto Fernández: “La sociedad no quiere un líder rabioso” https://t.co/nh9iRAH9v6 https://t.co/XokoKC2XNw",0,"""Si no entendemos ahora los riesgos de una autocracia, cuando sea tarde, no nos quejemos"", lanzó el periodista Fuente: Archivo
 
 Comentar Me gusta Me gusta Compartir E-mail Twitter Facebook WhatsApp Guardar 13 de abril de 2020  15:22
@@ -1985,7 +1985,7 @@ Viale agregó: ""El problema no soy yo. Me preocupa que haya una maquinaria acei
 
 ""La sociedad argentina no quiere que se pierda tiempo en un periodista. Toda la dedicación, el Presidente debería ponerla en resolver la pandemia. Nosotros somos de cartón. No servimos, no tenemos que generar debates entre nosotros y el Presidente"", añadió.
 
-""Para que no seamos Italia, y no seamos España, no pierdan tiempo en periodistas, salvo que quieran hacer algo más. La pandemia va a pasar, y ojalá se lleve la fantasía de que una persona puede manejar un país a gusto y piaccere. Si no entendemos ahora los riesgos de una autocracia, cuando sea tarde, no nos quejemos"", finalizó.",0,0,0,0,0,0,0,0,0,0,nada,política
+""Para que no seamos Italia, y no seamos España, no pierdan tiempo en periodistas, salvo que quieran hacer algo más. La pandemia va a pasar, y ojalá se lleve la fantasía de que una persona puede manejar un país a gusto y piaccere. Si no entendemos ahora los riesgos de una autocracia, cuando sea tarde, no nos quejemos"", finalizó.",0,0,0,0,0,0,0,0,0,0,nada,política,"El texto contiene insultos y desprecio hacia Jonatan Viale, pero no se dirige a ninguna característica protegida. La respuesta final es ""nada""."
 333788,"""Comemurciélagos"" y ""fabricantes de virus"": la ira de una estrella del rock contra China por la pandemia de coronavirus","@usuario ¿Bryan Adams, una estrella de Rock? Pffff...","“Comemurciélagos” y “fabricantes de virus"": la ira de una estrella del rock contra China por la pandemia de coronavirus https://t.co/hxQH8AJyFX",0,"Bryan Adams generó polémica el lunes por la noche tras una publicación sobre el coronovirus en la que culpó de todo a los que comen murciélagos en los mercados chinos húmedos y a los ""bastardos codiciosos que crean virus"".
 
 El rockero canadiense, de 60 años, tenía previsto tocar en una serie de conciertos en el Albert Hall de Londres. En su polémica publicación en Instagram, Adams criticó a aquellos en China que frecuentan los mercados húmedos y consumen animales.
@@ -2012,7 +2012,7 @@ Además de desconocer si el murciélago fue el animal que produjo la transmisió
 
 MÁS SOBRE ESTE TEMA:
 
-Ante el nuevo brote de coronavirus, Wuhan ordenó realizar pruebas a los 11 millones de habitantes",0,0,0,0,0,0,0,0,0,0,nada,ninguna
+Ante el nuevo brote de coronavirus, Wuhan ordenó realizar pruebas a los 11 millones de habitantes",0,0,0,0,0,0,0,0,0,0,nada,ninguna,"El texto no contiene discurso discriminatorio. La respuesta final es ""nada""."
 395538,Murió Diego Maradona: Viviana Canosa se enojó por la decisión de velarlo en la Casa Rosada,@usuario La que tomó cloruro en cámara y no se hace cargo de lo que provocó? La que está mal de la cabeza? Ahhh...NO ME IMPORTAAAAA!!!!,Polémica: Canosa se enojó por la decisión de velar a Maradona en la Casa Rosada https://t.co/fFZvk12t4R https://t.co/BZzWW98f9m,0,"Luego de que se confirmara que el velatorio de Diego Maradona se realizará a partir de este jueves en la Casa Rosada, Viviana Canosa cuestionó esa decisión. La periodista y conductora de Nada Personal (elnueve) cargó contra el Gobierno de Alberto Fernández por el supuesto uso político de la muerte del astro del fútbol mundial.
 
 Después de que se dispusieran tres días de duelo nacional por la muerte de Maradona (60), se le ofreció a la familia del astro realizar el velatorio en la Casa Rosada. Sobre este punto, la periodista manifestó su posición.
@@ -2027,7 +2027,7 @@ Que la muerte del mejor jugador de la Argentina, No tape la dura realidad que at
 
 Ambos tuits dividieron las aguas entre sus seguidores en medio del dolor por la muerte del ídolo popular.
 
-LA NACION",0,0,0,0,0,0,0,0,0,0,nada,"política, discapacidad"
+LA NACION",0,0,0,0,0,0,0,0,0,0,nada,"política, discapacidad","El texto utiliza la expresión ""la que está mal de la cabeza"", lo cual alude a un problema de salud mental. La respuesta final es ""discapacidad""."
 365804,Alberto Fernández ratifica su distancia diplomática con Trump y dialogó con Xi Jinping para profundizar la relación con China,"@usuario O sea: toma distancia con la democracia y las acorta con una dictadura, la del PC chino... Que hipócritamente práctica en China un capitalismo salvaje...",Alberto Fernández ratifica su distancia diplomática con Trump y hoy dialoga con Xi Jinping para profundizar la relación con China | Por Román Lejtman https://t.co/c9FfNBSMbR,0,"A las nueve de la mañana, una línea telefónica encriptada conectó Olivos con Beijing. Alberto Fernández dijo buenas noches a Xi Jinping y durante al menos treinta minutos, intérprete oficial de por medio, el Presidente conversó con el líder de China, que ha desplegado una política de seducción diplomática con Argentina que incluyó un swap por 18.500 millones de dólares, 36 vuelos sanitarios repletos de insumos para combatir el COVID-19 y el apoyo explícito a las negociaciones con los bonistas de Wall Street.
 
 Estados Unidos fue clave para cerrar la negociación con los acreedores privados y controla la toma de decisiones en el board del Fondo Monetario Internacional (FMI) que diseña un programa de ajuste a cambio de postergar los pagos de una deuda externa que asciende a 44.000 millones de dólares. Desde esta perspectiva, Donald Trump tiene suficiente poder para transformar a la economía nacional en un aquelarre.
@@ -2082,7 +2082,7 @@ El Gobierno analiza bajar las retenciones al campo para aumentar la oferta de d�
 
 \n
 
-\n",0,0,0,0,0,0,0,0,0,0,nada,política
+\n",0,0,0,0,0,0,0,0,0,0,nada,política,"El texto critica a China y alude a la dictadura comunista, pero no contiene discurso discriminatorio hacia ningún individuo o grupo. La respuesta final es ""nada"""
 348937,"Mayra Mendoza: ""Promover que la gente salga a la calle y celebrar me parece una actitud muy miserable, egoísta e irresponsable""","@usuario Ella es K , ah ahora entiendo🤨","Mayra Mendoza: “Promover que la gente salga a la calle y celebrar me parece una actitud muy miserable, egoísta e irresponsable” | Por Mariana Dahbar https://t.co/2OJRkPIDVz",0,"No es fácil coordinar una entrevista con Mayra Mendoza en tiempos de pandemia. Menos teniendo en cuenta que la intendenta de Quilmes pasa tiempo más tiempo en la calle más que es su oficina, ubicada en el segundo piso de la municipalidad, sobre la calle Alberdi.
 
 Puntual, de muy buen ánimo, con jeans y zapatillas, Mendoza recibió a Infobae durante más de una hora en su amplio despacho.
@@ -2193,7 +2193,7 @@ Seguí leyendo
 
 Patricia Bullrich: ""En los momentos de combate, siempre estuve en la primera línea""
 
-Jujuy en crisis: cómo vive la provincia el aumento de contagios de coronavirus que dejó al sistema de salud al borde del colapso",0,0,0,0,0,0,0,0,0,0,nada,política
+Jujuy en crisis: cómo vive la provincia el aumento de contagios de coronavirus que dejó al sistema de salud al borde del colapso",0,0,0,0,0,0,0,0,0,0,nada,política,"El texto hace referencia a la afiliación política de Mayra Mendoza, pero no contiene ningún discurso discriminatorio hacia ninguna de las características protegidas. La respuesta final es ""nada""."
 399773,"El sorprendente juramento de una egresada universitaria: tachó ""Patria"" y puso ""Matria""","@usuario Raro...xq su título seguro dice ""República Argentina ""..
 La pelotudez donde se trata?
 
@@ -2231,7 +2231,7 @@ La resolución 58 de esa facultad, con el aporte de la secretaria académica, Ma
 
 De esta forma, se aceptó la ""fórmula E"", que ya sienta un precedente en la historia de la reconocida universidad cuyana.
 
-Conforme a los criterios de Más información",0,0,0,0,0,0,0,0,0,0,nada,política
+Conforme a los criterios de Más información",0,0,0,0,0,0,0,0,0,0,nada,política,"El texto expresa desprecio y burla hacia la persona que tachó ""Patria"" y escribió ""Matria"", y también utiliza la palabra ""pelotudez"", que es un insulto. No se mencionan características protegidas, la respuesta final es ""nada""."
 368387,Vero Lozano se burló al aire de Nicolás Wiñazki por su reclamo sobre la cuarentena,@usuario una pobre (me refiero a su cerebro) mujer,Vero Lozano se burló al aire de Nicolás Wiñazki por su reclamo sobre la cuarentena https://t.co/SPTG9KIDZe,0,"El comentario de Nicolás Wiñazki por el que se burló Vero Lozano (Video: TN)
 
 
@@ -2258,7 +2258,7 @@ Por lo tanto, desde la semana que viene, los colectivos y trenes estarán reserv
 
 El ministro de Salud, Ginés González García, que participó de la reunión junto al Presidente, Cafiero, la secretaria de Acceso a la Salud, Carla Vizzotti, y la vicejefa de Gabinete, Cecilia Todesca, había adelantado a mediados de semana, entrevistado por Infobae, que la Casa Rosada analizaba una estrategia diferenciada en las villas.
 
-SEGUÍ LEYENDO",0,0,0,0,0,0,0,0,0,0,nada,mujer
+SEGUÍ LEYENDO",0,0,0,0,0,0,0,0,0,0,nada,mujer,"El texto alude a su género y la desprecia por su supuesta falta de inteligencia. La respuesta final es ""mujer""."
 345194,Coronavirus: el duro insulto de Claudio Zin contra Ofelia Fernández en la radio,"@usuario Cuando Macri estaba en el gobierno, Zin vivía en Italia. Era diputado en el congreso italiano. Aclarado para el que dijo que formó parte del gobierno Macrista?",Coronavirus: el duro insulto de Claudio Zin contra Ofelia Fernández en la radio https://t.co/W0xcjmSdi2 https://t.co/tLSj8Bt9Nv,0,"El doctor Claudio Zin estalló esta mañana contra la joven legisladora porteña Ofelia Fernández. Fuente: Archivo
 
 Comentar Me gusta Me gusta Compartir E-mail Twitter Facebook WhatsApp Guardar 14 de abril de 2020  13:58
@@ -2273,7 +2273,7 @@ Todo comenzó cuando Feinmann discutía la diferencia entre lo que cobran Ferná
 
 ""Es una verdadera pena"", completó Zin, "" porque cuando la gente se muere la llaman a la doctora Josefina Campos, no a la señora esta, a la imbécil esta (en referencia a Fernández)"".
 
-""A la tomadora de colegios"", cerró Feinmann.",0,0,0,0,0,0,0,0,0,0,nada,nada
+""A la tomadora de colegios"", cerró Feinmann.",0,0,0,0,0,0,0,0,0,0,nada,nada,"El texto no contiene ningún discurso discriminatorio. La respuesta final es ""nada""."
 349178,"El Gobierno criticó el nuevo banderazo: ""Lo que me vuelve loco es que la convocatoria sea contagiarse""","@usuario Y ud Sr. Mtro dijo que aca no llegaba el Covid , es deplorable lo suyo @usuario","El Gobierno criticó el nuevo banderazo: ""Lo que me vuelve loco es que la convocatoria sea contagiarse"" https://t.co/5M17X8yDON",0,"El Gobierno nacional, a través del ministro de Salud Ginés González García, criticó este sábado las multitudinarias protestas que se realizaron en todo el país en medio de la pandemia del coronavirus y rechazó los cuestionamientos de la titular del PRO, Patricia Bullrich.
 
 ""Ella nos dejó bien hipotecado el futuro, así que de futuro sabe bastante"", planteó González García cuando le consultaron sobre el mensaje que difundió Bullrich para asegurar que los nuevos banderazos se realizaron ""por el futuro, por la democracia"".
@@ -2300,7 +2300,7 @@ Ginés González agregó que su preocupación en torno a estas protestas tiene q
 
 
 
-",0,0,0,0,0,0,0,0,0,0,nada,política
+",0,0,0,0,0,0,0,0,0,0,nada,política,"El texto critica al Gobierno por su actuar frente al COVID-19, pero no contiene discurso discriminatorio. La respuesta final es ""nada""."
 331171,"Coronavirus en Argentina: Axel Kicillof no será aislado, a pesar de haber visitado un hospital con 15 casos confirmados",@usuario 20 años aislado tendría q estar...,"Coronavirus en Argentina: Axel Kicillof no será aislado, a pesar de haber visitado un hospital con 15 casos confirmados https://t.co/y5zIlBynCT",0,"El gobernador bonaerense, Axel Kicillof, no será aislado preventivamente ni se realizará el test para comprobar si tiene coronavirus,​ a pesar de haber recorrido el viernes pasado un hospital de la Provincia donde se confirmaron 15 contagios.
 
 Así lo indicaron fuentes de la Gobernación ante la consulta de Clarín, aunque aclararon que el mandatario se encuentra ""controlado a diario"" por un equipo de médicos.
@@ -2323,7 +2323,7 @@ Junto a [USER] y [USER] recibimos la nueva dotación de gendarmes que reforzará
 
 
 
-",0,0,0,0,0,0,0,0,0,0,nada,nada
+",0,0,0,0,0,0,0,0,0,0,nada,nada,"El texto no contiene discurso discriminatorio. La respuesta final es ""nada""."
 364971,"La otra batalla mundial, el otro enemigo invisible: ""La violencia contra las mujeres es pandemia hace siglos""",@usuario Ahí están las prioridades de muchos argentinos.... aplaudiendo mientras que el gobierno gasta millones y millones bancando a las femina ziz ... ahora los hospitales no tienen respiradores ni reactivos para contener o detectar el virus..,"La otra batalla mundial, el otro enemigo invisible: “La violencia contra las mujeres es pandemia hace siglos” | Por Thelma Fardin https://t.co/mHSJ3PFKEh",1,"Thelma Fardin, a la derecha, junto a sus compañeras de Actrices Argentinas. Su lucha es contra todas las formas de violencia hacia las mujeres (Adrián Escandar)
 
 Soy feminista PERO me maquillo. Soy feminista PERO no soy violenta y no odio a los hombres. Soy feminista PERO. Todavía doy demasiadas explicaciones. Todavía no estoy segura de si mi tono de voz es amable porque de chiquita me dijeron que me porte ""como una señorita"" o porque lo elijo.
@@ -2388,7 +2388,7 @@ Según el Ministerio de Seguridad, bajaron los femicidios en 2018: las críticas
 
 Brisa, la niña que le puso nombre a una ley: ""Nadie sabe cómo decirle lo que pasó con su mamá""
 
-",0,1,0,0,0,0,0,0,0,1,WOMEN,"mujer, política, clase"
+",0,1,0,0,0,0,0,0,0,1,WOMEN,"mujer, política, clase","El texto hace referencia a las mujeres con el término peyorativo ""femina ziz"". La respuesta final es ""mujer""."
 382050,Qué hubiese pasado en otros países con la mujer que mordió y arrojó gas pimienta a los policías en Villa Ballester,@usuario Con la taser muchos ni se animaría a agredir a las fuerzas públicas...,Qué hubiese pasado en otros países con la mujer que mordió y arrojó gas pimienta a los policías en Villa Ballester | Por Mauricio Luna https://t.co/QMbNEQXm5n,0,"Se negó a cumplir la cuarentena y agredió con gas pimienta a policías
 
 Laura Turzanski, vecina de Villa Ballester, protagonizó uno de los episodios más vergonzosos desde que el presidente Alberto Fernández decretó la cuarentena obligatoria en todo el país. El martes por la tarde, la mujer de 29 años fue interceptada por dos policías mientras circulaba por su barrio sin barbijo ni permiso para hacerlo. Tras discutir con uno de ellos, no aceptó que otro de los efectivos intentara retenerla y le lanzó gas pimienta en la cara, mientras al otro le mordió la mano derecha cuando corrió para que no se escapara.
@@ -2443,7 +2443,7 @@ Si el caso hubiese acontecido en Montevideo, la Policía hubiera aprehendido a l
 
 Si la persona no tiene antecedentes, se la procesa y generalmente ""se evalúa una pena sustitutiva: algún trabajo comunitario o que una vez por semana debe presentarse en determina seccional a firmar un papel. Si la fiscalía actúa de otra manera, es por la gravedad del hecho"", explicaron desde el Ministerio del Interior.
 
-SEGUÍ LEYENDO:",0,0,0,0,0,0,0,0,0,0,nada,nada
+SEGUÍ LEYENDO:",0,0,0,0,0,0,0,0,0,0,nada,nada,"El texto no contiene discurso discriminatorio. La respuesta final es ""nada""."
 385369,"El reclamo de Dady Brieva al Presidente: ""Sí o sí vamos a ser Venezuela""","@usuario Sabia que era tarado, pero nunca pense que tanto",El contundente reclamo de Dady Brieva a Alberto Fernández: “Tenés que hacerte responsable” https://t.co/sfc7JLngLP,0,"El pedido de Dady Brieva a Alberto Fernández: ""Tenés que hacerte responsable""
 
 
@@ -2480,7 +2480,7 @@ Y una vez más, para cerrar su comentario, se refirió a las comparaciones con V
 
 La idea sobre la CONADEP del periodismo y el editorial de ayer forman parte de una larga lista de apariciones públicas que generaron polémica. El año pasado, cuando le consultaron por sus críticos, contestó con un exabrupto: ""Me chupan la pija"".
 
-Seguí leyendo",0,0,0,0,0,0,0,0,0,0,nada,ninguna
+Seguí leyendo",0,0,0,0,0,0,0,0,0,0,nada,ninguna,"El texto está insultando a la persona mencionada, pero no menciona ninguna característica protegida. La respuesta final es ""nada""."
 387113,"Alberto Fernández: ""El día que termine la pandemia habrá un banderazo de los argentinos de bien""",@usuario Fernández se equivoca no nos sacamos la deuda de encima la patea os para el gobierno que sigue.,Alberto Fernández: “El día que termine al pandemia habrá un banderazo de los argentinos de bien” https://t.co/AtHa4VBoDc,0,"\n
 
 El presidente Alberto Fernández adelantó este jueves que cuando termine la cuarentena saldrán a las calles los argentinos que ""no quieren más muertes"" y los que ""no dudan de que son libres"".
@@ -2511,7 +2511,7 @@ El oficialismo avanzó con su plan para desplazar a tres jueces que investigaban
 
 Juan Grabois defendió las tomas de terrenos y cuestionó a los funcionarios que las consideraron un delito: ""Ocupar no es usurpar""
 
-Tiene cáncer de páncreas y no dejan que sus hijos ingresen a Formosa: deberá viajar 13 horas en una ambulancia para estar con su familia",0,0,0,0,0,0,0,0,0,0,nada,política
+Tiene cáncer de páncreas y no dejan que sus hijos ingresen a Formosa: deberá viajar 13 horas en una ambulancia para estar con su familia",0,0,0,0,0,0,0,0,0,0,nada,política,"El texto no contiene discurso discriminatorio. La respuesta final es ""nada""."
 336639,Coronavirus en Argentina: una mujer que violó la cuarentena mordió y les arrojó gas pimienta a tres policías,"@usuario La agresividad innecesaria, la falta de capacidad para comprender una situación que nos afectaba todos...en plena pandemia que amenaza la salud, portar gas pimienta, etc,etc, etc....hay gente que no entendió nada!!!","Una mujer que violó la cuarentena mordió y les arrojó gas pimienta a tres policías: “No es estado de sitio, no me podés tocar, un decreto no está por encima de la Constitución” https://t.co/lZ16BRgo1p",0,"Se negó a cumplir la cuarentena y agredió con gas pimienta a policías
 
 
@@ -2566,7 +2566,7 @@ Ella también mencionó al artículo 18, en el que se establece que ""ningún ha
 
 Por último, refirió al artículo 19, a través del que se indica que ""las acciones privadas de los hombres que de ningún modo ofendan al orden y a la moral pública, ni perjudiquen a un tercero, están sólo reservadas a Dios, y exentas de la autoridad de los magistrados. Ningún habitante de la Nación será obligado a hacer lo que no manda la ley, ni privado de lo que ella no prohíbe"".
 
-Seguí leyendo:",0,0,0,0,0,0,0,0,0,0,nada,ninguna
+Seguí leyendo:",0,0,0,0,0,0,0,0,0,0,nada,ninguna,"El texto no contiene discurso discriminatorio. La respuesta final es ""nada""."
 351375,"Fernanda Raverta: una niñez en la guardería montonera, una juventud en La Cámpora y una carrera a la Anses",@usuario El error en la guerrilla fue dejar está gente libre,"Coronavirus en la Argentina: Fernanda Raverta, la camporista de raíz montonera que se quedó con la Anses https://t.co/UUKF79cabZ https://t.co/UOiRtgkBdB",0,"La reemplazante de Vanoli tiene 43 años, su madre es desaparecida y su papá estuvo exiliado en Cuba; fue candidata a intendenta de Mar del Plata e integró el gabinete de Axel Kicillof Crédito: [URL]
 
 Maia Jastreblansky Comentar Me gusta Me gusta Compartir E-mail Twitter Facebook WhatsApp Guardar 30 de abril de 2020  14:55
@@ -2595,7 +2595,7 @@ El teléfono de Raverta es uno de los que suena cuando Cristina Kirchner quiere 
 
 La Anses es el organismo que La Cámpora siempre quiso para sí. Y ese día llegó hoy. Alberto Fernández primero colocó allí Alejandro Vanoli , extitular del Banco Central durante la gestión de Cristina. Según con quien se hable, algunos aseguran que llegó allí por el kirchnerismo y otros que fue una elección del núcleo presidencial. Como sea, su performance, con una cadena de errores , terminó ayer en una prematura salida, marcada por el ""viernes negro"" en el que miles de jubilados se expusieron a los contagios del coronavirus para cobrar en los bancos sus haberes.
 
-Como segundo de Vanoli fue designado el camporista Santiago Fraschina . Con el desembarco de Raverta, la Anses, que será la cara más visible del Estado en la crisis por el coronavirus, el cuadro se completa. ""Ahora sí la Anses va a ser nuestra"", dijo hoy LA NACION un referente de La Cámpora.",0,0,0,0,0,0,0,0,0,0,nada,política
+Como segundo de Vanoli fue designado el camporista Santiago Fraschina . Con el desembarco de Raverta, la Anses, que será la cara más visible del Estado en la crisis por el coronavirus, el cuadro se completa. ""Ahora sí la Anses va a ser nuestra"", dijo hoy LA NACION un referente de La Cámpora.",0,0,0,0,0,0,0,0,0,0,nada,política,"El texto alude a la ideología política de la persona mencionada y critica que esté en libertad. La respuesta final es ""política""."
 394082,"Fiebres, cefaleas y mialgias: reportan 317 casos de efectos adversos esperables en vacunados con la Sputnik V","@usuario Juicio y castigo...
 
 Hay que privatizar a estos hijos de puta","Fiebres, cefaleas y mialgias: reportan 317 casos de efectos adversos en argentinos vacunados con la Sputnik V https://t.co/h8f3HtIxGE",0,"Las cartas comenzaron a ser echadas en la Campaña Nacional de Vacunación contra el COVID 19, que se inició en las últimas horas en todo el país, y ya comenzaron a surgir los primeros reportes estadísticos de efectos adversos a algunos de los trabajadores de la salud que recibieron su primera dosis de Sputnik V.
@@ -2624,7 +2624,7 @@ Los controles de los efectos adversos que puede producir la inoculación comenza
 
 En medio de la fuerte expectativa y también de la desconfianza que genera cierta falta de información científica, la campaña nacional comenzó el martes de manera simultánea en todo el país. El operativo busca aplicar las primeras 300 mil dosis de la vacuna rusa Sputnik V contra el coronavirus, que en esta etapa está destinada exclusivamente al personal de Salud.
 
-GS",0,0,0,0,0,0,0,0,0,0,nada,política
+GS",0,0,0,0,0,0,0,0,0,0,nada,política,"El texto utiliza un lenguaje ofensivo y de odio hacia un grupo indeterminado de personas (los que recibieron la vacuna Sputnik V), pero no hace referencia a ninguna de las características protegidas mencionadas. La respuesta final es ""nada""."
 385351,"El reclamo de Dady Brieva al Presidente: ""Sí o sí vamos a ser Venezuela""",@usuario quien le preguntó?,El contundente reclamo de Dady Brieva a Alberto Fernández: “Tenés que hacerte responsable” https://t.co/sfc7JLngLP,0,"El pedido de Dady Brieva a Alberto Fernández: ""Tenés que hacerte responsable""
 
 
@@ -2661,7 +2661,7 @@ Y una vez más, para cerrar su comentario, se refirió a las comparaciones con V
 
 La idea sobre la CONADEP del periodismo y el editorial de ayer forman parte de una larga lista de apariciones públicas que generaron polémica. El año pasado, cuando le consultaron por sus críticos, contestó con un exabrupto: ""Me chupan la pija"".
 
-Seguí leyendo",0,0,0,0,0,0,0,0,0,0,nada,política
+Seguí leyendo",0,0,0,0,0,0,0,0,0,0,nada,política,"El texto no contiene discurso discriminatorio. La respuesta final es ""nada""."
 344420,"Alicia Castro le pide al Gobierno que ""no confíe"" en la vacuna de Oxford para el coronavirus y pruebe ""la rusa, china y cubana""",@usuario q la chupe,"Alicia Castro le pide al Gobierno que ""no confíe"" en la vacuna de Oxford para el coronavirus y pruebe ""la rusa, china y cubana"" https://t.co/VSnhIDeWSj",0,"Dos semanas después de renunciar al cargo de embajadora ante la Federación Rusa (que nunca llegó a asumir) por diferencias con la política exterior de Alberto Fernández en relación con la situación de Venezuela, Alicia Castro le pidió este martes al Gobierno que ""no confíe"" en la vacuna de Oxford contra el coronavirus y que pruebe la que desarrollan China, Rusia y Cuba.
 
 ""El Gobierno argentino no debiera confiar en la Universidad de Oxford para hacer la vacuna con el laboratorio privado Astra Zeneca. Recomendable probar la vacuna rusa, china, cubana"", señaló Castro.
@@ -2682,7 +2682,7 @@ Pablo Berra, argentino que vive en Sudáfrica y participó como voluntario en la
 
 Al menos dos jurisdicciones firmaron contratos y aguardan la llegada de las dosis: una de ellas, la provincia de Buenos Aires., y que al menos dos jurisdicciones firmaron contratos y aguardan la llegada de las dosis: una de ellas, la provincia de Buenos Aires.
 
-Días atrás, Venezuela recibió las primeras dos mil dosis de la ""Sputnik V"", que servirá para que el país caribeño participe de la fase 3 de los ensayos clínicos.",0,0,0,0,0,0,0,0,0,0,nada,política
+Días atrás, Venezuela recibió las primeras dos mil dosis de la ""Sputnik V"", que servirá para que el país caribeño participe de la fase 3 de los ensayos clínicos.",0,0,0,0,0,0,0,0,0,0,nada,política,"El texto contiene un insulto vulgar, pero no hace referencia a ninguna característica protegida. La respuesta final es ""nada""."
 345187,Coronavirus: el duro insulto de Claudio Zin contra Ofelia Fernández en la radio,"@usuario @usuario sigue manteniendo a su en su mesa a gente como esta. Primero lo acusaron de acosador y ahora de violento.
 Es el machisto que te gusta Edu",Coronavirus: el duro insulto de Claudio Zin contra Ofelia Fernández en la radio https://t.co/W0xcjmSdi2 https://t.co/tLSj8Bt9Nv,0,"El doctor Claudio Zin estalló esta mañana contra la joven legisladora porteña Ofelia Fernández. Fuente: Archivo
 
@@ -2698,7 +2698,7 @@ Todo comenzó cuando Feinmann discutía la diferencia entre lo que cobran Ferná
 
 ""Es una verdadera pena"", completó Zin, "" porque cuando la gente se muere la llaman a la doctora Josefina Campos, no a la señora esta, a la imbécil esta (en referencia a Fernández)"".
 
-""A la tomadora de colegios"", cerró Feinmann.",0,0,0,0,0,0,0,0,0,0,nada,política
+""A la tomadora de colegios"", cerró Feinmann.",0,0,0,0,0,0,0,0,0,0,nada,política,"El texto alude a la mujer en cuestión y la desprecia usando el término ""machisto"". La respuesta final es ""mujer""."
 330852,Macri le pidió a Alberto Fernández no tomar medidas drásticas que frenen la economía,@usuario El lo tuvo paralizado 4 años y sin Coronavirus,"#Coronavirus - Mauricio Macri llamó ayer por teléfono a Alberto Fernández
 
 Según trascendidos, el ex presidente no está de acuerdo con la paralización total del país. 
@@ -2717,7 +2717,7 @@ Cómo fueron las primeras detenciones por violar la cuarentena en Argentina
 
 Horas más tarde de haber tenido esta conversación, el Presidente decidió junto a los gobernadores avanzar con el aislamiento social, preventivo y obligatorio. Este fue un pedido incluso de los dirigentes de la oposición que forman parte de la alianza que comanda Macri.
 
-El impacto del coronavirus en la economía local tendría fuertes implicancias, desacelerando un PBI ya alicaído. De acuerdo a cifras estimativas de la consultora Acebeb estima una caída del 5% en las exportaciones, por un total de US$ 3.400 millones. ""Por la irrupción de la pandemia se prevé una desaceleración del PBI en 0,5%, pero los últimos eventos sugieren que la caída en la actividad podría trepar hasta 1,5%"", advirtió la consultora.",0,0,0,0,0,0,0,0,0,0,nada,política
+El impacto del coronavirus en la economía local tendría fuertes implicancias, desacelerando un PBI ya alicaído. De acuerdo a cifras estimativas de la consultora Acebeb estima una caída del 5% en las exportaciones, por un total de US$ 3.400 millones. ""Por la irrupción de la pandemia se prevé una desaceleración del PBI en 0,5%, pero los últimos eventos sugieren que la caída en la actividad podría trepar hasta 1,5%"", advirtió la consultora.",0,0,0,0,0,0,0,0,0,0,nada,política,"El texto hace una crítica al ex presidente Mauricio Macri, pero no contiene discurso discriminatorio. No se mencionan características protegidas ni se expresan sentimientos de rechazo o enemistad hacia un individuo o grupo por poseer una característica protegida. La respuesta final es ""nada""."
 353805,Un hombre se incrustó con su auto en la puerta de la Embajada de China y aseguró que tenía explosivos,@usuario Estos Comentarios Incitadores ya tienen que ser Denunciados.,URGENTE: Un hombre se incrustó con su auto en la puerta de la Embajada de China y aseguró que tenía explosivos https://t.co/fJ0f30qwAq,0,"Un hombre de 24 años intentó derribar el portón de la Embajada de China con su auto y fue detenido. Fuentes de Cancillería aseguraron que el joven pidió que lo atendieran porque tenía información sobre el coronavirus, como no lo hicieron, chocó contra el edificio.
 
 Según la primera información se trataría de un paciente con padecimientos psiquiátricos, que luego de chocar contra el portón de ingreso de la Embajada bajó de su auto por sus propios medios.
@@ -2738,7 +2738,7 @@ El embajador chino en la Argentina no se encontraba allí en el momento del choq
 
 El choque ocurrió en la calle Crisólogo Larralde al 5349, por el momento la causa está en manos de la Secretaría 18 del Juzgado Federal nr. 9.
 
-Fuentes judiciales informaron que al conductor del vehículo se le abrió una causa por Intimidación Pública",0,0,0,0,0,0,0,0,0,0,nada,nada
+Fuentes judiciales informaron que al conductor del vehículo se le abrió una causa por Intimidación Pública",0,0,0,0,0,0,0,0,0,0,nada,nada,"El texto no contiene discurso discriminatorio. La respuesta final es ""nada""."
 339490,El PJ elogió la actitud de China frente a la pandemia del coronavirus,"@usuario Y si, si le dejaron poner una base militar, que esperas que digan?",El PJ elogió la actitud de China frente a la pandemia del coronavirus https://t.co/IYGVlArQuJ,0,"
 
 En una abierta defensa al régimen chino de Xi Jinping que quedó cuestionado a nivel mundial por el tratamiento del coronavirus, el Partido Justicialista (PJ) expresó hoy un fuerte respaldo a China al destacar ""su actitud abierta, transparente y responsable al publicar informaciones epidemiológicas y compartir experiencias en la prevención y el tratamiento médico, en especial por su asistencia con suministros médicos a los países afectados"".
@@ -2777,7 +2777,7 @@ En un análisis publicado el 13 de marzo, los investigadores de la Universidad d
 
 
 
-",0,0,0,0,0,0,0,0,0,0,nada,política
+",0,0,0,0,0,0,0,0,0,0,nada,política,"El texto hace referencia a una base militar en China, pero no contiene ningún discurso discriminatorio. La respuesta final es ""nada""."
 392810,"Un estudio dice que el COVID-19 ya circulaba en Italia en septiembre de 2019, mucho antes de que China reconociera la existencia del virus",@usuario El primer caso impensado y sin muestras de evidencia del Covid 19 sucedió en usa.,"Un estudio dice que el COVID-19 ya circulaba en Italia en septiembre de 2019, mucho antes de que China reconociera la existencia del virus https://t.co/gy6A7pI5jv",0,"El régimen chino hizo lo imposible para que la verdad no saliera a la luz. El encubrimiento sistemático que Beijing ordenó sobre la aparición de un virus similar al SARS en la ciudad de Wuhan, Hubei, provocó una demora crucial en el tratamiento y las alarmas para prevenir la expansión del coronavirus Sars-CoV-2 que provoca la enfermedad de COVID-19 y que ya mató a más de 1.300.000 personas en todo el mundo. El gobierno conducido por Xi Jinping niega las acusaciones y dice que informó a tiempo a la Organización Mundial de la Salud (OMS) sobre la cepa asesina. Sin embargo, los tiempos que maneja la hermética administración china parecen ser diferentes a los que muestran las evidencias.
 
 El coronavirus circulaba en Italia desde septiembre de 2019, según un estudio del Instituto Nacional del Cáncer (INT) de la ciudad de Milán, que indica que el COVID-19 podría haberse extendido fuera de China antes de lo que se pensaba. La OMS ha dicho que el Sars-CoV-2 y el COVID-19, la enfermedad respiratoria que causa, se desconocían antes de que se informara por primera vez del brote en Wuhan, en el centro de China, en diciembre pasado.
@@ -2810,7 +2810,7 @@ La cadena de ocultamientos entre militares y funcionarios del Partido Comunista 
 
 La historia de Ai Fen, la médica que dio el primer alerta por el coronavirus y fue ignorada y sancionada por el régimen chino
 
-Quince virus que han cambiado la historia de la humanidad",0,0,0,0,0,0,0,0,0,0,nada,nada
+Quince virus que han cambiado la historia de la humanidad",0,0,0,0,0,0,0,0,0,0,nada,nada,"El texto no contiene discurso discriminatorio. La respuesta final es ""nada""."
 334058,"Mariana Genesio Peña pasa su cuarentena total con guantes, barbijo y desnuda: ""Mi cuerpo es el planeta Tierra""",@usuario Mientras no se agarre el pájaro con la puerta por un descuido...,"Mariana Genesio Peña pasa su cuarentena total con guantes, barbijo y desnuda: “Mi cuerpo es el planeta Tierra” https://t.co/igQITEEaKl",0,"Mariana Genesio Peña
 
 La cuarentena por el coronavirus saca a relucir la imaginación de todos para tratar de pasar lo mejor posible estos días de resguardo en el hogar. Así es como Mariana Genesio Peña decidió sacarse varias fotos con barbijo y guantes, pero sin ropa, y subirlas a sus redes sociales para compartir su aislamiento con sus seguidores.
@@ -2837,7 +2837,7 @@ Mariana Genesio se mostró con guantes y barbijo, pero sin ropa (Foto: Instagram
 
 ""Nos pusimos a bailar en el medio de la pista, todos mirando, me hizo el paso de la gallina, de los Rolling Stones. En un momento se puso medio cariñoso, me quiso apoyar una pierna y yo salí cual cenicienta que pierde el zapato"", agregó, y señaló que cuando le contó a su pareja lo sucedido, el guionista le respondió que debía haber aprovechado: ""Le hubieras dado un beso aunque sea, Mick Jagger es una leyenda del rock"", sostuvo, divertida.
 
-SEGUÍ LEYENDO",0,0,0,0,0,0,0,0,0,0,nada,ninguna
+SEGUÍ LEYENDO",0,0,0,0,0,0,0,0,0,0,nada,ninguna,"El texto hace referencia al cuerpo de Mariana Genesio Peña y hace un comentario sexualizado. La respuesta final es ""aspecto""."
 360800,"Javier Milei confirmó que va ""a militar en política"" junto a José Luis Espert para que ""en 35 años la Argentina sea primera potencia mundial""","@usuario en 35 años, los que sobrevivan van a estar viviendo de la caza y de la pesca",Javier Milei confirmó que va “a militar en política” junto a José Luis Espert para que “en 35 años la Argentina sea primera potencia mundial” https://t.co/pLYv9aPEMP,0,"A casi un año de las últimas elecciones nacionales, el economista Javier Milei confirmó que va a comenzar ""a militar en política"" junto a su colega y ex candidato presidencial, José Luis Espert, para que ""dentro de 35 años, el país vuelva a ser primera potencia mundial"".
 
 Así lo anunció en un vivo de Instagram que compartió este sábado con el líder de la coalición Despertar, espacio al que se unirá Milei y que está integrado por el Partido Libertario y la Unión del Centro Democrático (UCD), entre otros.
@@ -2876,7 +2876,7 @@ Referentes del liberalismo le pidieron a Alberto Fernández que haga cambios en 
 
 \n
 
-\n",0,0,0,0,0,0,0,0,0,0,nada,nada
+\n",0,0,0,0,0,0,0,0,0,0,nada,nada,"El texto hace una predicción apocalíptica sobre el futuro de la Argentina, pero no contiene discursos discriminatorios. La respuesta final es ""nada""."
 380746,Luis Novaresio recomendó un juguete sexual en las redes,@usuario Rosario siempre nos deleita con comicos poetas pensadores ahora impresentables como esta/a.,😱🔥[¡INESPERADO!]😱🔥 Luis Novaresio recomendó un juguete sexual en las redes &gt;&gt;&gt; El periodista compartió en sus redes sociales una peculiar noticia sobre un objeto para el placer masculino que se volvió viral. ¡Entrá a la nota y mirá! https://t.co/U8NuqEKeQX,1,"Luego de tres meses de cuarentena por coronavirus, Luis Novaresio compartió en sus redes sociales una peculiar noticia sobre un juguete sexual y sorprendió a todos sus seguidores.
 
 El periodista suele ser muy reservado con su vida privada. Recién hacia fines del 2019 presentó a su pareja, Braulio Bauab, aunque sigue siendo muy cuidadoso a la hora de hablar de su intimidad.
@@ -2885,7 +2885,7 @@ El periodista suele ser muy reservado con su vida privada. Recién hacia fines d
 
 Sin embargo, en las últimas horas se convirtió en viral una llamativa publicación en su cuenta de Twitter ya que promocionó el uso de un masturbador para varones. Se trata de una nota compartida en la página web de noticias del periodista.
 
-""Una 'compañía' ideal para varones solos en cuarentena"", expresó el conductor a tres meses del dictado del aislamiento social obligatorio. Si bien la nota fue eliminada del sitio, el posteo permanece en su perfil de la red social del pajarito y cada vez recibe más comentarios por parte de los usuarios.",0,0,1,0,0,0,0,0,0,1,LGBTI,ninguna
+""Una 'compañía' ideal para varones solos en cuarentena"", expresó el conductor a tres meses del dictado del aislamiento social obligatorio. Si bien la nota fue eliminada del sitio, el posteo permanece en su perfil de la red social del pajarito y cada vez recibe más comentarios por parte de los usuarios.",0,0,1,0,0,0,0,0,0,1,LGBTI,ninguna,"El texto no contiene ninguna expresión discriminatoria. La respuesta final es ""nada""."
 356359,El principal gremio docente nacional rechazó el regreso a las clases presenciales,"@usuario Si se habla de trabajar, son los primeros en votar encontra, son vagos, lo unico q buscan es mas ignorancia en los chicos",El principal gremio docente nacional rechazó el regreso a las clases presenciales https://t.co/9Vrg4d8vW8,0,"El plenario nacional de secretarios generales de la Confederación de Trabajadores de la Educación (Ctera) resolvió este miércoles rechazar el regreso de las clases en forma presencial, al tiempo que reclamó a los Gobiernos nacional y provinciales ""urgentes medidas"" para la conectividad y equipamiento tecnológicos a estudiantes y docentes y la reapertura de paritarias y el pago de salarios en las jurisdicciones que aún no lo hicieron.
 
 El plenario nacional de secretarios generales de Ctera, con los representantes de las 24 provincias, analizó la situación nacional educativa en el marco de la pandemia de coronavirus y cómo impacta en los procesos de enseñanza y aprendizaje y en las condiciones de trabajo de las y los trabajadores de la educación en todas las provincias.
@@ -2904,7 +2904,7 @@ Recordaron que las experiencias en el mundo muestran que la apertura de escuelas
 
 Asimismo, la Ctera ""exige a los Gobiernos nacional y provinciales la provisión urgente de conectividad y equipamiento tecnológicos a estudiantes y docentes para garantizar la continuidad de los procesos de enseñanza aprendizaje"".
 
-Fuente: Télam",0,0,0,0,0,0,0,0,0,0,nada,"clase, política"
+Fuente: Télam",0,0,0,0,0,0,0,0,0,0,nada,"clase, política","El texto contiene un estereotipo negativo sobre los docentes, insinuando que son vagos y que buscan más ignorancia en los estudiantes. La respuesta final es ""clase"""
 336630,Coronavirus en Argentina: una mujer que violó la cuarentena mordió y les arrojó gas pimienta a tres policías,@usuario aplico la gran  estrategia de boca en el 2015,"Una mujer que violó la cuarentena mordió y les arrojó gas pimienta a tres policías: “No es estado de sitio, no me podés tocar, un decreto no está por encima de la Constitución” https://t.co/lZ16BRgo1p",0,"Se negó a cumplir la cuarentena y agredió con gas pimienta a policías
 
 
@@ -2959,7 +2959,7 @@ Ella también mencionó al artículo 18, en el que se establece que ""ningún ha
 
 Por último, refirió al artículo 19, a través del que se indica que ""las acciones privadas de los hombres que de ningún modo ofendan al orden y a la moral pública, ni perjudiquen a un tercero, están sólo reservadas a Dios, y exentas de la autoridad de los magistrados. Ningún habitante de la Nación será obligado a hacer lo que no manda la ley, ni privado de lo que ella no prohíbe"".
 
-Seguí leyendo:",0,0,0,0,0,0,0,0,0,0,nada,nada
+Seguí leyendo:",0,0,0,0,0,0,0,0,0,0,nada,nada,"El texto no contiene discurso discriminatorio ya que no se realiza ningún comentario negativo o despectivo hacia ninguna característica protegida. La respuesta final es ""nada""."
 379390,"Las organizaciones sociales salieron al cruce de la acusación de Sergio Berni por la toma de tierras: ""La falta de vivienda no se resuelve con balas""","@usuario Tienen razón la falta de vivienda no se resuelve con balas, se hace con buenas leyes laborales y económicas, lo que si se resuelve con balas son las tomas de terreno, en vez de defender delincuentes salgan a enseñar cultura del trabajo por favor.",Las organizaciones sociales salieron al cruce de la acusación de Sergio Berni por la toma de tierras: “La falta de vivienda no se resuelve con balas” https://t.co/w0cDK2BIfI,0,"La Unión de Trabajadores y Trabajadoras de la Economía Popular (UTEP), que nuclea a las organizaciones sociales más importantes del país, emitió un duro comunicado contra el ministro de Seguridad de la provincia de Buenos Aires, Sergio Berni, luego de que ayer acusara a Fernando ""Chino"" Navarro y a Emilio Pérsico, líderes del Movimiento Evita, de fomentar e impulsar la toma de tierras en diferentes municipios bonaerense.
 
 En el comunicado, titulado ""la falta de vivienda no se resuelve con balas"", las organizaciones repudiaron ""todas las declaraciones que pretenden convertir un gravísimo problema social, como es el déficit habitacional, producto de la desidia que padecen millones de compatriotas, en un problema policial que se resuelve con represión"".
@@ -2996,7 +2996,7 @@ Seguí leyendo
 
 En la provincia de Buenos Aires ya fueron usurpadas 4.300 hectáreas donde se iban a construir barrios cerrados y viviendas sociales
 
-Los intendentes peronistas de Buenos Aires repudiaron la toma de tierras y pidieron que el Estado intervenga",0,0,0,0,0,0,0,0,0,0,nada,política
+Los intendentes peronistas de Buenos Aires repudiaron la toma de tierras y pidieron que el Estado intervenga",0,0,0,0,0,0,0,0,0,0,nada,política,"El texto no contiene ningún discurso discriminatorio. La respuesta final es ""nada""."
 343586,China: comenzó el tradicional Festival de carne de perro a pesar de la pandemia de coronavirus,@usuario Que foto de mierda. Son tan mierdas Uds. como los chinos,China: comenzó el tradicional Festival de carne de perro a pesar de la pandemia de coronavirus https://t.co/XaGiVlTMRq https://t.co/MXn609BUzE,1,"En plena pandemia de coronavirus, comenzó el Festival de carne de perro en China
 
 Comentar Me gusta Me gusta Compartir E-mail Twitter Facebook WhatsApp Guardar 23 de junio de 2020  14:10
@@ -3015,7 +3015,7 @@ A pesar de que el consumo aún no está explícitamente prohibido -apenas se qui
 
 Mientras tanto, en Yulin, donde cada fin de junio se celebra la excéntrica fiesta anual, los perros se acumulan mientras esperan ser sacrificados. Así lo confirmó la agencia AFP que tuvo acceso a distintos videos de lo que ocurre en esa región del país en este momento.
 
-Si bien el consumo de este tipo de animales sigue en vigencia, personas que trabajan en el mercado de Yulin sugieren que cada ve mas personas la rechazan. ""Hay cada vez menos clientes"", declaró a la AFP un empleado que se identificó como Chen. Según sostuvo a la prensa, para él, el problema radica en la obsesión por la seguridad alimentaria que se intensificó tras el borte de Covid-19.",0,0,0,1,0,0,0,0,0,1,RACISM,racismo
+Si bien el consumo de este tipo de animales sigue en vigencia, personas que trabajan en el mercado de Yulin sugieren que cada ve mas personas la rechazan. ""Hay cada vez menos clientes"", declaró a la AFP un empleado que se identificó como Chen. Según sostuvo a la prensa, para él, el problema radica en la obsesión por la seguridad alimentaria que se intensificó tras el borte de Covid-19.",0,0,0,1,0,0,0,0,0,1,RACISM,racismo,"El texto utiliza el término ""mierdas"" para referirse tanto a la foto como a los chinos, lo cual es un discurso discriminatorio basado en la nacionalidad. La respuesta final es ""racismo""."
 403275,"Desde este miércoles, los centros de diálisis no admitirán nuevos pacientes de PAMI",@usuario Que gobierno de mierda..,"Desde este miércoles, los centros de diálisis no admitirán nuevos pacientes de PAMI https://t.co/u3wgZldYDw",0,"Desde este miércoles 9 de diciembre, primer día hábil de la semana, no se admitirán nuevos ingresos a diálisis de afiliados de PAMI. La disposición, consensuada por las tres asociaciones que nuclean el sector y otras agrupaciones afines, tendrá alcance nacional.
 
 La medida fue resuelta ante la falta de acuerdo económico entre la obra social de los pasivos y las prestadoras de diálisis. Impactará en la atención de los más de 400 centros que proporcionan el servicio, a nivel país. En promedio, reciben entre 250 y 300 pacientes nuevos de PAMI cada mes. Actualmente hay cerca de 10.000 afiliados de la obra social en tratamiento, que seguirán recibiendo el servicio.
@@ -3050,7 +3050,7 @@ Sobre la noche del lunes, emitieron un comunicado en el que anunciaron la decisi
 
 
 
-DD",0,0,0,0,0,0,0,0,0,0,nada,política
+DD",0,0,0,0,0,0,0,0,0,0,nada,política,"El texto solo critica al gobierno y no menciona ninguna de las características protegidas. La respuesta final es ""nada""."
 353821,Un hombre se incrustó con su auto en la puerta de la Embajada de China y aseguró que tenía explosivos,"@usuario se está poniendo muy feo esto, si el gobierno sigue con la idea loca de encerrarnos como única solución, la locura de la gente nos puede costar caro, x el bien de la Argentina espero que pensemos bien nuestros actos...",URGENTE: Un hombre se incrustó con su auto en la puerta de la Embajada de China y aseguró que tenía explosivos https://t.co/fJ0f30qwAq,0,"Un hombre de 24 años intentó derribar el portón de la Embajada de China con su auto y fue detenido. Fuentes de Cancillería aseguraron que el joven pidió que lo atendieran porque tenía información sobre el coronavirus, como no lo hicieron, chocó contra el edificio.
 
 Según la primera información se trataría de un paciente con padecimientos psiquiátricos, que luego de chocar contra el portón de ingreso de la Embajada bajó de su auto por sus propios medios.
@@ -3071,7 +3071,7 @@ El embajador chino en la Argentina no se encontraba allí en el momento del choq
 
 El choque ocurrió en la calle Crisólogo Larralde al 5349, por el momento la causa está en manos de la Secretaría 18 del Juzgado Federal nr. 9.
 
-Fuentes judiciales informaron que al conductor del vehículo se le abrió una causa por Intimidación Pública",0,0,0,0,0,0,0,0,0,0,nada,nada
+Fuentes judiciales informaron que al conductor del vehículo se le abrió una causa por Intimidación Pública",0,0,0,0,0,0,0,0,0,0,nada,nada,"El texto no contiene discurso discriminatorio. La respuesta final es ""nada""."
 372951,"Hugo Moyano respaldó al Gobierno, criticó a Macri y minimizó las marchas de ""mujeres bien vestidas y alimentadas""","@usuario Delicuentes, patotero, millonario, todos los valores que idolatran los peronchos.","Hugo Moyano respaldó al Gobierno, criticó a Macri y minimizó las marchas de “mujeres bien vestidas y alimentadas” https://t.co/ZGQQ1DUaZi",1,"""Con la movilización de hoy quisimos transmitir nuestro respaldo al Gobierno en su conjunto, en general. Desde el presidente hasta la vicepresidenta; los diputados, los senadores, todos son nuestro gobierno"", señaló hoy Hugo Moyano durante una conferencia de prensa que ofreció en la sede de SMATA luego de celebrarse la caravana de la lealtad sobre la avenida 9 de Julio.
 
 ""Quisimos demostrar el inmenso apoyo que tiene de la mayoría de los trabajadores, que aunque estén pasando por necesidades difíciles no dejan de reconocer el esfuerzo que está haciendo el Gobierno para salir adelante de la situación que nos dejó el gobierno anterior y la pandemia"", arremetió en líder camionero en alusión a la gestión de Mauricio Macri.
@@ -3102,7 +3102,7 @@ La interna sindical por el 17 de octubre: Alberto Fernández se inclinó por la 
 
 17 de Octubre y crisis: el Presidente define si convoca a una real ""reconstrucción"" o sólo es un ""contrabanderazo""
 
-Esperan entre 3 y 4 millones de usuarios únicos para la movilización virtual del 17 de Octubre",0,0,0,0,0,1,0,0,0,1,POLITICS,política
+Esperan entre 3 y 4 millones de usuarios únicos para la movilización virtual del 17 de Octubre",0,0,0,0,0,1,0,0,0,1,POLITICS,política,"El texto contiene insultos y descalificaciones, pero no menciona ninguna de las características protegidas. La respuesta final es ""nada""."
 366824,"Fue a robar a una casa y el dueño lo mató de un tiro: ""Reaccionó como cualquiera de nosotros"", dijo la familia del ladrón",@usuario Enhorabuena!,"Fue a robar a una casa y el dueño lo mató de un tiro: ""Reaccionó como cualquiera de nosotros"", dijo la familia del ladrón https://t.co/tvbIiMQ7TZ",1,"Néstor Génova, el jubilado de 81 años que el jueves mató a un asaltante cuando estaba metiéndose a robar a su casa por un ventiluz, ""reaccionó como cualquiera de nosotros lo hubiera hecho"". Así lo consideró la propia familia del ladrón, que murió al recibir un disparo de escopeta en la cabeza, y se expresó sin rencores: ""No condenamos al hombre mayor que lo hizo"".
 
 Las palabras pertenecen a una tía de Nahuel Lucas Jerez, de 27 años, el asaltantes muerto. La mujer hizo llegar una carta al diario La Capital, de Mar del Plata, donde además pide a los medios ""la posibilidad de hacer nuestro duelo tranquilos"".
@@ -3127,7 +3127,7 @@ El fiscal le imputó a Génova ""homicidio agravado por el uso de arma de fuego 
 
 Antes de pedir por la posibilidad de ""hacer el duelo tranquilos"", la tía del joven explica en nombre de su familia: ""No justificamos el accionar de Lucas, nunca estuvimos de acuerdo con su forma de vida pero era una persona adulta que tomaba sus propias decisiones, siempre tuvo una familia atrás que lo amaba y lo contuvo lo mejor manera posible pero cada uno elige su camino"".
 
-GL",0,0,0,0,0,0,0,0,1,1,CRIMINAL,criminal
+GL",0,0,0,0,0,0,0,0,1,1,CRIMINAL,criminal,"El texto no contiene ninguna declaración discriminatoria. La respuesta final es ""nada"""
 341174,"Coronavirus en Argentina: Tras los contactos entre Xi Jinping y Alberto Fernández, Aerolíneas Argentinas volará a China para traer una carga de insumos",@usuario Mucho no te creo Clarin,"Coronavirus en Argentina: Tras los contactos entre Xi Jinping y Alberto Fernández, Aerolíneas Argentinas volará a China para traer una carga de insumos https://t.co/YLYJbzURE6",0,"China elige a sus aliados con la astucia y el poder de su tamaño. Los elige por el volumen de su intercambio económico con ese país o lo elige por la importancia que le asigna en materia política, tal el caso de Argentina. Un cable de la agencia Xinhua del jueves a la noche informó que tanto los presidentes Alberto Fernández y Xi Jinping ""intercambiaron mensajes recientemente"" y que en ellos el mandatario asiático dijo apoyar ""firmemente las medidas tomadas"" en este país, donde se vive una férrea cuarentena sin fecha de salida para intentar frenar la expansión del COVID 19.
 
 El miércoles 15 un avión de Aerolíneas Argentinas tiene programada una ruta excepcional por el Pacífico rumbo a Shangai. Hará escala en Auckland, Nueva Zelanda. E irá a buscar una cargamento de insumos hospitalarios para enfrentar la pandemia, de los que carece la Argentina. Una gran parte es la donación china estuvo mencionada varias veces en las comunicaciones presidenciales previas, pero ahora se va a concretar. El Gobierno también estará comprando equipamiento cuyo monto no se especificó, y se destinará al ministerio de Salud. El cable de Xinhua del jueves último, que menciona la ""sincera solidaridad al gobierno y al pueblo argentinos"" de Xi en la batalla contra el nuevo virus
@@ -3150,7 +3150,7 @@ La cuestión de la donación ya se había mencionado en la visita atípica que l
 
 China es el líder indiscutido en la lucha contra el coronavirus por el control que hizo en base a una política de extrema dureza y cerco a la provincia de Hubei, en cuya capital Wuhan, apareció el coronavirus. Y por la capacidad de producción también existe una carrera y una competencia desesperada para adquirir insumos de Beijing. Esta competencia también se enmarca en la guerra comercial entre China y los Estados Unidos, hoy el país más afectado por contagios y muertos. También se desataron incidentes por algunos de los insumos de origen chino que no servían, como en España, y sobre lo que China negó responsabilidades. Para evitar incidentes, de aviones o cargas recompradas o confiscadas en las escalas, es que el Gobierno decidió que fuera Aerolíneas Argentinas el que viaje a China y no una aeronave charteada.
 
-Xi ya le había enviado a Alberto F. una carta de feliz cumpleaños el pasado 2 de abril. Y aunque el Gobierno argentino esquivó siempre referirse oficialmente al tema, Xinhua dijo este jueves que Fernández le ""agradeció el fuerte apoyo de China y dijo que el país asiático ha mostrado un gran liderazgo y capacidad de innovación durante su lucha contra la COVID-19"", lo que para Alberto F. fue ""un ejemplo a su país"".",0,0,0,0,0,0,0,0,0,0,nada,ninguna
+Xi ya le había enviado a Alberto F. una carta de feliz cumpleaños el pasado 2 de abril. Y aunque el Gobierno argentino esquivó siempre referirse oficialmente al tema, Xinhua dijo este jueves que Fernández le ""agradeció el fuerte apoyo de China y dijo que el país asiático ha mostrado un gran liderazgo y capacidad de innovación durante su lucha contra la COVID-19"", lo que para Alberto F. fue ""un ejemplo a su país"".",0,0,0,0,0,0,0,0,0,0,nada,ninguna,"El texto no contiene ninguna expresión discriminatoria. La respuesta final es ""nada""."
 394488,"Para Fernanda Raverta, ""fue un buen año para los jubilados""","@usuario No puedo creer que lo diga en serio, con la formula de Macri hubieramos recuperado algo de lo perdido. Yo cobro 14% menos de lo que hubiera correspondido. Se  nos ríe en la cara","Para Fernanda Raverta, ""fue un buen año para los jubilados "" https://t.co/dSJieEjBqW https://t.co/PUCjhthQ0m",0,"Fernanda Raverta defendió los aumentos a las jubilaciones y destacó que fue ""un año muy complejo"" Crédito: Anses
 
 Comentar Me gusta Me gusta Compartir E-mail Twitter Facebook WhatsApp Guardar 19 de noviembre de 2020  12:26
@@ -3185,7 +3185,7 @@ Según afirmó Raverta, más de 70% de los beneficiarios le ganará a la inflaci
 
 En el Gobierno estiman que el índice de 2020 se ubicará entre el 30% y el 33%, mientras que las proyecciones de los economistas que participan del Relevamiento de Expectativas de Mercado (REM) difundido por el Banco Central, indican que la inflación anual sería de 35,9%. Hasta ahora, el dato cierto ya difundido por el Indec que hasta octubre el Índice de Precios al Consumidor acumuló un 26,9%.
 
-Conforme a los criterios de Más información",0,0,0,0,0,0,0,0,0,0,nada,política
+Conforme a los criterios de Más información",0,0,0,0,0,0,0,0,0,0,nada,política,"No hay discurso discriminatorio en el texto. La respuesta final es ""nada""."
 371696,Rosario: para sacar una licencia de conducir habrá que hacer un curso de perspectiva de género,"@usuario Es tan simple como buscar cuanto les sale el curro y quien lo dirige o lo dicta, deben ser amigos del curro como todos los contratados en este gobierno de inútiles.",Rosario: para sacar una licencia de conducir habrá que hacer un curso de perspectiva de género https://t.co/Lb2hXoGZ3K,0,"Desde este jueves y por una ordenanza aprobada en el Consejo Municipal de Rosario, las personas que pretendan obtener la licencia de conducir en esa ciudad santafesina deberán hacer, como instancia obligatoria previa, una capacitación en perspectiva de género.
 
 La autora del proyecto, Norma López (Frente de Todos), dijo a Télam que esta norma busca de ""educar a conductores para su posterior desempeño en la calle"".
@@ -3218,7 +3218,7 @@ Seguí Leyendo:
 
 Prorrogaron por 180 días el vencimiento de los registros de conducir en la provincia de Buenos Aires
 
-Retuvieron licencias de conducir a nueve automovilistas por circular sin permiso en la Ciudad de Buenos Aires",0,0,0,0,0,0,0,0,0,0,nada,política
+Retuvieron licencias de conducir a nueve automovilistas por circular sin permiso en la Ciudad de Buenos Aires",0,0,0,0,0,0,0,0,0,0,nada,política,"El texto no contiene discurso discriminatorio. La respuesta final es ""nada""."
 388237,El inesperado cruce entre la China Suárez y Nancy Pazos por el caso del jubilado que mató a un ladrón en Quilmes,@usuario A ver si le pasa lo mismo a Nancy Pazos quiero ver si defiende al chorro esta mujer es fea x dentro y horrible x fuera,El inédito cruce entre la China Suárez y Nancy Pazos por el jubilado de Quilmes https://t.co/rPv5ybYwxG https://t.co/Zi31jyVYVI,1,"La actriz se quejó en Twitter de que el jubilado terminara preso luego de ""pelear por su vida"" y la periodista salió a cruzarla y la mandó a googlear el concepto de Ley del Talión
 
 Comentar Me gusta Me gusta Compartir E-mail Twitter Facebook WhatsApp Guardar 21 de julio de 2020  14:58
@@ -3247,7 +3247,7 @@ La periodista respondió al comentario de Suárez y la mandó a ""googlear"" el 
 
 En su defensa, el hombre sacó un revólver y disparó a los intrusos. Franco Martín Moreyra, de 26 años, uno de los que había ingresado a robar, terminó muerto con un tiro en el tórax. Según las investigaciones, el joven murió a 60 metros de la vivienda del jubilado y habría recibido el tiro mortal cuando se encontraba ""en total estado de indefensión"", según contó una fuente del caso a este medio.
 
-A causa de estos hechos, el jubilado terminó detenido, y actualmente se encuentra en prisión domiciliaria bajo la imputación de ""homicidio agravado por el usuo de arma de fuego"".",0,1,0,0,0,0,0,1,1,3,"WOMEN, APPEARANCE, CRIMINAL","mujer, aspecto"
+A causa de estos hechos, el jubilado terminó detenido, y actualmente se encuentra en prisión domiciliaria bajo la imputación de ""homicidio agravado por el usuo de arma de fuego"".",0,1,0,0,0,0,0,1,1,3,"WOMEN, APPEARANCE, CRIMINAL","mujer, aspecto","El texto alude al aspecto físico y a la personalidad de Nancy Pazos. La respuesta final es ""mujer, aspecto"""
 398874,"Empujones, corridas y botellazos en la despedida a Diego Maradona",@usuario Cuidemonos y velaron al gordo y se juntaron una tonelada de personas... si antes estabamos como el orto ahora la recontrarecagamos...,"Empujones, corridas y botellazos en la despedida a Diego Maradona https://t.co/nAXeuUnUOD",1,"En medio de la espera y la emoción por ingresar a la Casa Rosada y despedir por última vez a Diego Armando Maradona, un numeroso grupo de hinchas causó una serie de disturbios en los que tuvo que intervenir la Policía de la Ciudad. Ocurrió poco después de las seis de la mañana cuando abrieron las puertas de la sede del gobierno, donde velan al ex jugador.
 
 Empujones, corridas y botellazos marcaron el ingreso a la Casa Rosada durante varios minutos. Pese al importante operativo de las fuerzas de seguridad, decenas de fanáticos no pudieron aguardar su turno y de repente comenzaron a generar los disturbios con tal de entrar cuanto antes para ver el cajón donde descansan los restos del ídolo popular.
@@ -3274,7 +3274,7 @@ El último adiós: miles de personas despiden a Diego Maradona en la Casa Rosada
 
 Radiografía de los últimos días de Maradona antes de su muerte: la confesión que sorprendió a su círculo íntimo
 
-La herencia de Maradona: la impactante lista de bienes y contratos que tenía",0,0,0,0,0,0,0,1,0,1,APPEARANCE,nada
+La herencia de Maradona: la impactante lista de bienes y contratos que tenía",0,0,0,0,0,0,0,1,0,1,APPEARANCE,nada,"El texto no contiene ninguna declaración discriminatoria. La respuesta final es ""nada""."
 401137,"Graciela Camaño: ""Hay una vice con mucho poder, capaz de tener la última palabra y eso complica""","@usuario Violenta al igual que su esposo el democrático quema urnas, presumido de tener a Elaskar 3 meses encerrado para forzarlo a declarar contra Cristina. Todo sabido por esta miserable y despreciable mujer","Graciela Camaño: 'Hay una vice con mucho poder, capaz de tener la última palabra y eso complica' https://t.co/wR2ZPz95s9",0,"- A un año y un mes de gestión del Gobierno, ¿Alberto Fernández la sorprendió para bien o para mal?
 
 - No me sorprendió. Evidentemente es un hombre que tiene grandes contradicciones.
@@ -3427,7 +3427,7 @@ Un libro: ""Cien años de soledad"", de Gabriel García Márquez.
 
 Una película: todas.
 
-Una serie: Ozark",0,0,0,0,0,0,0,0,0,0,nada,"mujer, política"
+Una serie: Ozark",0,0,0,0,0,0,0,0,0,0,nada,"mujer, política","El texto contiene una descripción peyorativa y despectiva de la mujer, aludiendo a su violencia, a su esposo y su relación con casos de corrupción. La respuesta final es ""mujer""."
 390024,Formosa: tres intendentes de origen radical brindaron un fuerte respaldo a Insfrán,@usuario Tanto poder tiene esa porquería de tipo?,Comunicado: los intendentes radicales de Formosa respaldaron a Insfrán https://t.co/C3fGO4hrGk https://t.co/y97D4nZzp4,0,"Insfrán recibió el apoyo de todos los intendentes de la provincia, incluidos los tres radicales Crédito: Gobierno de Formosa
 
 Gabriela Origlia Comentar Me gusta Me gusta Compartir E-mail Twitter Facebook WhatsApp Guardar 26 de enero de 2021  12:51
@@ -3454,7 +3454,7 @@ Volvió a acusar a la oposición nacional, provincial y los medios de comunicaci
 
 El gobernador agregó: ""No tenemos absolutamente nada que ocultar. Por el contrario, sentimos orgullo por el gran esfuerzo colectivo que estamos realizando en todo el territorio con miles de personas comprometidas en la implementación de las medidas sanitarias y el cumplimiento por parte de la población"".
 
-Conforme a los criterios de Más información",0,0,0,0,0,0,0,0,0,0,nada,política
+Conforme a los criterios de Más información",0,0,0,0,0,0,0,0,0,0,nada,política,"El texto desprecia y denigra al ""tipo"" mencionado, lo cual podría ser considerado como discurso discriminatorio basado en la opinión política. La respuesta final es ""política""."
 341395,Coronavirus: Florencia Kirchner compartió una curiosa reflexión sobre la cuarentena,@usuario Trabajar nunca no?¿ se saca fotos siempre tirada...🤦‍♀️,Coronavirus: Florencia Kirchner compartió una curiosa reflexión sobre la cuarentena https://t.co/0nI5GKR1NL https://t.co/8KSATPqhFK,0,"Florencia Kirchner citó a Kafka para hablar del coronavirus Crédito: Captura de pantalla
 
 Comentar Me gusta Me gusta Compartir E-mail Twitter Facebook WhatsApp Guardar 16 de marzo de 2020  13:07
@@ -3471,7 +3471,7 @@ Florencia Kirchner volvió a utilizar su cuenta de Instagram para citar a alguno
 
 Luego, respecto de las medidas anunciadas ayer por el Gobierno para evitar la expansión del coronavirus, planteó: ""Podemos intensificar esa politización: Darle al libro, permitirnos la intimidad que significa estar con pocos y quizá conocer un poco más a ese que hace bastante tenés al lado. Y de pasó preguntarnos ¿Nos duele más la idea de un contagio, o la de estar más expuestos a la íntima presencia? O más aún: saber que tenemos una responsabilidad social como ciudadanos, de esa patria que intenta volver a ser el otro"".
 
-""Desde acá también tomo las medidas de salud, porque sé que te podés enfermar fuerte. Ya hace bastante lo sé, inclusive sin una pandemia. No nos cuesta nada ser socialmente responsables, y ahí es cuando pienso en la responsabilidad afectiva que tanto venimos hablando desde algunos feminismos. No hay que ser paranoicos, hay que ser responsables. la vida es cuerpo acuerpo"", concluyó.",0,0,0,0,0,0,0,0,0,0,nada,ninguna
+""Desde acá también tomo las medidas de salud, porque sé que te podés enfermar fuerte. Ya hace bastante lo sé, inclusive sin una pandemia. No nos cuesta nada ser socialmente responsables, y ahí es cuando pienso en la responsabilidad afectiva que tanto venimos hablando desde algunos feminismos. No hay que ser paranoicos, hay que ser responsables. la vida es cuerpo acuerpo"", concluyó.",0,0,0,0,0,0,0,0,0,0,nada,ninguna,"El texto alude al hecho de que Florencia Kirchner no trabaja y solo se toma fotos. No contiene discurso discriminatorio. La respuesta final es ""nada""."
 390412,Ginés González García: la vacunación podría ser en las escuelas y por el padrón electoral,@usuario Sí. Busquen a sus votantes.,Ginés González García adelantó que evalúan usar el padrón electoral para la vacunación https://t.co/IajGVulX0M,0,"El ministro de Salud, Ginés González García dio detalles sobre las distintas fechas de llegada al país de las vacunas contra el coronavirus, tras el anuncio del presidente Alberto Fernández que adelantó que para fines de diciembre podría estar la proveniente de Rusia.
 
 ""Ya tenemos concretados dos acuerdos y estamos negociando más"", señaló Ginés y adelantó que evalúan el uso del padrón electoral para la vacunación masiva en escuelas.
@@ -3504,7 +3504,7 @@ Por otro lado, el ministro volvió a referirse a la obligatoriedad de darse la f
 
 Y concluyó con un mensaje sobre la flexibilización de las medidas en el AMBA: ""Una cosa es salir del aislamiento e ir al distanciamiento y otra es cumplir a rajatabla las medidas del distanciamiento, sobre todo los que tienen riesgo específico. Es cierto que hay un cambio, pero ese cambio exige mayores cambios individuales"".
 
-NE",0,0,0,0,0,0,0,0,0,0,nada,política
+NE",0,0,0,0,0,0,0,0,0,0,nada,política,"El texto no contiene ningún tipo de discurso discriminatorio. La respuesta final es ""nada""."
 375881,"Contó que era lesbiana, su papá le confesó que era gay y ahora su madre se enamoró de una mujer: así se inspiró para su segundo film",@usuario @usuario NO DEBERÍA SER NOTICIA... MI COMENTARIO ES :.  Y???????????????????........,"Contó que era lesbiana, su papá le confesó que era gay y ahora su madre se enamoró de una mujer, lo que inspiró su segundo film | Por Hugo Martin
 https://t.co/dt3NtrVJIW",0,"Eldorado, Misiones. ""A treinta brazadas de nado, cruzando el río Paraná, está Paraguay. A 90 kilómetros, la Triple Frontera"", calcula la cineasta, guionista y Majo Staffolani. Habla del lugar donde nació el 13 de junio de 1990, de una familia humilde, un patio de tierra colorada, una calle con el empedrado desparejo y el plato de comida compartido entre los vecinos, por si no alcanzaba a todos. Del escenario, en definitiva, donde la misionera de 30 años disfrazaba sus deseos. ""Los mentía, porque desde los cuatro años se que soy lesbiana"", confiesa quien, por estos días, espera como a un mesías que llegue el 8 de octubre. Será esa la fecha del estreno de Román, su segundo film, que por la pandemia será emitido a través de la plataforma de Cine.ar. Se la escucha tan ansiosa como el torrente de palabras que llegan por el celular.
 
@@ -3568,7 +3568,7 @@ Seguí leyendo:
 
 Una pareja de mujeres y el deseo cumplido de ser mamá y mamá: ""Es el resultado de vivir en libertad""
 
-\n",0,0,0,0,0,0,0,0,0,0,nada,lgbti
+\n",0,0,0,0,0,0,0,0,0,0,nada,lgbti,"El texto indica que no debería ser noticia el hecho de que una persona sea lesbiana. No se mencionan características protegidas ni se hace ningún comentario discriminatorio. La respuesta final es ""nada""."
 386204,"""Fílmame, india horrible"": así se refirió una pareja argentina a vecina de la Condesa por la poda de árboles",@usuario Pero señora usted se vio al espejo para e una mapuche falopera,"“Fílmame, india horrible”: así se refirió una pareja argentina a vecina de Ciudad de México por la poda de árboles https://t.co/K9sFAt2HKM",1,"Las fuertes lluvias y la inseguridad que se vive en la Ciudad de México han provocado que los vecinos de la colonia Hipódromo Condesa soliciten a las autoridades capitalinas la poda de algunos árboles, con el fin de evitar accidentes y se mejore la visibilidad ante actos delictivos.
 
 Sin embargo, esta decisión ha provocado desacuerdo entre los residentes de la zona; incluso, llegando a agresiones e insultos racistas y discriminatorios.
@@ -3603,7 +3603,7 @@ Sheinbaum reportó ""ligero incremento"" de hospitalizaciones por COVID-19 en la
 
 La yucca de Baja California : el nuevo objetivo de los traficantes para ganar millones
 
-""Llegamos para quedarnos"": las dramáticas historias de las mujeres que tomaron la CNDH ante la falta de empatía ""al dolor ajeno""",0,0,0,1,0,0,1,0,0,2,"RACISM, DISABLED","mujer, racismo, aspecto"
+""Llegamos para quedarnos"": las dramáticas historias de las mujeres que tomaron la CNDH ante la falta de empatía ""al dolor ajeno""",0,0,0,1,0,0,1,0,0,2,"RACISM, DISABLED","mujer, racismo, aspecto","El texto utiliza un término despectivo y discriminatorio al referirse a una persona de origen indígena y también menciona su supuesto consumo de drogas. La respuesta final es ""racismo, aspecto""."
 379284,"Alberto Fernández: ""Las mujeres mueven el mundo, pero algunos hombres las ayudamos a hacerlo""",@usuario Las mujeres rompen los huevos.,"Alberto Fernández: ""Las mujeres mueven el mundo, pero algunos hombres las ayudamos a hacerlo"" https://t.co/IwCw2rv5z6 https://t.co/29vnBw04Sv",1,"Alberto Fernández durante su discurso desde el CCK junto a la ministra de Género y Diversidad Crédito: Captura
 
 Comentar Me gusta Me gusta Compartir E-mail Twitter Facebook WhatsApp Guardar 4 de marzo de 2020  17:08
@@ -3630,4 +3630,4 @@ Y agregó: ""En verdad, yo me atribuyo poco mérito. Solo el de haber leído lo 
 
 ""Esto no empezó conmigo. Ahí está Vilma (Ibarra) , fue mi gran profesora. Me educó en todo esto. Fue una de las autoras del matrimonio igualitario. Luego vino la ley de Identidad de Género. Leyes que fueron cambiando la realidad de la mujer y otras que comenzamos a tratar el domingo y se seguirán tratando el resto del año. Para ampliar derechos y rompan las desigualdades que las mujeres hoy padecen"", explicó el presidente ante los aplausos del auditorio.
 
-Y agregó: ""Hoy estamos celebrando que en democracia un colectivo de mujeres se puso de pie y muchos las estamos acompañando. Las mujeres mueven el mundo, pero algunos hombres las ayudamos a hacerlo. En Argentina, las Madres y las Abuelas nos enseñaron la dignidad que otros no tuvieron en los años de la dictadura"".",0,1,0,0,0,0,0,0,0,1,WOMEN,"mujer, aspecto"
+Y agregó: ""Hoy estamos celebrando que en democracia un colectivo de mujeres se puso de pie y muchos las estamos acompañando. Las mujeres mueven el mundo, pero algunos hombres las ayudamos a hacerlo. En Argentina, las Madres y las Abuelas nos enseñaron la dignidad que otros no tuvieron en los años de la dictadura"".",0,1,0,0,0,0,0,0,0,1,WOMEN,"mujer, aspecto","El texto hace un comentario generalizado y despectivo hacia las mujeres. La respuesta final es ""mujer""."
