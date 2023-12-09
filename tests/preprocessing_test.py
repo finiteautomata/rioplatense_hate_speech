@@ -68,3 +68,27 @@ def test_many_labels():
     expected_row["RACISM"] = 1
 
     assert text_to_label(text) == expected_row
+
+
+def test_it_is_case_insensitive():
+    text = 'Esto es blablablablabla, dice algo de las mujeres. La respuesta final es "CLASE, lgbti, RACISMO".'
+
+    expected_row = {l: 0 for l in labels}
+
+    expected_row["CLASS"] = 1
+    expected_row["LGBTI"] = 1
+    expected_row["RACISM"] = 1
+
+    assert text_to_label(text) == expected_row
+
+
+def test_it_is_tilde_insensitive():
+    text = 'Esto es blablablablabla, dice algo de las mujeres. La respuesta final es "CLÁSE, politica, RACÍSMO".'
+
+    expected_row = {l: 0 for l in labels}
+
+    expected_row["CLASS"] = 1
+    expected_row["POLITICS"] = 1
+    expected_row["RACISM"] = 1
+
+    assert text_to_label(text) == expected_row

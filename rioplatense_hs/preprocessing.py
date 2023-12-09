@@ -9,17 +9,6 @@ labels = [
     "CRIMINAL",
 ]
 
-translations = {
-    "WOMEN": "mujer",
-    "LGBTI": "lgbti",
-    "RACISM": "racismo",
-    "CLASS": "clase",
-    "POLITICS": "política",
-    "DISABLED": "discapacidad",
-    "APPEARANCE": "apariencia",
-    "CRIMINAL": "criminal",
-}
-
 accent_replacements = {
     "á": "a",
     "é": "e",
@@ -39,6 +28,21 @@ def remove_accents(text):
     text = "".join(text)
 
     return text
+
+
+translations = {
+    "WOMEN": "mujer",
+    "LGBTI": "lgbti",
+    "RACISM": "racismo",
+    "CLASS": "clase",
+    "POLITICS": "política",
+    "DISABLED": "discapacidad",
+    "APPEARANCE": "apariencia",
+    "CRIMINAL": "criminal",
+}
+
+
+inv_translations = {remove_accents(v): k for k, v in translations.items()}
 
 
 def label_to_text(row):
@@ -77,15 +81,17 @@ def text_to_label(text):
 
     # If "la respuesta final" in text => check after that
     # Else, check everywhere
+    lower_text = text.lower()
 
-    if "la respuesta final" in text.lower():
-        index = text.lower().index("la respuesta final")
-        text = text[index:]
+    if "la respuesta final" in lower_text:
+        index = lower_text.index("la respuesta final")
+        lower_text = lower_text[index:]
 
-    text = text.lower()
+    lower_text = remove_accents(lower_text)
 
     row = {l: 0 for l in labels}
-    for label in labels:
-        if translations[label] in text:
-            row[label] = 1
+
+    for k, v in inv_translations.items():
+        if k in lower_text:
+            row[v] = 1
     return row
