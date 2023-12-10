@@ -1,3 +1,6 @@
+from pysentimiento.preprocessing import preprocess_tweet as _pysent_preprocess
+import re
+
 labels = [
     "WOMEN",
     "LGBTI",
@@ -95,3 +98,18 @@ def text_to_label(text):
         if k in lower_text:
             row[v] = 1
     return row
+
+
+url_regex = r"\burl\b"
+
+
+def preprocess_tweet(text):
+    text = _pysent_preprocess(text, preprocess_hashtags=False, demoji=False)
+    text = text.replace("@usuario", "")
+
+    text = re.sub(url_regex, "", text)
+    # Replace multiple spaces with one
+    text = " ".join(text.split())
+    text = text.replace("\n", " ")
+
+    return text
