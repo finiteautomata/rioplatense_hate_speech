@@ -40,7 +40,7 @@ translations = {
     "CLASS": "clase",
     "POLITICS": "política",
     "DISABLED": "discapacidad",
-    "APPEARANCE": "apariencia",
+    "APPEARANCE": "aspecto",
     "CRIMINAL": "criminal",
 }
 
