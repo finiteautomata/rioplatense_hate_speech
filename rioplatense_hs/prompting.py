@@ -2,21 +2,21 @@ from .preprocessing import preprocess_tweet
 from .openai import get_completion
 from pysentimiento.preprocessing import preprocess_tweet as _pysent_preprocess
 
+
 # Agregar Chain of thought
 # Agregar que es español rioplatense
-instruction = f"""Determinar si el siguiente mensaje contiene discurso discriminatorio o no. Entendemos que hay discurso discriminatorio en el tweet si tiene declaraciones de carácter intenso e irracional de rechazo, enemistad y aborrecimiento contra un individuo o contra un grupo, siendo estos objetivos de estas expresiones por poseer una característica protegida. Las características protegidas que contemplamos son:
+instruction = f"""Determinar si el siguiente mensaje contiene discurso discriminatorio. Entendemos que hay discurso discriminatorio en un texto si tiene carácter intenso e irracional de rechazo, enemistad y aborrecimiento contra un individuo o contra un grupo protegido por poseer una o más de las siguientes características:
 
-- mujer: Mujeres
+- mujer: Mujeres o movimiento feminista
 - lgbti: Género, identidad sexual
 - racismo: Inmigrantes, extranjeros, religión, pueblos aborígenes u otras nacionalidades
 - clase: Clase, situación socioeconómica o barrio de residencia
-- discapacidad: Discapacidades, problemas de salud mental o de adicción al alcohol, drogas u otros estupefacientes
-- política: Opinión o ideología política. Criticar al gobierno no cuenta como discurso discriminatorio
+- discapacidad: Discapacidades, problemas de salud mental o de adicción al alcohol u otras drogas
+- política: Opinión o ideología política.
 - aspecto: Aspecto, gordofobia o edad
 - criminal: Antecedentes penales o estar privado de la libertad
 
-En contexto tendremos un titular de una noticia y en texto el comentario a analizar. Responder una o varias de las características separadas por coma, o bien "nada" si no hay discurso discriminatorio. Pensá paso a paso la respuesta.
-"""
+Responder una o varias de las características separadas por coma, o bien "nada" si no hay discurso discriminatorio. Pensá paso a paso la respuesta antes de responder."""
 
 
 examples = [
@@ -28,12 +28,17 @@ examples = [
     {
         "contexto": "Violento motín en la cárcel de Devoto: tomaron e incendiaron pabellones",
         "texto": "Hermanito lo que son esos grones. Ahí adentro le robaron la billetera al coronavirus",
-        "salida": 'La palabra "grones" significa negros, lo cual alude a su color de piel y aspecto. Además, se refiere a su condición de criminales. La respuesta final es "criminal, racismo, aspecto"',
+        "salida": 'La palabra "grones" significa negros, lo cual alude a su color de piel y aspecto. Además, se refiere a su condición de presos. La respuesta final es "criminal, racismo, aspecto"',
     },
     {
         "contexto": 'Mayra Mendoza criticó el banderazo contra el Gobierno: "No tiene sentido y es antidemocrático"',
         "texto": "Que negrita villera....ni con la plata q roba puede arreglarse",
-        "salida": 'El texto alude a su color de piel, a su condición social, y a su aspecto. La respuesta final es "mujer, racismo, aspecto, clase"',
+        "salida": 'El texto alude a su color de piel, a su condición social (villera), y a su aspecto. La respuesta final es "racismo, aspecto, clase"',
+    },
+    {
+        "contexto": "Les darán DNI provisorio a personas en situación vulnerable, para que puedan empezar a cobrar planes sociales",
+        "texto": "Seguimos alimentando vagos",
+        "salida": 'El comentario se refiere a quienes cobran planes sociales como vagos. La respuesta final es "clase"',
     },
     {
         "contexto": "No da tregua: sin ropa y desafiante Flor Peña volvió a mostrar su lado más hot",
@@ -47,12 +52,32 @@ examples = [
     },
     {
         "contexto": "Otro ataque de furia contra un colectivero: una mujer trans le pateó la unidad y le tiró un ladrillazo",
-        "texto": "@usuario Un tipo operado. Con la fuerza de un hombre y no la de una mujer",
+        "texto": "Un tipo operado. Con la fuerza de un hombre y no la de una mujer",
         "salida": 'El texto alude a que la mujer trans es un hombre. La respuesta final es "lgbti"',
+    },
+    {
+        "contexto": 'Elisa Carrió denunció que el Gobierno usa la pandemia para "establecer un estado de sitio"',
+        "texto": "Gorda psiquiátrica",
+        "salida": 'El texto alude a su aspecto (gorda) y la acusa de tener problemas psiquiátricos. La respuesta final es "aspecto, discapacidad"',
+    },
+    {
+        "contexto": "'País de maricas': ¿Por qué Jair Bolsonaro vuelve a atacar a los homosexuales en Brasil?",
+        "texto": 'El discurso de bolsonaro donde dice "maricas" es brillante, sólo eso basta para meresca ser el presidente de Sudamérica. Clarín es una cueva de zurdos y progresistas que se pintan los labios punto. Clarín suavecito, te pasas de marica!',
+        "salida": 'El texto alude a la homosexualidad como algo negativo, a la vez que acusa de ser "zurdos y progresistas" a quienes no están de acuerdo con el discurso de Bolsonaro. La respuesta final es "lgbti, política"',
+    },
+    {
+        "contexto": "Los dos presos heridos de bala en el motín de Devoto tienen Covid-19 y uno quedó hemipléjico",
+        "texto": "justicia divina!",
+        "salida": "El texto alude a que los presos merecen ser baleados. La respuesta final es 'criminal'",
+    },
+    {
+        "contexto": 'Ginés González García: "Le tengo mucho miedo al verano, el riesgo va a seguir"',
+        "texto": "A este viejo le quedan 2 neuronas 1 para comer 2 para cagar",
+        "salida": 'El texto alude a su edad, aduciendo que no tiene capacidades mentales acordes. La respuesta final es "aspecto"',
     },
 ]
 
-separator = "---"
+separator = "###"
 
 # Join with ##
 
@@ -61,7 +86,7 @@ template_prompt = (
     + f"\n{separator}\n"
     + f"\n{separator}\n".join(
         [
-            f"contexto: {example['contexto']}\ntexto: {example['texto']}\nsalida: "
+            f"contexto: {example['contexto']}\ntexto: {example['texto']}\nsalida: {example['salida']} "
             for example in examples
         ]
     )
@@ -93,4 +118,4 @@ def get_response(contexto, texto, model="gpt-3.5-turbo"):
     response = get_completion(prompt, model=model)
     text = response.choices[0].message.content
 
-    return text
+    return prompt, text
