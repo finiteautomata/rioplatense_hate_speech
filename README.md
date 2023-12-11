@@ -30,3 +30,10 @@ cp config/config.ini.template config/config.ini
 ```
 
 y cambiar en `config/config.ini` el valor de `OPENAI.API_KEY` por la API key de OpenAI
+
+## Predicción
+
+```bash
+python predict_dataframe.py --input <input_csv> --output <output_csv>
+# Opcional: --model_name <model_name>
+```

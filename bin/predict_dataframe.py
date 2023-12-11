@@ -11,8 +11,9 @@ async def predict_row(idx, context, text, model_name="gpt-3.5-turbo"):
     try:
         prompt = build_prompt(context, text)
         response = await async_get_completion(prompt, model=model_name)
-        return (idx, prompt, response)
 
+        text = response.choices[0].message.content
+        return (idx, prompt, text)
     # If rate limit is reached, wait 5 seconds and retry
     except Exception as e:
         print(f"Error: {e} -- {type(e)}")
