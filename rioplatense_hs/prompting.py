@@ -5,7 +5,7 @@ from pysentimiento.preprocessing import preprocess_tweet as _pysent_preprocess
 
 # Agregar Chain of thought
 # Agregar que es español rioplatense
-instruction = f"""Determinar si el siguiente mensaje contiene discurso discriminatorio. Entendemos que hay discurso discriminatorio en un texto si tiene carácter intenso e irracional de rechazo, enemistad y aborrecimiento contra un individuo o contra un grupo protegido por poseer una o más de las siguientes características:
+instruction = f"""Determinar si el siguiente mensaje contiene discurso discriminatorio o no. Entendemos que hay discurso discriminatorio en el tweet si tiene declaraciones de carácter intenso e irracional de rechazo, enemistad y aborrecimiento contra un individuo o contra un grupo, siendo estos objetivos de estas expresiones por poseer una característica protegida. Las características protegidas que contemplamos son:
 
 - mujer: Mujeres o movimiento feminista
 - lgbti: Género, identidad sexual
@@ -46,9 +46,9 @@ examples = [
         "salida": 'El texto alude a su aspecto (las varices) y la desprecia por "trola". La respuesta final es "mujer, aspecto"',
     },
     {
-        "contexto": 'Wuhan celebra el fin de la cuarentena por el coronavirus con un mensaje para el resto del mundo: "Aprendan de nuestros errores"',
-        "texto": "Chinos culiados de mierda ojalá se mueran todos",
-        "salida": 'Desea que se mueran los chinos por ser los supuestos culpables del COVID-19. La respuesta final es "racismo"',
+        "contexto": 'Ginés González García: "Le tengo mucho miedo al verano, el riesgo va a seguir"',
+        "texto": "A este viejo le quedan 2 neuronas 1 para comer 2 para cagar",
+        "salida": 'El texto alude a su edad, aduciendo que no tiene capacidades mentales acordes. La respuesta final es "aspecto"',
     },
     {
         "contexto": "Otro ataque de furia contra un colectivero: una mujer trans le pateó la unidad y le tiró un ladrillazo",
@@ -71,9 +71,9 @@ examples = [
         "salida": "El texto alude a que los presos merecen ser baleados. La respuesta final es 'criminal'",
     },
     {
-        "contexto": 'Ginés González García: "Le tengo mucho miedo al verano, el riesgo va a seguir"',
-        "texto": "A este viejo le quedan 2 neuronas 1 para comer 2 para cagar",
-        "salida": 'El texto alude a su edad, aduciendo que no tiene capacidades mentales acordes. La respuesta final es "aspecto"',
+        "contexto": 'Wuhan celebra el fin de la cuarentena por el coronavirus con un mensaje para el resto del mundo: "Aprendan de nuestros errores"',
+        "texto": "Chinos culiados de mierda ojalá se mueran todos",
+        "salida": 'Desea que se mueran los chinos por ser los supuestos culpables del COVID-19. La respuesta final es "racismo"',
     },
 ]
 
