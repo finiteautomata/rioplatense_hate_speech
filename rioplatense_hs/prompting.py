@@ -41,6 +41,11 @@ examples = [
         "salida": 'El comentario se refiere a quienes cobran planes sociales como vagos. La respuesta final es "clase"',
     },
     {
+        "contexto": "Viola Davis, Halle Berry y Angela Bassett, actrices negras que superaron la discriminación en Hollywood",
+        "texto": "el titulo de por si da pena, la nación cree que el racismo es una enfermedad que los que la sufren tienen que superar, es un título discriminatorio",
+        "salida": 'El comentario critica el título del artículo por insinuar que el racismo es una enfermedad. No critica en ningún momento a las actrices. La respuesta final es "nada"',
+    },
+    {
         "contexto": "No da tregua: sin ropa y desafiante Flor Peña volvió a mostrar su lado más hot",
         "texto": "K lado hot tiene más varices k mi abuela. Tiene mas puesta de espalda k karagian trola",
         "salida": 'El texto alude a su aspecto (las varices) y la desprecia por "trola". La respuesta final es "mujer, aspecto"',
