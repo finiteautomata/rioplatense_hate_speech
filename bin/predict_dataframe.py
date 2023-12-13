@@ -65,13 +65,13 @@ def predict_dataframe(input, output, model_name="gpt-3.5-turbo"):
     # Convert pred_labels to int
     for l in pred_labels:
         df[l] = df[l].astype(int)
-        print(f"Saving to {output}")
+
+    print(f"Saving to {output}")
 
     pred_hate = df[pred_labels].sum(axis=1) > 0
 
     df["PRED_HATEFUL"] = pred_hate.astype(int)
 
-    df["ERROR"] = df["PRED_HATEFUL"] != df["hateful"]
     df.to_csv(output, index=False)
 
 
