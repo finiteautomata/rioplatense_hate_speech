@@ -1,8 +1,10 @@
 from rioplatense_hs.config import config
 from openai import OpenAI, AsyncOpenAI, RateLimitError, APITimeoutError
+import os
 import time
 
-API_KEY = config["OPENAI"]["API_KEY"]
+
+API_KEY = os.environ.get("OPENAI_API_KEY", config["OPENAI"]["API_KEY"])
 client = OpenAI(api_key=API_KEY, max_retries=3)
 async_client = AsyncOpenAI(api_key=API_KEY, max_retries=10)
 
