@@ -2,13 +2,18 @@ from tqdm.auto import tqdm
 import pandas as pd
 import fire
 import time
-from rioplatense_hs.prompting import get_response
+from rioplatense_hs.prompting import get_response, build_base_prompt
 from rioplatense_hs.preprocessing import text_to_label, labels
 
 
-def predict_row(context, text, model_name="gpt-3.5-turbo"):
+def predict_row(context, text, base_prompt, model_name="gpt-3.5-turbo"):
     try:
-        return get_response(context, text, model=model_name)
+        return get_response(
+            context,
+            text,
+            model=model_name,
+            base_prompt=base_prompt,
+        )
     # If rate limit is reached, wait 5 seconds and retry
     except Exception as e:
         print(f"Error: {e} -- {type(e)}")
@@ -16,7 +21,7 @@ def predict_row(context, text, model_name="gpt-3.5-turbo"):
         return None
 
 
-def predict(df, model_name, max_retries=5):
+def predict(df, model_name, base_prompt, max_retries=5):
     # Generate tasks
 
     ids = df.index.tolist()
@@ -30,7 +35,10 @@ def predict(df, model_name, max_retries=5):
             if outs[idx] is not None:
                 continue
             outs[idx] = predict_row(
-                row["context_tweet"], row["text"], model_name=model_name
+                row["context_tweet"],
+                row["text"],
+                model_name=model_name,
+                base_prompt=base_prompt,
             )
 
         # Get tqdm ordered results
@@ -40,16 +48,33 @@ def predict(df, model_name, max_retries=5):
     return outs
 
 
-def predict_dataframe(input, output, model_name="gpt-3.5-turbo"):
-    print(f"Predicting {input}")
+def predict_dataframe(
+    input,
+    output,
+    model_name="gpt-3.5-turbo",
+    num_examples=None,
+    shuffle=False,
+    limit=None,
+):
+    print(
+        f"Predicting {input} -- with num_examples={num_examples} and shuffle={shuffle}"
+    )
 
+    # Build base prompt
+
+    base_prompt = build_base_prompt(num_examples=num_examples, shuffle=shuffle)
+
+    print("=" * 80)
+    print(f"Example prompt:\n{base_prompt}")
     df = pd.read_csv(input)
 
+    if limit is not None:
+        df = df.iloc[:limit]
     assert "context_tweet" in df.columns and "text" in df.columns
 
     # Start asyncio with predict
 
-    outs = predict(df, model_name=model_name)
+    outs = predict(df, model_name=model_name, base_prompt=base_prompt)
 
     df["prompt"] = df.index.map(lambda x: outs[x][0])
     df["pred_cot"] = df.index.map(lambda x: outs[x][1])

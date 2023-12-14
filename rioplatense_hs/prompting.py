@@ -1,7 +1,7 @@
+import random
 from .preprocessing import preprocess_tweet
 from .openai import get_completion
 from pysentimiento.preprocessing import preprocess_tweet as _pysent_preprocess
-
 
 # Agregar Chain of thought
 # Agregar que es español rioplatense
@@ -20,6 +20,11 @@ Responder una o varias de las características separadas por coma, o bien "nada"
 
 
 examples = [
+    {
+        "contexto": 'Wuhan celebra el fin de la cuarentena por el coronavirus con un mensaje para el resto del mundo: "Aprendan de nuestros errores"',
+        "texto": "Chinos culiados de mierda ojalá se mueran todos",
+        "salida": 'Desea que se mueran los chinos por ser los supuestos culpables del COVID-19. La respuesta final es "racismo"',
+    },
     {
         "contexto": "Al borde del llanto, Nati Jota pidió disculpas por sus repudiables tuits pero los justificó: 'Quería sumar seguidores'",
         "texto": "Show o nada mi amorrr!! Sos una imbesil!",
@@ -96,32 +101,45 @@ examples = [
         "contexto": "Los dos presos heridos de bala en el motín de Devoto tienen Covid-19 y uno quedó hemipléjico",
         "texto": "justicia divina!",
         "salida": "El texto alude a que los presos merecen ser baleados. La respuesta final es 'criminal'",
-        
-    },
-    {
-        "contexto": 'Wuhan celebra el fin de la cuarentena por el coronavirus con un mensaje para el resto del mundo: "Aprendan de nuestros errores"',
-        "texto": "Chinos culiados de mierda ojalá se mueran todos",
-        "salida": 'Desea que se mueran los chinos por ser los supuestos culpables del COVID-19. La respuesta final es "racismo"',
     },
 ]
 
 separator = "###"
 
-# Join with ##
 
-template_prompt = (
-    instruction
-    + f"\n{separator}\n"
-    + f"\n{separator}\n".join(
-        [
-            f"contexto: {example['contexto']}\ntexto: {example['texto']}\nsalida: {example['salida']} "
-            for example in examples
-        ]
+def build_base_prompt(num_examples=None, shuffle=False, seed=42):
+    if num_examples is None:
+        num_examples = len(examples)
+
+    if shuffle:
+        random.seed(seed)
+        used_examples = random.sample(examples, num_examples)
+    else:
+        used_examples = examples[:num_examples]
+
+    template_prompt = (
+        instruction
+        + f"\n{separator}\n"
+        + f"\n{separator}\n".join(
+            [
+                f"contexto: {example['contexto']}\ntexto: {example['texto']}\nsalida: {example['salida']} "
+                for example in used_examples
+            ]
+        )
     )
-)
+
+    return template_prompt
 
 
-def build_prompt(contexto, texto):
+def build_prompt(contexto, texto, base_prompt):
+    """
+    Builds prompt for OpenAI API
+
+    Args:
+        contexto (str): Context tweet
+        texto (str): Text to predict
+        base_prompt (str): Base prompt to use
+    """
     contexto = _pysent_preprocess(
         contexto,
         preprocess_hashtags=False,
@@ -130,19 +148,23 @@ def build_prompt(contexto, texto):
     )
     texto = preprocess_tweet(texto)
     prompt = (
-        template_prompt
-        + f"\n{separator}\ncontexto: {contexto}\ntexto: {texto}\nsalida: "
+        base_prompt + f"\n{separator}\ncontexto: {contexto}\ntexto: {texto}\nsalida: "
     )
 
     return prompt
 
 
-def get_response(contexto, texto, model="gpt-3.5-turbo"):
+def get_response(
+    contexto,
+    texto,
+    base_prompt,
+    model="gpt-3.5-turbo",
+):
     """
     Get output from OpenAI API
 
     """
-    prompt = build_prompt(contexto, texto)
+    prompt = build_prompt(contexto, texto, base_prompt=base_prompt)
     response = get_completion(prompt, model=model)
     text = response.choices[0].message.content
 
