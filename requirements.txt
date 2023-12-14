@@ -6,4 +6,5 @@ pytest==7.4.3
 tiktoken==0.5.2
 scikit-learn==0.24.2
 fire==0.5.0
-krippendorff==0.6.1
+krippendorff==0.6.0
+pandas==2.0.3
