@@ -9,7 +9,7 @@ client = OpenAI(api_key=API_KEY, max_retries=3)
 async_client = AsyncOpenAI(api_key=API_KEY, max_retries=10)
 
 
-def get_completion(prompt, model="gpt-3.5-turbo"):
+def get_completion(prompt, model="gpt-3.5-turbo-0125"):
     return client.chat.completions.create(
         messages=[{"role": "user", "content": prompt}], model=model
     )

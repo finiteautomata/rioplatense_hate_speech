@@ -154,11 +154,14 @@ def build_prompt(contexto, texto, base_prompt):
     return prompt
 
 
+# Nota JM: Actualizo versión de modelo a gpt-3.5-turbo-0125
+# Ver https://openai.com/blog/new-embedding-models-and-api-updates
+# De todas formas, en una semana cambia el default... (hoy es 07/02/2024)
 def get_response(
     contexto,
     texto,
     base_prompt,
-    model="gpt-3.5-turbo",
+    model="gpt-3.5-turbo-0125",
 ):
     """
     Get output from OpenAI API
