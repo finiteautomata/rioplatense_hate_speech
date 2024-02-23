@@ -48,3 +48,10 @@ Como resultado para las distintas predicciones tenemos
 - `data/test_0k_beto.csv`: Predicciones con BETO
 - `data/test_0k_pred_12shot.csv`: Predicciones con ChatGPT + CoT 12 shot
 - `data/test_0k_pred_1shot.csv`: Predicciones con ChatGPT + CoT 1 shot
+
+Hay otros archivos con diferentes prompts que utilizamos
+
+- `data/sample_dev_df.csv`
+- `data/sample_dev_df_13_shot.csv`
+- `data/sample_dev_df_14_shot.csv`
+- `data/sample_dev_df_14_shot_tercera_posicion.csv`: acá agregamos un "no queda claro
