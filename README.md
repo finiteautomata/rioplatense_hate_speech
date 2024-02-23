@@ -37,3 +37,14 @@ y cambiar en `config/config.ini` el valor de `OPENAI.API_KEY` por la API key de 
 python predict_dataframe.py --input <input_csv> --output <output_csv>
 # Opcional: --model_name <model_name>
 ```
+
+## Nota sobre datasets
+
+Hay un script que se llama `bin/split_dataset.py` que se encarga de partir un split en varios pedacitos más chiquitos. Esto es para poder usar varias claves de OpenAI en simultáneo y no esperar tanto tiempo.
+
+Como resultado para las distintas predicciones tenemos
+
+- `data/test_0k.csv`: Split k-ésimo del dataset de test sin ninguna predicción
+- `data/test_0k_beto.csv`: Predicciones con BETO
+- `data/test_0k_pred_12shot.csv`: Predicciones con ChatGPT + CoT 12 shot
+- `data/test_0k_pred_1shot.csv`: Predicciones con ChatGPT + CoT 1 shot
