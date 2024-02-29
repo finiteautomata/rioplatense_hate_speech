@@ -89,6 +89,9 @@ def text_to_label(text):
     if "la respuesta final" in lower_text:
         index = lower_text.index("la respuesta final")
         lower_text = lower_text[index:]
+        # Split at next .
+
+        lower_text = lower_text.split(".")[0]
 
     lower_text = remove_accents(lower_text)
 

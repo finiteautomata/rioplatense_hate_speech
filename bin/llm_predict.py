@@ -5,58 +5,12 @@ import torch
 from torch.utils.data import DataLoader
 from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig
 from pysentimiento.preprocessing import preprocess_tweet as pysent_preprocess
-from rioplatense_hs.preprocessing import preprocess_tweet
+from rioplatense_hs.preprocessing import preprocess_tweet, text_to_label, labels
+from rioplatense_hs.mixtral import get_prompt
 from datasets import Dataset
 
-template_prompt = """[INST] Determinar si el siguiente mensaje contiene discurso de odio.
 
-Entendemos que hay discurso de odio en el tweet si tiene declaraciones de carácter intenso e irracional de rechazo, enemistad y aborrecimiento contra un individuo o contra un grupo, siendo objetivos de estas expresiones por poseer una característica protegida. Las características protegidas que contemplamos son:
 
-- mujer: mujeres o movimiento feminista
-- lgbti: contra gays, lesbianas, transexuales y otras identidades de género
-- racismo: inmigrantes, xenofobia, o contra pueblos aborígenes
-- clase: personas de bajos recursos o motivos de clase
-- discapacidad: discapacidad, problemas de salud mental o de adicción al alcohol u otras drogas
-- política: ideología política
-- aspecto: aspecto, gordofobia o edad
-- criminal: presos o delincuentes comunes
-
-Responder una o varias de las características separadas por coma, o bien "nada" si no hay discurso de odio. Pensar paso a paso la respuesta antes de responder.
-[/INST]
-
-contexto: Al borde del llanto, Nati Jota pidió disculpas por sus repudiables tuits pero los justificó: 'Quería sumar seguidores'
-texto: Show o nada mi amorrr!! Sos una imbesil!
-salida: Es un insulto y no menciona nada relacionado a las características protegidas. La respuesta final es 'nada'.
----
-contexto: Violento motín en la cárcel de Devoto: tomaron e incendiaron pabellones
-texto: Hermanito lo que son esos grones. Ahí adentro le robaron la billetera al coronavirus
-salida: La palabra "grones" significa negros, lo cual alude a su color de piel y aspecto. Además, se refiere a su condición de presos. La respuesta final es "criminal, racismo, aspecto".
----
-contexto: Mayra Mendoza criticó el banderazo contra el Gobierno: "No tiene sentido y es antidemocrático"
-texto: Que negrita villera....ni con la plata q roba puede arreglarse
-salida: El texto alude a su color de piel, a su condición social (villera), y a su aspecto. La respuesta final es "racismo, aspecto, clase".
----
-contexto: Les darán DNI provisorio a personas en situación vulnerable, para que puedan empezar a cobrar planes sociales
-texto: Seguimos alimentando vagos
-salida: El comentario se refiere a quienes cobran planes sociales como vagos. La respuesta final es "clase".
----
-contexto: Otro ataque de furia contra un colectivero: una mujer trans le pateó la unidad y le tiró un ladrillazo
-texto: Un tipo operado. Con la fuerza de un hombre y no la de una mujer
-salida: El texto alude a que la mujer trans es un hombre. La respuesta final es "lgbti".
----
-contexto: Elisa Carrió denunció que el Gobierno usa la pandemia para "establecer un estado de sitio"
-texto: Gorda psiquiátrica
-salida: El texto alude a su aspecto (gorda) y la acusa de tener problemas psiquiátricos. La respuesta final es "aspecto, discapacidad".
----
-contexto: Los dos presos heridos de bala en el motín de Devoto tienen Covid-19 y uno quedó hemipléjico
-texto: justicia divina!
-salida: El texto alude a que los presos merecen ser baleados. La respuesta final es 'criminal'.
-</s>
-[INST]
-contexto: {contexto}
-texto: {texto}
-[/INST]
-"""
 
 def llm_predict(
     input,
@@ -64,6 +18,8 @@ def llm_predict(
     model_name="mistralai/Mixtral-8x7B-Instruct-v0.1",
     batch_size=8,
     max_new_tokens=150,
+    do_sample=False,
+    top_p=0.95,
 ):
 
     tokenizer = AutoTokenizer.from_pretrained(model_name)
@@ -94,8 +50,8 @@ def llm_predict(
             demoji=False,
             preprocess_handles=False,
         )
-        model_input = template_prompt.format(
-            contexto=contexto, texto=texto
+        model_input = get_prompt(
+            context=contexto, text=texto
         )
         return tokenizer(model_input, truncation=True)
 
@@ -127,7 +83,8 @@ def llm_predict(
         inputs = {k: v.to("cuda") for k, v in inputs.items()}
         output = model.generate(
             **inputs,
-            max_new_tokens=max_new_tokens, pad_token_id=tokenizer.eos_token_id
+            max_new_tokens=max_new_tokens, pad_token_id=tokenizer.eos_token_id,
+            do_sample=do_sample, top_p=top_p
         )
 
         for k, id in enumerate(ids):
@@ -139,11 +96,29 @@ def llm_predict(
 
     df["prompt"] = df.index.map(outs)
 
-    df["salida"] = df["prompt"].apply(
+    df["pred_cot"] = df["prompt"].apply(
         lambda x: x.split("[/INST]")[-1].strip().replace("\n", ""))
-    df.to_csv(output_path)
+
+    pred_labels = [f"PRED_{l}" for l in labels]
+
+    for idx, value in df["pred_cot"].items():
+        preds = text_to_label(value)
+
+        for k, v in preds.items():
+            df.loc[idx, f"PRED_{k}"] = int(v)
+
+
+    # Convert pred_labels to int
+    for l in pred_labels:
+        df[l] = df[l].astype(int)
+
+    pred_hate = df[pred_labels].sum(axis=1) > 0
+
+    df["PRED_HATEFUL"] = pred_hate.astype(int)
+    df["error"] = df["PRED_HATEFUL"] != df["HATEFUL"]
 
     print(f"Predictions saved to {output_path} -- len {len(df)}")
+    df.to_csv(output_path)
 
 
 
