@@ -38,6 +38,18 @@ python predict_dataframe.py --input <input_csv> --output <output_csv>
 # Opcional: --model_name <model_name>
 ```
 
+## VLLM
+
+Experimental
+
+Nota: no pude hacerlo andar porque no tiene 8 bit
+
+Para hacer que `cupy` funcione...
+```bash
+pip install cupy-cuda12x==12.1
+python -m cupyx.tools.install_library --library nccl --cuda 12.x
+```
+
 ## Nota sobre datasets
 
 Hay un script que se llama `bin/split_dataset.py` que se encarga de partir un split en varios pedacitos más chiquitos. Esto es para poder usar varias claves de OpenAI en simultáneo y no esperar tanto tiempo.
