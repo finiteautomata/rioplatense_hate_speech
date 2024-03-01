@@ -9,6 +9,15 @@ from rioplatense_hs.preprocessing import preprocess_tweet, text_to_label, labels
 from rioplatense_hs.mixtral import get_prompt
 from datasets import Dataset
 
+from auto_gptq import exllama_set_max_input_length
+import logging
+
+#logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
+logger.setLevel(logging.INFO)
+# Set console output
+logger.addHandler(logging.StreamHandler())
+
 
 
 
@@ -19,20 +28,33 @@ def llm_predict(
     batch_size=8,
     max_new_tokens=150,
     do_sample=False,
+    quantize=False,
+    load_in_4bit=False,
+    load_in_8bit=False,
     top_p=0.95,
 ):
-
+    logger.info(f"Predicting with model {model_name}")
     tokenizer = AutoTokenizer.from_pretrained(model_name)
 
-    quantization_config = BitsAndBytesConfig(
-        load_in_4bit=True,
-        bnb_4bit_compute_dtype=torch.float16,
-    )
+    model_args = {
+        "device_map": "auto",
+    }
+
+    if quantize:
+        model_args["quantization_config"] = BitsAndBytesConfig(
+            load_in_4bit=load_in_4bit,
+            load_in_8bit=load_in_8bit,
+            bnb_4bit_compute_dtype=torch.float16,
+        )
+
     model = AutoModelForCausalLM.from_pretrained(
         model_name,
-        quantization_config=quantization_config,
-        device_map="auto",
+        **model_args,
     )
+    try:
+        model = exllama_set_max_input_length(model, 8192)
+    except:
+        logger.info("Model does not support exllama_set_max_input_length")
     df = pd.read_csv(input, index_col=0)
     tokenizer.model_max_length = 6400
     tokenizer.pad_token_id = tokenizer.eos_token_id

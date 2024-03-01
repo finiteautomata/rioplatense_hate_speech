@@ -23,6 +23,12 @@ pip install -r requirements.txt
 pip install -e .
 ```
 
+Si estamos en entorno AMD RocM
+
+```bash
+pip install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/rocm5.7
+```
+
 3. Agregar API key de OpenAI
 
 ```bash
