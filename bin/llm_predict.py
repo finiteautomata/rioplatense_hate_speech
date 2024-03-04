@@ -1,7 +1,9 @@
 import fire
-from tqdm.auto import tqdm
+import logging
 import pandas as pd
 import torch
+import os
+from tqdm.auto import tqdm
 from torch.utils.data import DataLoader
 from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig
 from pysentimiento.preprocessing import preprocess_tweet as pysent_preprocess
@@ -9,12 +11,11 @@ from rioplatense_hs.preprocessing import preprocess_tweet, text_to_label, labels
 from rioplatense_hs.mixtral import get_prompt
 from datasets import Dataset
 
-from auto_gptq import exllama_set_max_input_length
-import logging
+os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
 #logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
-logger.setLevel(logging.INFO)
+logger.setLevel(logging.DEBUG)
 # Set console output
 logger.addHandler(logging.StreamHandler())
 
@@ -26,18 +27,18 @@ def llm_predict(
     output_path,
     model_name="mistralai/Mixtral-8x7B-Instruct-v0.1",
     batch_size=8,
-    max_new_tokens=150,
+    max_new_tokens=512,
     do_sample=False,
     quantize=False,
     load_in_4bit=False,
     load_in_8bit=False,
+    revision=None,
     top_p=0.95,
 ):
-    logger.info(f"Predicting with model {model_name}")
     tokenizer = AutoTokenizer.from_pretrained(model_name)
 
     model_args = {
-        "device_map": "auto",
+        "device_map": "cuda",
     }
 
     if quantize:
@@ -47,14 +48,25 @@ def llm_predict(
             bnb_4bit_compute_dtype=torch.float16,
         )
 
+    logger.info(f"Predicting with model {model_name}")
+    if revision:
+        logger.info(f"Using revision {revision}")
+        model_args["revision"] = revision
+
+
     model = AutoModelForCausalLM.from_pretrained(
         model_name,
         **model_args,
     )
-    try:
-        model = exllama_set_max_input_length(model, 8192)
-    except:
-        logger.info("Model does not support exllama_set_max_input_length")
+
+    model.eval()
+
+    if "gptq" in model_name.lower():
+        try:
+            from auto_gptq import exllama_set_max_input_length
+            model = exllama_set_max_input_length(model, 4096 * 16)
+        except:
+            logger.info("Model does not support exllama_set_max_input_length")
     df = pd.read_csv(input, index_col=0)
     tokenizer.model_max_length = 6400
     tokenizer.pad_token_id = tokenizer.eos_token_id
@@ -90,6 +102,9 @@ def llm_predict(
         ids = [ex["id"] for ex in inputs]
         return ids, tokenizer.pad({"input_ids": input_ids, "attention_mask": attention}, return_tensors="pt")
 
+    # print max length
+
+    logger.info(f"Max length: {max(tokenized_ds['len'])}")
 
     dataloader = DataLoader(
         sorted_tokenized_ds,
@@ -101,18 +116,20 @@ def llm_predict(
     )
 
     outs = {}
-    for ids, inputs in tqdm(dataloader):
-        inputs = {k: v.to("cuda") for k, v in inputs.items()}
-        output = model.generate(
-            **inputs,
-            max_new_tokens=max_new_tokens, pad_token_id=tokenizer.eos_token_id,
-            do_sample=do_sample, top_p=top_p
-        )
+    with torch.no_grad():
+        for ids, inputs in tqdm(dataloader):
+            inputs = {k: v.to("cuda") for k, v in inputs.items()}
+            output = model.generate(
+                **inputs,
+                max_new_tokens=max_new_tokens, pad_token_id=tokenizer.eos_token_id,
+                do_sample=do_sample, top_p=top_p
+            )
 
-        for k, id in enumerate(ids):
-            output_text = tokenizer.decode(output[k], skip_special_tokens=True)
+            for k, id in enumerate(ids):
+                output_text = tokenizer.decode(output[k], skip_special_tokens=True)
+                logger.debug(output_text)
 
-            outs[id] = output_text
+                outs[id] = output_text
 
     assert len(outs) == len(df)
 

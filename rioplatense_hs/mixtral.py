@@ -17,7 +17,7 @@ Entendemos que hay discurso de odio en el tweet si tiene declaraciones de carác
 - aspecto: aspecto, gordofobia o edad
 - criminal: presos o delincuentes comunes
 
-Responder una o varias de las características separadas por coma, o bien "nada" si no hay discurso de odio. Pensar paso a paso la respuesta antes de responder. Finalizar la explicación con "La respuesta final es" seguido de la o las características que se hayan identificado."""
+Responder una o varias de las características separadas por coma, o bien "nada" si no hay discurso de odio. Pensar paso a paso la respuesta antes de responder. Finalizar la explicación con "La respuesta final es" seguido de la o las características que se hayan identificado. No agregar ninguna característica que no aparezca en las listadas. """
 
 second_instruction = """Determinar si el siguiente mensaje contiene discurso de odio."""
 
