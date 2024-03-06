@@ -1,6 +1,5 @@
 import random
 from .preprocessing import preprocess_tweet
-from .openai import get_completion
 from pysentimiento.preprocessing import preprocess_tweet as _pysent_preprocess
 
 # Agregar Chain of thought
@@ -131,7 +130,7 @@ def build_base_prompt(num_examples=None, shuffle=False, seed=42):
     return template_prompt
 
 
-def build_prompt(contexto, texto, base_prompt):
+def build_prompt(contexto, texto, base_prompt=None, **kwargs):
     """
     Builds prompt for OpenAI API
 
@@ -140,6 +139,10 @@ def build_prompt(contexto, texto, base_prompt):
         texto (str): Text to predict
         base_prompt (str): Base prompt to use
     """
+
+    if base_prompt is None:
+        base_prompt = build_base_prompt(**kwargs)
+
     contexto = _pysent_preprocess(
         contexto,
         preprocess_hashtags=False,
@@ -167,6 +170,9 @@ def get_response(
     Get output from OpenAI API
 
     """
+    # TODO: move this elsewhere!
+    from .openai import get_completion
+
     prompt = build_prompt(contexto, texto, base_prompt=base_prompt)
     response = get_completion(prompt, model=model)
     text = response.choices[0].message.content

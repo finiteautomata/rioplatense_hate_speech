@@ -5,10 +5,11 @@ import torch
 import os
 from tqdm.auto import tqdm
 from torch.utils.data import DataLoader
-from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig
+from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig, AutoModelForSeq2SeqLM
 from pysentimiento.preprocessing import preprocess_tweet as pysent_preprocess
 from rioplatense_hs.preprocessing import preprocess_tweet, text_to_label, labels
-from rioplatense_hs.mixtral import get_prompt
+from rioplatense_hs.mixtral import get_prompt as mixtral_get_prompt
+from rioplatense_hs.prompting import build_prompt
 from datasets import Dataset
 
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
@@ -34,6 +35,9 @@ def llm_predict(
     load_in_8bit=False,
     revision=None,
     top_p=0.95,
+    seq2seq=False,
+    num_examples=None,
+    fp16=True,
 ):
     tokenizer = AutoTokenizer.from_pretrained(model_name)
 
@@ -47,6 +51,8 @@ def llm_predict(
             load_in_8bit=load_in_8bit,
             bnb_4bit_compute_dtype=torch.float16,
         )
+    elif fp16:
+        model_args["torch_dtype"] = torch.float16
 
     logger.info(f"Predicting with model {model_name}")
     if revision:
@@ -54,7 +60,10 @@ def llm_predict(
         model_args["revision"] = revision
 
 
-    model = AutoModelForCausalLM.from_pretrained(
+    auto_klass = AutoModelForSeq2SeqLM if seq2seq else AutoModelForCausalLM
+
+
+    model = auto_klass.from_pretrained(
         model_name,
         **model_args,
     )
@@ -75,6 +84,14 @@ def llm_predict(
 
     test_ds = Dataset.from_pandas(df)
     #
+
+    if "mixtral" in model_name.lower():
+        get_prompt = mixtral_get_prompt
+    else:
+        get_prompt = lambda context, text: build_prompt(
+            contexto=context, texto=text, num_examples=num_examples
+        )
+
     def tokenize(example):
         texto = preprocess_tweet(example["text"])
 
