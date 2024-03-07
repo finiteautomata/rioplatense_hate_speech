@@ -4,6 +4,7 @@ import os
 import time
 
 
+# I get the API_KEY from the environment variable OPENAI_API_KEY, if it's not there, I get it from the config file
 API_KEY = os.environ.get("OPENAI_API_KEY", config["OPENAI"]["API_KEY"])
 client = OpenAI(api_key=API_KEY, max_retries=3)
 async_client = AsyncOpenAI(api_key=API_KEY, max_retries=10)
@@ -13,29 +14,6 @@ def get_completion(prompt, model="gpt-3.5-turbo-0125"):
     return client.chat.completions.create(
         messages=[{"role": "user", "content": prompt}], model=model
     )
-
-
-# Nota JM: Actualizo versión de modelo a gpt-3.5-turbo-0125
-# Ver https://openai.com/blog/new-embedding-models-and-api-updates
-# De todas formas, en una semana cambia el default... (hoy es 07/02/2024)
-def get_response(
-    contexto,
-    texto,
-    base_prompt,
-    model="gpt-3.5-turbo-0125",
-):
-    """
-    Get output from OpenAI API
-
-    """
-    # TODO: move this elsewhere!
-    from .openai import get_completion
-
-    prompt = build_prompt(contexto, texto, base_prompt=base_prompt)
-    response = get_completion(prompt, model=model)
-    text = response.choices[0].message.content
-
-    return prompt, text
 
 
 async def async_get_completion(prompt, model="gpt-3.5-turbo", max_retries=10):

@@ -5,16 +5,16 @@ import time
 from rioplatense_hs.tasks.hate_speech import build_prompt as build_hate_prompt
 from rioplatense_hs.tasks.regionalisms import build_prompt as build_regionalism_prompt
 from rioplatense_hs.preprocessing import text_to_label, labels
+from rioplatense_hs.openai import get_completion
 
 
 def predict_row(context, text, build_prompt, model_name="gpt-3.5-turbo"):
     try:
-        return get_response(
-            context,
-            text,
-            model=model_name,
-            base_prompt=base_prompt,
-        )
+        prompt = build_prompt(contexto=context, texto=text)
+        response = get_completion(prompt, model=model_name)
+        text = response.choices[0].message.content
+
+        return prompt, text
     # If rate limit is reached, wait 5 seconds and retry
     except Exception as e:
         print(f"Error: {e} -- {type(e)}")
@@ -22,7 +22,7 @@ def predict_row(context, text, build_prompt, model_name="gpt-3.5-turbo"):
         return None
 
 
-def predict(df, model_name, prompt, max_retries=5):
+def predict(df, model_name, build_prompt, max_retries=5):
     # Generate tasks
 
     ids = df.index.tolist()
@@ -39,7 +39,7 @@ def predict(df, model_name, prompt, max_retries=5):
                 row["context_tweet"],
                 row["text"],
                 model_name=model_name,
-                base_prompt=base_prompt,
+                build_prompt=build_prompt,
             )
 
         # Get tqdm ordered results
@@ -58,8 +58,8 @@ prompt_funs = {
 def openai_predict(
     input,
     output,
-    model_name="gpt-3.5-turbo",
     task="hate_speech",
+    model_name="gpt-3.5-turbo",
     num_examples=None,
     shuffle=False,
     limit=None,
@@ -70,15 +70,17 @@ def openai_predict(
 
     # Build base prompt
 
-    build_prompt = prompt_funs[task]
+    base_fun = prompt_funs[task]
+
+    build_prompt = lambda contexto, texto: base_fun(
+        contexto, texto, num_examples=num_examples, shuffle=shuffle
+    )
 
     print("=" * 80)
 
     example_prompt = build_prompt(
         "contexto",
         "texto",
-        num_examples=num_examples,
-        shuffle=shuffle,
     )
 
     print(f"Example prompt: {example_prompt}")
@@ -110,10 +112,9 @@ def openai_predict(
         for l in pred_labels:
             df[l] = df[l].astype(int)
         pred_hate = df[pred_labels].sum(axis=1) > 0
+        df["PRED_HATEFUL"] = pred_hate.astype(int)
 
     print(f"Saving to {output}")
-
-    df["PRED_HATEFUL"] = pred_hate.astype(int)
 
     df.to_csv(output, index=False)
 
