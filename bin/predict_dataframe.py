@@ -2,11 +2,12 @@ from tqdm.auto import tqdm
 import pandas as pd
 import fire
 import time
-from rioplatense_hs.prompting import get_response, build_base_prompt
+from rioplatense_hs.tasks.hate_speech import build_prompt as build_hate_prompt
+from rioplatense_hs.tasks.regionalisms import build_prompt as build_regionalism_prompt
 from rioplatense_hs.preprocessing import text_to_label, labels
 
 
-def predict_row(context, text, base_prompt, model_name="gpt-3.5-turbo"):
+def predict_row(context, text, build_prompt, model_name="gpt-3.5-turbo"):
     try:
         return get_response(
             context,
@@ -21,7 +22,7 @@ def predict_row(context, text, base_prompt, model_name="gpt-3.5-turbo"):
         return None
 
 
-def predict(df, model_name, base_prompt, max_retries=5):
+def predict(df, model_name, prompt, max_retries=5):
     # Generate tasks
 
     ids = df.index.tolist()
@@ -48,10 +49,17 @@ def predict(df, model_name, base_prompt, max_retries=5):
     return outs
 
 
-def predict_dataframe(
+prompt_funs = {
+    "hate_speech": build_hate_prompt,
+    "regionalism": build_regionalism_prompt,
+}
+
+
+def openai_predict(
     input,
     output,
     model_name="gpt-3.5-turbo",
+    task="hate_speech",
     num_examples=None,
     shuffle=False,
     limit=None,
@@ -62,10 +70,19 @@ def predict_dataframe(
 
     # Build base prompt
 
-    base_prompt = build_base_prompt(num_examples=num_examples, shuffle=shuffle)
+    build_prompt = prompt_funs[task]
 
     print("=" * 80)
-    print(f"Example prompt:\n{base_prompt}")
+
+    example_prompt = build_prompt(
+        "contexto",
+        "texto",
+        num_examples=num_examples,
+        shuffle=shuffle,
+    )
+
+    print(f"Example prompt: {example_prompt}")
+
     df = pd.read_csv(input)
 
     if limit is not None:
@@ -74,26 +91,27 @@ def predict_dataframe(
 
     # Start asyncio with predict
 
-    outs = predict(df, model_name=model_name, base_prompt=base_prompt)
+    outs = predict(df, model_name=model_name, build_prompt=build_prompt)
 
     df["prompt"] = df.index.map(lambda x: outs[x][0])
     df["pred_cot"] = df.index.map(lambda x: outs[x][1])
 
-    pred_labels = [f"PRED_{l}" for l in labels]
+    if task == "hate_speech":
 
-    for idx, value in df["pred_cot"].items():
-        preds = text_to_label(value)
+        pred_labels = [f"PRED_{l}" for l in labels]
 
-        for k, v in preds.items():
-            df.loc[idx, f"PRED_{k}"] = int(v)
+        for idx, value in df["pred_cot"].items():
+            preds = text_to_label(value)
 
-    # Convert pred_labels to int
-    for l in pred_labels:
-        df[l] = df[l].astype(int)
+            for k, v in preds.items():
+                df.loc[idx, f"PRED_{k}"] = int(v)
+
+        # Convert pred_labels to int
+        for l in pred_labels:
+            df[l] = df[l].astype(int)
+        pred_hate = df[pred_labels].sum(axis=1) > 0
 
     print(f"Saving to {output}")
-
-    pred_hate = df[pred_labels].sum(axis=1) > 0
 
     df["PRED_HATEFUL"] = pred_hate.astype(int)
 
@@ -101,4 +119,4 @@ def predict_dataframe(
 
 
 if __name__ == "__main__":
-    fire.Fire(predict_dataframe)
+    fire.Fire(openai_predict)

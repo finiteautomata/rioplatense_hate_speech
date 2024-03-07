@@ -8,6 +8,7 @@ def test_generate_template_with_no_examples():
         instruction=instruction,
         input_variables=["input"],
         output_variables=["output"],
+        examples=[],
         separator="###",
     )
     assert (
@@ -34,6 +35,7 @@ def test_generate_template_with_some_examples():
         input_variables=["input"],
         output_variables=["output"],
         separator="###",
+        examples=examples,
     )
 
     prompt = prompt.get(input="This is an input", examples=examples)

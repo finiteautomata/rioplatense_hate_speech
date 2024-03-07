@@ -15,6 +15,29 @@ def get_completion(prompt, model="gpt-3.5-turbo-0125"):
     )
 
 
+# Nota JM: Actualizo versión de modelo a gpt-3.5-turbo-0125
+# Ver https://openai.com/blog/new-embedding-models-and-api-updates
+# De todas formas, en una semana cambia el default... (hoy es 07/02/2024)
+def get_response(
+    contexto,
+    texto,
+    base_prompt,
+    model="gpt-3.5-turbo-0125",
+):
+    """
+    Get output from OpenAI API
+
+    """
+    # TODO: move this elsewhere!
+    from .openai import get_completion
+
+    prompt = build_prompt(contexto, texto, base_prompt=base_prompt)
+    response = get_completion(prompt, model=model)
+    text = response.choices[0].message.content
+
+    return prompt, text
+
+
 async def async_get_completion(prompt, model="gpt-3.5-turbo", max_retries=10):
     retry_num = 0
     wait_time = 2
