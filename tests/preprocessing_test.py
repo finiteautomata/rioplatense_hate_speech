@@ -40,7 +40,7 @@ def test_discapacidad_and_apariencia():
     row["APPEARANCE"] = 1
     row["POLITICS"] = 1
 
-    assert label_to_text(row) == "política, discapacidad, apariencia"
+    assert label_to_text(row) == "política, discapacidad, aspecto"
 
 
 def test_text_to_label_nada_1():

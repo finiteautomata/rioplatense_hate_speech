@@ -106,6 +106,47 @@ examples = [
 separator = "###"
 
 
+class FewShotPromptTemplate:
+    def __init__(self, instruction, input_variables, output_variables, separator):
+        self.instruction = instruction
+        self.input_variables = input_variables
+        self.output_variables = output_variables
+
+        self.example_template = "\n".join(
+            [
+                f"{input_variable}: {{{input_variable}}}\n{output_variable}: {{{output_variable}}}"
+                for input_variable, output_variable in zip(
+                    input_variables, output_variables
+                )
+            ]
+        )
+
+        self.input_template = "\n".join(
+            [
+                f"{input_variable}: {{{input_variable}}}"
+                for input_variable in input_variables
+            ]
+        )
+        self.separator = separator
+
+    def get(self, examples, **kwargs):
+        prompt = self.instruction
+
+        if examples:
+            prompt += f"\n{self.separator}\n"
+            prompt += f"\n{self.separator}\n".join(
+                [self.example_template.format(**example) for example in examples]
+            )
+            prompt += f"\n{self.separator}\n"
+        # Add input variables
+
+        if prompt[-1] != "\n":
+            prompt += "\n"
+        prompt += self.input_template.format(**kwargs)
+
+        return prompt
+
+
 def build_base_prompt(num_examples=None, shuffle=False, seed=42):
     if num_examples is None:
         num_examples = len(examples)
