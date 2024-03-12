@@ -80,7 +80,7 @@ examples = [
     {
         "contexto": "Los dos presos heridos de bala en el motín de Devoto tienen Covid-19 y uno quedó hemipléjico",
         "texto": "justicia divina!",
-        "salida": "El texto alude a que los presos merecen ser baleados. Sin embargo, no hace ninguna alusión a una característica protegida. La respuesta final es 'nada'",
+        "salida": "El texto alude a que los presos merecen ser baleados. Sin embargo, no hace ninguna alusión a una característica protegida. La respuesta final es 'nada'.",
         "labels": [],
     },
 ]
@@ -118,12 +118,18 @@ def build_prompt(contexto, texto, num_examples=None, shuffle=False, seed=42, **k
     else:
         used_examples = examples[:num_examples]
 
+    input_template = """contexto: {contexto}
+texto: {texto}
+salida:
+"""
+
     prompt = FewShotPromptTemplate(
         instruction=instruction,
         input_variables=["contexto", "texto"],
         output_variables=["salida"],
         examples=used_examples,
         separator=separator,
+        input_template=input_template,
         **kwargs,
     )
 

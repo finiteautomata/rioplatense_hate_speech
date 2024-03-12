@@ -1,16 +1,23 @@
 class FewShotPromptTemplate:
     def __init__(
-        self, instruction, examples, input_variables, output_variables, separator
+        self,
+        instruction,
+        examples,
+        input_variables,
+        output_variables,
+        separator,
+        input_template=None,
+        example_template=None,
     ):
         self.instruction = instruction
         self.input_variables = input_variables
         self.output_variables = output_variables
 
-        self.example_template = "\n".join(
+        self.example_template = example_template or "\n".join(
             [f"{var}: {{{var}}}" for var in input_variables + output_variables]
         )
 
-        self.input_template = "\n".join(
+        self.input_template = input_template or "\n".join(
             [
                 f"{input_variable}: {{{input_variable}}}"
                 for input_variable in input_variables
