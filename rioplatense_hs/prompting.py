@@ -7,12 +7,7 @@ class FewShotPromptTemplate:
         self.output_variables = output_variables
 
         self.example_template = "\n".join(
-            [
-                f"{input_variable}: {{{input_variable}}}\n{output_variable}: {{{output_variable}}}"
-                for input_variable, output_variable in zip(
-                    input_variables, output_variables
-                )
-            ]
+            [f"{var}: {{{var}}}" for var in input_variables + output_variables]
         )
 
         self.input_template = "\n".join(

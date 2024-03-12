@@ -50,3 +50,35 @@ output: This is another output.
 ###
 input: This is an input"""
     assert prompt == expected_prompt
+
+
+def test_generate_template_with_two_input_variables():
+    instruction = "This is an instruction."
+    examples = [
+        {
+            "input1": "This is an input.",
+            "input2": "This is another input.",
+            "output": "This is an output.",
+        },
+    ]
+
+    prompt = FewShotPromptTemplate(
+        instruction=instruction,
+        input_variables=["input1", "input2"],
+        output_variables=["output"],
+        separator="###",
+        examples=examples,
+    )
+
+    prompt = prompt.get(input1="This is real input", input2="This is real input 2")
+
+    expected_prompt = """This is an instruction.
+###
+input1: This is an input.
+input2: This is another input.
+output: This is an output.
+###
+input1: This is real input
+input2: This is real input 2"""
+
+    assert prompt == expected_prompt
