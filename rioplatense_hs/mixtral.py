@@ -1,4 +1,4 @@
-from tasks.hate_speech import instruction, examples
+from .tasks.hate_speech import instruction, examples
 
 instruction_template = """[INST] {instruction}
 contexto: {contexto}
@@ -25,7 +25,8 @@ example_template = (
 )
 
 
-def get_prompt(context, text, output=None):
+def get_prompt(context, text):
+    # Uso algo distinto acá
     first_example = examples[0]
     prompt = example_template.format(
         instruction=first_instruction,

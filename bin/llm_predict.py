@@ -9,7 +9,7 @@ from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig
 from pysentimiento.preprocessing import preprocess_tweet as pysent_preprocess
 from rioplatense_hs.preprocessing import preprocess_tweet, text_to_label, labels
 from rioplatense_hs.mixtral import get_prompt as mixtral_get_prompt
-from rioplatense_hs.prompting import build_prompt
+from rioplatense_hs.tasks.hate_speech import build_prompt
 from datasets import Dataset
 
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
