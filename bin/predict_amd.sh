@@ -26,5 +26,10 @@ else
     model_name="mistralai/Mixtral-8x7B-Instruct-v0.1"
 fi
 
+# If batch size is not set, set it to 2
+if [[ $@ != *"--batch_size"* ]]; then
+    set -- "${@} --batch_size 2"
+fi
+
 python bin/llm_predict.py \
     --model_name $model_name $@
