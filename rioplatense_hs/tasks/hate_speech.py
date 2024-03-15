@@ -7,9 +7,9 @@ from ..prompting import FewShotPromptTemplate
 # Agregar Chain of thought
 # Agregar que es español rioplatense
 
-# Determinar si el siguiente texto correspondiente a un tweet y presentado con un contexto, contiene discurso de odio y contra qué característica protejida. Entendemos que hay discurso de odio en el tweet si tiene declaraciones de carácter intenso y/o irracional de rechazo, enemistad y aborrecimiento contra un individuo o contra un grupo, siendo éstos objetivos de estas expresiones por poseer una característica protegida. Las características protegidas que contemplamos son:
+# Determinar si el siguiente texto correspondiente a un tweet y presentado con un contexto, contiene discurso de odio y contra qué característica protejida. Entendemos que hay discurso de odio en el tweet si tiene declaraciones de carácter intenso y/o irracional de rechazo, enemistad y aborrecimiento contra un individuo o contra un grupo, siendo el individuo o el grupo objetivo de estas expresiones por poseer una característica protegida. Las características protegidas que contemplamos son:
 
-instruction = f"""Determinar si el siguiente texto, correspondiente a un tweet y presentado con un contexto, contiene discurso de odio. Entendemos que hay discurso de odio si tiene declaraciones de carácter intenso y/o irracional de rechazo, enemistad o aborrecimiento contra un individuo o contra un grupo, siendo estos objetivos de las expresiones por poseer una característica protegida. Las características protegidas que contemplamos son:
+instruction = f"""Determinar si el siguiente texto, correspondiente a un tweet y presentado con un contexto, contiene discurso de odio. Entendemos que hay discurso de odio si tiene declaraciones de carácter intenso y/o irracional de rechazo, enemistad o aborrecimiento contra un individuo o contra un grupo, siendo el individuo o el grupo objetivo de las expresiones por poseer una característica protegida. Las características protegidas que contemplamos son:
 
 - mujer: hace referencia a mujeres o al movimiento feminista.
 - lgbti: hace referencia a gays, lesbianas, transexuales y otras identidades de género.
@@ -23,13 +23,13 @@ examples = [
     {
         "contexto": 'Wuhan celebra el fin de la cuarentena por el coronavirus con un mensaje para el resto del mundo: "Aprendan de nuestros errores"',
         "texto": "Chinos culiados de mierda ojalá se mueran todos",
-        "salida": 'El texto insulta a los chinos ("culiados) y desea que se mueran, implicando que son los culpables del COVID-19. La respuesta final es "racismo".',
+        "salida": 'El texto insulta a los chinos ("culiados") y desea que se mueran, implicando que son los culpables del COVID-19. La respuesta final es "racismo".',
         "labels": ["RACISM"],
     },
     {
         "contexto": "Al borde del llanto, Nati Jota pidió disculpas por sus repudiables tuits pero los justificó: 'Quería sumar seguidores'",
         "texto": "Show o nada mi amorrr!! Sos una imbesil!",
-        "salida": 'El texto contiene un insulto pero no menciona nada relacionado a las características protegidas, particularmente de la mencionada mujer. La respuesta final es "nada".',
+        "salida": 'El texto contiene un insulto pero no menciona nada relacionado a las características protegidas, pese a mencionar a una mujer. La respuesta final es "nada".',
         "labels": [],
     },
     {
@@ -41,13 +41,13 @@ examples = [
     {
         "contexto": "Violento motín en la cárcel de Devoto: tomaron e incendiaron pabellones",
         "texto": "Hermanito lo que son esos grones. Ahí adentro le robaron la billetera al coronavirus",
-        "salida": 'El texto utiliza la palabra "grones", que significa negros al revés, lo cual alude a su color de piel de manera despectiva. Además, da a entender que son ladrones. La respuesta final es "racismo".',
+        "salida": 'El texto utiliza la palabra "grones", que significa negros (se obtiene "grones" a partir de "negros" cambiando el orden de las sílabas). Negro o grone es una manera despectiva de refererirse a alguien por su color de piel. Además, da a entender que los presos son ladrones. La respuesta final es "racismo".',
         "labels": ["RACISM"],
     },
     {
         "contexto": 'Mayra Mendoza criticó el banderazo contra el Gobierno: "No tiene sentido y es antidemocrático"',
         "texto": "Que negrita villera....ni con la plata q roba puede arreglarse",
-        "salida": 'El texto alude al color de piel de Mayra Mendoza ("negrita") y a su condición social (villera) de manera discriminatoria. La respuesta final es "racismo, clase".',
+        "salida": 'El texto alude al color de piel de Mayra Mendoza ("negrita") y a su condición social ("villera") de manera discriminatoria. La respuesta final es "racismo, clase".',
         "labels": ["RACISM", "CLASS"],
     },
     {
@@ -71,13 +71,13 @@ examples = [
     {
         "contexto": 'Loly Antoniale mostró su impresionante casa en Miami: "Soy la reina de mi castillo"',
         "texto": "No pudo enganchar al viejo famoso..se busco otro..y este le puso su castillo en Miami...",
-        "salida": 'El texto alude a la vida amorosa de Loly Antoniale, sugiriendo que se busca hombres por interés económico. Esta apreciación es sexista y despectiva. La respuesta final es "mujer".',
+        "salida": 'El texto alude a la vida amorosa de Loly Antoniale, sugiriendo que busca hombres por interés económico. Esta apreciación es sexista y despectiva. La respuesta final es "mujer".',
         "labels": ["WOMEN"],
     },
     {
         "contexto": "Les darán DNI provisorio a personas en situación vulnerable, para que puedan empezar a cobrar planes sociales",
         "texto": "Seguimos alimentando vagos",
-        "salida": 'El texto se refiere a quienes cobran planes sociales como vagos a quienes hay que alimentar, lo cual contiene un claro desprecio hacia las clases bajas que requieren de la asistencia estatal. La respuesta final es "clase".',
+        "salida": 'El texto se refiere a quienes cobran planes sociales como vagos a quienes hay que alimentar. Esto muestra un desprecio hacia las clases bajas que requieren de la asistencia estatal. La respuesta final es "clase".',
         "labels": ["CLASS"],
     },
     {
