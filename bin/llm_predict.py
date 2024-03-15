@@ -14,10 +14,12 @@ from datasets import Dataset
 
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
-#logging.basicConfig(level=logging.INFO)
+logging.basicConfig(format="%(asctime)s - %(message)s", datefmt="%Y-%m-%d %H:%M:%S")
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
+
 # Set console output
+# Add timestamp to logs
 logger.addHandler(logging.StreamHandler())
 
 
@@ -26,7 +28,7 @@ logger.addHandler(logging.StreamHandler())
 def llm_predict(
     input,
     output_path,
-    model_name="mistralai/Mixtral-8x7B-Instruct-v0.1",
+    model_name,
     batch_size=8,
     max_new_tokens=512,
     do_sample=False,
@@ -54,11 +56,13 @@ def llm_predict(
     elif fp16:
         model_args["torch_dtype"] = torch.float16
 
-    logger.info(f"Predicting with model {model_name}")
+    logger.info(f"Predicting with model {model_name} -- revision {revision} -- num_examples {num_examples} -- batch_size {batch_size} -- max_new_tokens {max_new_tokens} -- do_sample {do_sample} -- top_p {top_p} -- fp16 {fp16} -- quantize {quantize} -- load_in_4bit {load_in_4bit} -- load_in_8bit {load_in_8bit}")
     if revision:
         logger.info(f"Using revision {revision}")
         model_args["revision"] = revision
 
+
+    logger.info(f"Loading model...")
 
     auto_klass = AutoModelForSeq2SeqLM if seq2seq else AutoModelForCausalLM
 
@@ -68,6 +72,7 @@ def llm_predict(
         **model_args,
     )
 
+    logger.info(f"Model loaded")
     model.eval()
 
     if "gptq" in model_name.lower():
