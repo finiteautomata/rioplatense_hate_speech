@@ -27,7 +27,7 @@ logger.addHandler(logging.StreamHandler())
 
 def llm_predict(
     input,
-    output_path,
+    output,
     model_name,
     batch_size=8,
     max_new_tokens=512,
@@ -43,8 +43,9 @@ def llm_predict(
 ):
     tokenizer = AutoTokenizer.from_pretrained(model_name)
 
+    output_path = output
     model_args = {
-        "device_map": "cuda",
+        "device_map": "auto",
     }
 
     if quantize:
