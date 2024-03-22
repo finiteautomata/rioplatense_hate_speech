@@ -1,3 +1,4 @@
+import re
 from .tasks.hate_speech import instruction, examples
 
 instruction_template = """[INST] {instruction}
@@ -51,3 +52,31 @@ def get_prompt(context, text):
     )
 
     return prompt
+
+
+answer_regex = r"la respuesta final es (['\"]).*?(\1)"
+
+
+def post_process_output(text):
+    """
+    Post-process the output to remove the rest of the text after the answer
+
+    Args:
+
+    text (str): Text to post-process
+
+    Returns:
+
+    str: Post-processed text
+    """
+    match = re.search(answer_regex, text, flags=re.IGNORECASE)
+    if not match:
+        return text
+    # Busco que termine la actual oración
+
+    end = match.end()
+
+    while end < len(text) and text[end] not in [".", "!", "?"]:
+        end += 1
+
+    return text[: end + 1]
