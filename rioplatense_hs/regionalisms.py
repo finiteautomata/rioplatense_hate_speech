@@ -1,9 +1,14 @@
+import os
 import pandas as pd
 from rapidfuzz import fuzz
 from .preprocessing import remove_accents
 import spacy
 
-df_slang = pd.read_json("../data/dict_argentino.json").T
+# get current file directory
+
+file_path = os.path.abspath(__file__)
+data_path = os.path.join(os.path.dirname(file_path), "../data")
+df_slang = pd.read_json(os.path.join(data_path, "regionalisms/dict_argentino.json")).T
 
 df_slang.drop(columns="term")
 
